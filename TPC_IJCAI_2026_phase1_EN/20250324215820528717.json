@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=4200\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'North Bund International Cruise Terminal', accommodation_position)<=5.034148238340452)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people traveling from Chongqing to Shanghai for 3 days, and we need to meet at least one of the following requirements:  \n1. Accommodation budget of 4200.0  \n2. Accommodation within 5.04 km of the North Bund International Cruise Terminal",
+  "people_number": 4,
+  "start_city": "Chongqing",
+  "target_city": "Shanghai",
+  "uid": "20250324215820528717"
+}

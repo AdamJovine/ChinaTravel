@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Great Wall Hotel\"}<=accommodation_name_set)\nresult_list.append(result)\ntotal_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3800)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Suzhou to Chongqing for 2 days. Requirements: satisfy any one of the following: 1. Wish to stay at the following hotel: Great Wall Hotel; 2. Total travel budget is 3800.0.",
+  "people_number": 2,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "uid": "20250322200428389154"
+}

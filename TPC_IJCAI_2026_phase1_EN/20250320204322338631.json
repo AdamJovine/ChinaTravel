@@ -1,0 +1,15 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=not({\"All the Way Eating · Old Hangzhou Cuisine (Music Fountain Branch)\"}&restaurant_name_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people, departing from Suzhou, traveling to Hangzhou for 3 days, with the following requirement: we do not want to try the following restaurant: All the Way Eating · Old Hangzhou Cuisine (Music Fountain Branch)",
+  "people_number": 3,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "uid": "20250320204322338631"
+}

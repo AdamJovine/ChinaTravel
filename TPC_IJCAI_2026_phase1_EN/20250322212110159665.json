@@ -1,0 +1,16 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Pujing Weiting Hotel (Shanghai People's Square Xinzha Road Subway Station)\", \"Pagoda Hotel Shanghai Baixia\"}&accommodation_name_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Jin Mao Tower Cloud Walk':\n    if activity_time(activity)>=90:\n      result=True",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are a group of 3, departing from Wuhan for a 4-day trip to Shanghai. Requirements: We wish to stay at either Pujing Weiting Hotel (Shanghai People's Square Xinzha Road Subway Station) or Pagoda Hotel Shanghai Baixia. We also want to spend at least 90 minutes at Jin Mao Tower Cloud Walk.",
+  "people_number": 3,
+  "start_city": "Wuhan",
+  "target_city": "Shanghai",
+  "uid": "20250322212110159665"
+}

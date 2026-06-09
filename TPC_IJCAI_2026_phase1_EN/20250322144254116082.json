@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Green Cuisine House\"}&restaurant_name_set)\nresult_list.append(result)\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Parking lot\"}<=accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people, departing from Shanghai to Nanjing for a 3-day trip. The trip must satisfy at least one of the following: 1. We want to try one of these restaurants: Green Cuisine House. 2. We want to stay at a hotel of this type: Parking lot.",
+  "people_number": 2,
+  "start_city": "Shanghai",
+  "target_city": "Nanjing",
+  "uid": "20250322144254116082"
+}

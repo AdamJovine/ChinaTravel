@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"park\"}<=attraction_type_set)",
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3200)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 2 people traveling from Wuhan to Chengdu for 2 days, with the following requirements: want to visit a park; total travel budget is 3200.0.",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "uid": "20250322130502929756"
+}

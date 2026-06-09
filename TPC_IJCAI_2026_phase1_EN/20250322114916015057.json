@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"commercial district\", \"park\"}&attraction_type_set)",
+    "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"metro\", \"walk\"}&inner_city_transportation_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "We are 5 people, departing from Nanjing, traveling to Beijing for 2 days. Requirements: want to visit a commercial district or park, do not want to use metro or walk for transportation within the city.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "uid": "20250322114916015057"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=4500\nresult_list.append(result)\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=600\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 4, departing from Suzhou to Hangzhou for a 4-day trip, and we need to meet either of the following conditions:\n1. A dining budget of 4500.0\n2. A cross-city transportation budget of 600.0",
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "uid": "20250322185221319705"
+}

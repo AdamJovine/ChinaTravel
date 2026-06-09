@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people, departing from Suzhou, traveling to Chongqing for 2 days, with the following requirements: We hope to take a train to the destination and a train back, and we hope to stay in a single-bed room.",
+  "people_number": 3,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "uid": "20250323014723204664"
+}

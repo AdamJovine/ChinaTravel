@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Tower of Vitality':\n    if activity_end_time(activity)>='13:50':\n      result=True\nresult_list.append(result)\nresult=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people, departing from Wuhan for a 2-day trip to",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "uid": "20250324000430460073"
+}

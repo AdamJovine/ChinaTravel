@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=400\nresult_list.append(result)\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Japanese cuisine\"}&restaurant_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Hangzhou, traveling to Chengdu for 2 days. We need to meet at least one of the following: 1. The budget for sightseeing is 400.0 2. We want to try one of the following restaurant types: Japanese cuisine",
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Chengdu",
+  "uid": "20250322120628752145"
+}

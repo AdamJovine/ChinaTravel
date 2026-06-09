@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"taxi\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] != \"airplane\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] != \"airplane\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "One person, traveling from Wuhan to Beijing for 3 days, must meet any one of the following conditions:  \n1. Do not want to use taxis for transportation within the city;  \n2. Do not want to fly to the destination and do not want to fly back.",
+  "people_number": 1,
+  "start_city": "Wuhan",
+  "target_city": "Beijing",
+  "uid": "20250322234352450008"
+}

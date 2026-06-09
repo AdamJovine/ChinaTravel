@@ -1,0 +1,16 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\"}&inner_city_transportation_set)",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity)) != 'taxi' and innercity_transport_distance(activity_transports(activity))>7.2299999999999995:\n    result=False\n    break",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people traveling from Wuhan to Beijing for 4 days. Requirements: Do not wish to walk within the city. If the distance between two locations exceeds 7.2299999999999995 kilometers, take a taxi.",
+  "people_number": 4,
+  "start_city": "Wuhan",
+  "target_city": "Beijing",
+  "uid": "20250323113353146090"
+}

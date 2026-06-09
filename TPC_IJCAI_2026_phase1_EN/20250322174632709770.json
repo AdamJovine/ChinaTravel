@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"buffet\"}&restaurant_type_set)\nresult_list.append(result)\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=2100\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people, departing from Shanghai to Nanjing for 3 days. Requirements (any one): 1. Want to try one of the following restaurant types: buffet. 2. Dining budget is 2100.0.",
+  "people_number": 2,
+  "start_city": "Shanghai",
+  "target_city": "Nanjing",
+  "uid": "20250322174632709770"
+}

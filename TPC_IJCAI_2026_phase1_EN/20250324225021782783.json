@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=50)\nresult_list.append(result)\nresult=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=2: result=False\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "1 person, departing from Guangzhou, traveling to Wuhan for 3 days, meeting at least one of the following:  \n1. The budget for intra-city travel is 50.0.  \n2. Prefer to stay in a twin room.",
+  "people_number": 1,
+  "start_city": "Guangzhou",
+  "target_city": "Wuhan",
+  "uid": "20250324225021782783"
+}

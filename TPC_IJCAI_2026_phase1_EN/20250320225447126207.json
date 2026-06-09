@@ -1,0 +1,15 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "restaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=100",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people, departing from Wuhan, traveling to Chongqing for 2 days, with the following requirements: the budget for dining is 100.0.",
+  "people_number": 3,
+  "start_city": "Wuhan",
+  "target_city": "Chongqing",
+  "uid": "20250320225447126207"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"Cultural Landscape\"}<=attraction_type_set)\nresult_list.append(result)\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=0\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "I am traveling alone from Suzhou to Chongqing for 3 days. The plan must satisfy either: 1. Visit Cultural Landscape, or 2. Only visit free attractions.",
+  "people_number": 1,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "uid": "20250322111449530318"
+}

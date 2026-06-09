@@ -1,0 +1,16 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Xia Yin Ju Mansion (Jiebai Branch)\"}&restaurant_name_set)",
+    "restaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Bakery and Desserts\", \"Fast food and casual dining\"}&restaurant_type_set)",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people traveling from Suzhou to Hangzhou for 4 days, with the following requirements: we want to try one of these restaurants: Xia Yin Ju Mansion (Jiebai Branch), and we also want to try one of these restaurant types: Bakery and Desserts or Fast food and casual dining.",
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "uid": "20250322142536766430"
+}

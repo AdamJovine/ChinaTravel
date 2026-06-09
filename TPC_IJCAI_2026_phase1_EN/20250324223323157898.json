@@ -1,0 +1,16 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}<=accommodation_type_set)",
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=190)",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are a group of 4, traveling from Suzhou to Hangzhou for 4 days. Requirements: want to stay at hotels with free parking. Budget for in-city transportation is 190.0.",
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "uid": "20250324223323157898"
+}

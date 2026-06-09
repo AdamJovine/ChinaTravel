@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=500\nresult_list.append(result)\ntotal_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=7800)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people traveling from Suzhou to Hangzhou for 4 days, and we need to meet at least one of the following conditions: 1. The budget for sightseeing is 500.0. 2. The total budget for the trip is 7800.0.",
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "uid": "20250322143421348526"
+}

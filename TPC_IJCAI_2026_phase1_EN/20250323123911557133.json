@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Tianfu Hibiscus Garden', accommodation_position)<=8.873033533461065)\nresult_list.append(result)\nresult=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=2: result=False\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "Our group of 3 is traveling from Hangzhou to Chengdu for 2 days. We need either accommodation within 8.88 km of Tianfu Hibiscus Garden or a twin room.",
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Chengdu",
+  "uid": "20250323123911557133"
+}

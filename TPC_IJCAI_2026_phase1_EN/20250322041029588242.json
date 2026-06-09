@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Zhongshan Park\"}<=attraction_name_set)",
+    "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\", \"taxi\"}&inner_city_transportation_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "One person traveling from Beijing to Shenzhen for 3 days. Wish to visit Zhongshan Park. Do not want to use walking or taxi for intra-city transportation.",
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "uid": "20250322041029588242"
+}

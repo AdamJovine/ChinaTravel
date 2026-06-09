@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\", \"taxi\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] != \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] != \"airplane\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people traveling from Hangzhou to Shenzhen for 2 days, and we need to meet any one of the following conditions:  \n1. Do not want to use walking or taxi for getting around within the city.  \n2. Do not want to take a train to the destination, and do not want to take a plane for the return trip.",
+  "people_number": 4,
+  "start_city": "Hangzhou",
+  "target_city": "Shenzhen",
+  "uid": "20250323002425715014"
+}

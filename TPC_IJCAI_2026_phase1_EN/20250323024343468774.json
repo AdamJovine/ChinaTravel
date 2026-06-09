@@ -1,0 +1,16 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Sunrise Feast Restaurant':\n    if activity_start_time(activity)<='11:00':\n      result=True",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people, departing from Suzhou to travel to Hangzhou for 4 days. Requirements: We want to take a train to the destination and take a train back. We want to arrive at Sunrise Feast Restaurant no later than 11:00.",
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "uid": "20250323024343468774"
+}

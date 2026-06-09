@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "restaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=1600",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people traveling from Hangzhou to Chengdu for 2 days. Requirements: dining budget is 1600.0; we would like to stay in a single-bed room.",
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Chengdu",
+  "uid": "20250324212406371235"
+}

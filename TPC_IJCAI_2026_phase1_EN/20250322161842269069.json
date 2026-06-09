@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "restaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Cantonese cuisine\", \"Latin American cuisine\", \"Western cuisine\"}&restaurant_type_set)",
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We have 1 person, departing from Shenzhen, traveling to Shanghai for 2 days, with the following requirements: wish to try one of the following types of restaurants: Cantonese cuisine, Latin American cuisine, or Western cuisine. Budget for intra-city travel is 30.0.",
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322161842269069"
+}

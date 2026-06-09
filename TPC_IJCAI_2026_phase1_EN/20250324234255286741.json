@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=1800",
+    "result=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'East Lake Park', accommodation_position)<=8.50974252610072)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "We are a group of 5, departing from Suzhou, traveling to Chengdu for 3 days. Requirements: dining budget is 1800.0; accommodation should be within 8.51 km of East Lake Park.",
+  "people_number": 5,
+  "start_city": "Suzhou",
+  "target_city": "Chengdu",
+  "uid": "20250324234255286741"
+}

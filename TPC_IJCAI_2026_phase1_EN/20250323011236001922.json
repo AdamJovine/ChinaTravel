@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=100)",
+    "inter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=3700",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people traveling from Shenzhen to Suzhou for 3 days, with the following requirements:\n- Budget for intra-city travel: 100.0\n- Budget for inter-city transportation: 3700.0",
+  "people_number": 3,
+  "start_city": "Shenzhen",
+  "target_city": "Suzhou",
+  "uid": "20250323011236001922"
+}

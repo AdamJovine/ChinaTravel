@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"Cultural Landscape\"}<=attraction_type_set)\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Great Hall of the People', accommodation_position)<=2.1037414540256645)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people traveling from Shenzhen to Chongqing for 2 days. Please meet at least one of the following requirements:\n1. We want to visit a Cultural Landscape.\n2. We want accommodation within 2.11 km of the Great Hall of the People.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Chongqing",
+  "uid": "20250323092305147660"
+}

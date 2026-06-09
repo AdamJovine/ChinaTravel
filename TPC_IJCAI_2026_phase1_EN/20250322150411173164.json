@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=not({\"Let's Have Some Barbecue (Suzhou Guanqian Street Branch)\", \"One Foot Garden (Taihu Lake Store 1)\"}&restaurant_name_set)",
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=not({\"CM+ Service Apartment\", \"Suzhou Central Hotel\"}&accommodation_name_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "We are 5 people traveling from Shenzhen to Suzhou for 3 days, with the following requirements:\nDo not want to try the following restaurants: Let's Have Some Barbecue (Suzhou Guanqian Street Branch) and One Foot Garden (Taihu Lake Store 1)\nDo not want to stay at the following hotels: CM+ Service Apartment and Suzhou Central Hotel",
+  "people_number": 5,
+  "start_city": "Shenzhen",
+  "target_city": "Suzhou",
+  "uid": "20250322150411173164"
+}

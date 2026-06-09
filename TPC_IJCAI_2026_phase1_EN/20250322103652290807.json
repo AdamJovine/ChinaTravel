@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"Amusement Park/Sports Entertainment\"}<=attraction_type_set)\nresult_list.append(result)\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"metro\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "3 of us, traveling from Suzhou to Nanjing for 2 days, with one of the following requirements: 1. Want to visit an Amusement Park or Sports Entertainment venue. 2. Prefer not to use the metro for getting around the city.",
+  "people_number": 3,
+  "start_city": "Suzhou",
+  "target_city": "Nanjing",
+  "uid": "20250322103652290807"
+}

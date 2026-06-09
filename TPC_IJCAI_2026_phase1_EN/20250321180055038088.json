@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Longtousi Park in Yubei\"}<=attraction_name_set)\nresult_list.append(result)\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Sichuan cuisine\"}<=restaurant_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Chengdu, traveling to Chongqing for 2 days, and we require meeting any one of the following: 1. Want to visit Longtousi Park in Yubei 2. Want to try a Sichuan cuisine restaurant.",
+  "people_number": 3,
+  "start_city": "Chengdu",
+  "target_city": "Chongqing",
+  "uid": "20250321180055038088"
+}

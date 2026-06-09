@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=700\nresult_list.append(result)\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=2100\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Wuhan to Chengdu for 2 days, meeting either of the following conditions:\n1. Accommodation budget is 700.0\n2. Intercity transportation budget is 2100.0",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "uid": "20250324213151484029"
+}

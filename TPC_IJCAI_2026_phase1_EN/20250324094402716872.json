@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Wuhan Zoo\"}&attraction_name_set)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='World City Optics Valley Pedestrian Street':\n    if activity_end_time(activity)>='14:10':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 5 people, departing from Beijing, traveling to Wuhan for 4 days, and we need to meet any one of the following requirements:  \n1. Do not wish to visit Wuhan Zoo.  \n2. Wish to leave World City Optics Valley Pedestrian Street no earlier than 14:10.",
+  "people_number": 5,
+  "start_city": "Beijing",
+  "target_city": "Wuhan",
+  "uid": "20250324094402716872"
+}

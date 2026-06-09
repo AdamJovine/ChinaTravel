@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Hawaii Global Seafood Artistry (High-Tech Branch)':\n    if activity_end_time(activity)>='17:40':\n      result=True",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity)) != 'taxi' and innercity_transport_distance(activity_transports(activity))>4.8100000000000005:\n    result=False\n    break",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people traveling from Hangzhou to Chengdu for 2 days, with the following requirements:\n- Depart no earlier than 17:40 from Hawaii Global Seafood Artistry (High-Tech Branch)\n- If the distance between two locations exceeds 4.8100000000000005 kilometers, use a taxi for that transfer.",
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Chengdu",
+  "uid": "20250323123346808089"
+}

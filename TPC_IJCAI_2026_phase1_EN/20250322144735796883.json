@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=not({\"ChunLounge (Overseas Chinese Town Branch)\", \"Paulaner German Brauhaus Restaurant (Seaworld Branch)\"}&restaurant_name_set)\nresult_list.append(result)\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"buffet\"}&restaurant_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Chengdu to Shenzhen for 2 days. Please meet any one of the following requirements:\n1. Do not want to try the following restaurants: ChunLounge (Overseas Chinese Town Branch) and Paulaner German Brauhaus Restaurant (Seaworld Branch)\n2. Want to try one of the following types of restaurants: buffet",
+  "people_number": 2,
+  "start_city": "Chengdu",
+  "target_city": "Shenzhen",
+  "uid": "20250322144735796883"
+}

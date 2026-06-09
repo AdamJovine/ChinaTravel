@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=100\nresult_list.append(result)\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Sichuan cuisine\"}&restaurant_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people, departing from Suzhou, traveling to Hangzhou for 2 days, and require meeting any one of the following:\n1. Budget for sightseeing is 100.0\n2. Want to try one of the following types of restaurants: Sichuan cuisine",
+  "people_number": 2,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "uid": "20250322123500150175"
+}

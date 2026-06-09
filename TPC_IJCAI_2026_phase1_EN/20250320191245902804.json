@@ -1,0 +1,15 @@
+{
+  "days": 5,
+  "hard_logic_py": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"park\"}<=attraction_type_set)",
+    "result=(day_count(plan)==5)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "One person, departing from Nanjing, traveling to Shenzhen for 5 days. Requirements: want to visit a park.",
+  "people_number": 1,
+  "start_city": "Nanjing",
+  "target_city": "Shenzhen",
+  "uid": "20250320191245902804"
+}

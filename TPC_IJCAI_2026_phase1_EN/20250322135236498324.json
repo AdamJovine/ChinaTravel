@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Happy Square Alla Torre Italian Handmade Pizza (Bingu Branch)\", \"Golden Era Shunfeng Harbor (Aegean Shopping Center Branch)\", \"Koyama Japanese Cuisine (Taikoo Hui Xinye Branch)\"}<=restaurant_name_set)",
+    "restaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=3100",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people, departing from Shenzhen to Shanghai for a 3-day trip. Requirements: We hope to try the following restaurants: Happy Square Alla Torre Italian Handmade Pizza (Bingu Branch), Golden Era Shunfeng Harbor (Aegean Shopping Center Branch), and Koyama Japanese Cuisine (Taikoo Hui Xinye Branch). The dining budget is 3100.0.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322135236498324"
+}

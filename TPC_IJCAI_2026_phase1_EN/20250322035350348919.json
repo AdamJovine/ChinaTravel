@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Shanghai History Museum\", \"Shanghai Starry Sky Art Museum\", \"Magic City Suspended Glass Theater\"}<=attraction_name_set)",
+    "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\", \"taxi\"}&inner_city_transportation_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people traveling from Shenzhen to Shanghai for 3 days, with the following requirements: we want to visit Shanghai History Museum, Shanghai Starry Sky Art Museum, and Magic City Suspended Glass Theater; we do not want to use walking or taxi as means of transportation within the city.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322035350348919"
+}

@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Sauna\"}&accommodation_type_set)",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity)) != 'taxi' and innercity_transport_distance(activity_transports(activity))>2.82:\n    result=False\n    break",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "Our group of 5 is traveling from Nanjing to Beijing for 2 days, with the following requirements: we wish to stay in a hotel of the type Sauna, and if the distance between two locations exceeds 2.82 km, we will take a taxi.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "uid": "20250323093204590117"
+}

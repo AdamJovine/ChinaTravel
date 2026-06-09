@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Manjushri Temple\"}&attraction_name_set)\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Four Seasons Ski Resort', accommodation_position)<=3.4322660037369044)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Wuhan to Chengdu for 2 days. The trip must meet at least one of the following conditions:\n1. Do not want to visit Manjushri Temple\n2. Want accommodation within 3.44 km of Four Seasons Ski Resort",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "uid": "20250323101110788086"
+}

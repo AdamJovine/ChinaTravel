@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "inter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=1800",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "One person traveling from Beijing to Shenzhen for 3 days. Requirements: inter-city transportation budget is 1800.0, and would like a single bed room.",
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "uid": "20250324225201126494"
+}

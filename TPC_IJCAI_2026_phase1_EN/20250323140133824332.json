@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Shenzhen Airport Ferry Cruise':\n    if activity_end_time(activity)>='14:20':\n      result=True\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Sea World', accommodation_position)<=10.882263699846956)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 3, traveling from Chongqing to Shenzhen for 4 days. The itinerary must satisfy either of the following:  \n1. Departure from Shenzhen Airport Ferry Cruise no earlier than 14:20.  \n2. Accommodation within 10.89 km of Sea World.",
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Shenzhen",
+  "uid": "20250323140133824332"
+}

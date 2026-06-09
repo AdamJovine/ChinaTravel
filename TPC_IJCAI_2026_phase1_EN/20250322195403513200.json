@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=8600\nresult_list.append(result)\nresult=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 4, departing from Shenzhen for a 3-day trip to Shanghai. We require at least one of the following: 1. Dining budget of 8600.0 2. Prefer a single bed room.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322195403513200"
+}

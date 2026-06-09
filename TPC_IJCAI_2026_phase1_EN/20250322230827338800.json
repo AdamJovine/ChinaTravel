@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=3200\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Shichahai Boat Tour':\n    if activity_end_time(activity)>='13:50':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people traveling from Suzhou to Beijing for 3 days. We require either: 1. Accommodation budget of 3200.0, or 2. Departure from Shichahai Boat Tour no earlier than 13:50.",
+  "people_number": 3,
+  "start_city": "Suzhou",
+  "target_city": "Beijing",
+  "uid": "20250322230827338800"
+}

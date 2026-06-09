@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"West Yellow Temple\", \"Hall of Benevolent Longevity\"}&attraction_name_set)",
+    "result=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] != \"airplane\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] != \"airplane\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "We are 5 people traveling from Nanjing to Beijing for 2 days, with the following requirements: do not want to visit West Yellow Temple or Hall of Benevolent Longevity; do not want to take an airplane to the destination, and do not want to take an airplane back.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "uid": "20250322070031331863"
+}

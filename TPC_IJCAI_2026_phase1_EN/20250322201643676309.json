@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Kempinski The One Suites Hotel Shanghai Downtown\"}&accommodation_name_set)",
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 1 person, departing from Shenzhen to Shanghai for a 2-day trip. Requirements are as follows: Hope to stay at one of the following hotels: Kempinski The One Suites Hotel Shanghai Downtown. Budget for intra-city transportation is 30.0.",
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322201643676309"
+}

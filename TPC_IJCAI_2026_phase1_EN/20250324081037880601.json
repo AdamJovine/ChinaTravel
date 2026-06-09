@@ -1,0 +1,16 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Hangzhou Olympic Sports Center Gymnasium\"}<=attraction_name_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Qiantang River Cruise (Binjiang Pier)':\n    if activity_start_time(activity)<='14:20' and activity_end_time(activity)>='15:50':\n      result=True",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people departing from Suzhou for a 4-day trip to Hangzhou, with the following requirements: we want to visit Hangzhou Olympic Sports Center Gymnasium, and we want to visit Qiantang River Cruise (Binjiang Pier) between 14:20 and 15:50.",
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "uid": "20250324081037880601"
+}

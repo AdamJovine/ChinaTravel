@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=2800\nresult_list.append(result)\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Rock Wood Cozy House\"}<=accommodation_name_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people traveling from Nanjing to Hangzhou for 3 days. The trip must meet at least one of the following conditions: 1. A dining budget of 2800.0 2. Stay at the hotel Rock Wood Cozy House",
+  "people_number": 4,
+  "start_city": "Nanjing",
+  "target_city": "Hangzhou",
+  "uid": "20250324195510455666"
+}

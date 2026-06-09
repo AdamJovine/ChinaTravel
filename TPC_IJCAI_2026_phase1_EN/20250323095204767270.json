@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=not({\"Spacelab Zero Gravity Restaurant (Blue Harbor Branch)\", \"Wangshunge Fish Head with Pancakes (Yansha Outlets Branch)\"}&restaurant_name_set)",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity)) != 'taxi' and innercity_transport_distance(activity_transports(activity))>4.11:\n    result=False\n    break",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "We are 5 people traveling from Nanjing to Beijing for 2 days. The requirements are as follows: Do not want to try the following restaurants: Spacelab Zero Gravity Restaurant (Blue Harbor Branch) and Wangshunge Fish Head with Pancakes (Yansha Outlets Branch). If the distance between two locations exceeds 4.11 km, take a taxi.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "uid": "20250323095204767270"
+}

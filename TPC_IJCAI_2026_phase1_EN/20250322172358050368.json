@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Hot pot\"}<=restaurant_type_set)\nresult_list.append(result)\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"taxi\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 1 person traveling from Suzhou to Chongqing for 3 days, and we need to meet at least one of the following requirements:  \n1. Want to try a Hot pot restaurant.  \n2. Do not want to use taxis for transportation within the city.",
+  "people_number": 1,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "uid": "20250322172358050368"
+}

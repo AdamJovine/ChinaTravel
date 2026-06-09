@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Holiday Inn Shanghai Pudong Nanpu\"}<=accommodation_name_set)\nresult_list.append(result)\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"taxi\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people, departing from Shenzhen, traveling to Shanghai for 3 days. The requirement is to satisfy any one of the following: 1. Wish to stay at the hotel Holiday Inn Shanghai Pudong Nanpu. 2. Do not wish to use taxi for intra-city travel.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322202326419495"
+}

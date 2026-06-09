@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Sichuan cuisine\"}<=restaurant_type_set)\nresult_list.append(result)\nresult=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 1 person traveling from Suzhou to Chongqing for 3 days. The trip must satisfy either of the following: 1. Want to try a restaurant serving Sichuan cuisine. 2. Want to take the train to the destination and take the train back.",
+  "people_number": 1,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "uid": "20250322171901048535"
+}

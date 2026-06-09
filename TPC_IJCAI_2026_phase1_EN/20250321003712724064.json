@@ -1,0 +1,15 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"24-hour front desk\"}&accommodation_type_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people traveling from Wuhan to Hangzhou for 3 days. Requirements: We hope to stay at one of the following types of hotels: 24-hour front desk.",
+  "people_number": 3,
+  "start_city": "Wuhan",
+  "target_city": "Hangzhou",
+  "uid": "20250321003712724064"
+}

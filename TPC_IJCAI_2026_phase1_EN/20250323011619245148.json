@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=940)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Madame Tussauds Beijing':\n    if activity_end_time(activity)>='16:10':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 5 people traveling from Nanjing to Beijing for 2 days. The trip must satisfy at least one of the following:\n1. The budget for intra-city travel is 940.0.\n2. You hope to leave Madame Tussauds Beijing no earlier than 16:10.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "uid": "20250323011619245148"
+}

@@ -1,0 +1,16 @@
+{
+  "days": 5,
+  "hard_logic_py": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Dongsha Lake Ecological Park\", \"Suzhou Ancient Canal Cruise (Qimen Pier)\"}<=attraction_name_set)",
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Fire Iron Teppanyaki (Gaotie Wuyue Branch)\"}&restaurant_name_set)",
+    "result=(day_count(plan)==5)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are a group of 4, departing from Wuhan, traveling to Suzhou for 5 days, with the following requirements: We hope to visit Dongsha Lake Ecological Park and Suzhou Ancient Canal Cruise (Qimen Pier). We would like to try one of the following restaurants: Fire Iron Teppanyaki (Gaotie Wuyue Branch).",
+  "people_number": 4,
+  "start_city": "Wuhan",
+  "target_city": "Suzhou",
+  "uid": "20250321142505901653"
+}

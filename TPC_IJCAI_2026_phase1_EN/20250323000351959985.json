@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"taxi\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)':\n    if activity_end_time(activity)>='14:00':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people traveling from Shanghai to Shenzhen for 4 days. One of the following must be satisfied:  \n1. No taxi for intra-city travel.  \n2. Departure from Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route) no earlier than 14:00.",
+  "people_number": 3,
+  "start_city": "Shanghai",
+  "target_city": "Shenzhen",
+  "uid": "20250323000351959985"
+}

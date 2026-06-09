@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Nanjing National Defense Park':\n    if activity_end_time(activity)>='13:50':\n      result=True\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Zhongshan Ferry Terminal', accommodation_position)<=13.02758381796859)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people, departing from Shanghai, traveling to Nanjing for 3 days. Requirements: satisfy either of the following:\n1. Wish to leave Nanjing National Defense Park no earlier than 13:50.\n2. Wish accommodation within 13.03 km of Zhongshan Ferry Terminal.",
+  "people_number": 2,
+  "start_city": "Shanghai",
+  "target_city": "Nanjing",
+  "uid": "20250323123608743337"
+}

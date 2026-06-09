@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nresult=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] != \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] != \"airplane\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Dìwáng Sightseeing · Shenzhen-Hong Kong Window', accommodation_position)<=2.5684880879779968)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 1 person, departing from Beijing to Shenzhen for a 3-day trip, and must meet at least one of the following conditions:\n1. Do not want to take a train to the destination and do not want to take an airplane for the return.\n2. Want accommodation within 2.57 kilometers of Dìwáng Sightseeing · Shenzhen-Hong Kong Window.",
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "uid": "20250323114817950571"
+}

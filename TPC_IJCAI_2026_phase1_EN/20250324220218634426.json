@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=900\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Shenzhen Museum of History and Folklore', accommodation_position)<=5.0649124530367855)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 1 person traveling from Beijing to Shenzhen for 3 days. The accommodation must satisfy either of the following:\n1. Budget for accommodation is 900.0\n2. Accommodation is within 5.07 km of Shenzhen Museum of History and Folklore",
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "uid": "20250324220218634426"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"buffet\"}&restaurant_type_set)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Qinhuai River Painted Boat':\n    if activity_end_time(activity)>='13:50':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "Two of us, traveling from Shanghai to Nanjing for 3 days, need to satisfy at least one of the following:  \n1. Want to try one of the following restaurant types: buffet.  \n2. Want to leave Qinhuai River Painted Boat no earlier than 13:50.",
+  "people_number": 2,
+  "start_city": "Shanghai",
+  "target_city": "Nanjing",
+  "uid": "20250322183029000145"
+}

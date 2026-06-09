@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Park Hyatt Shanghai\"}<=accommodation_name_set)\nresult_list.append(result)\ntotal_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=19600)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people, departing from Shenzhen, traveling to Shanghai for 3 days, and we need to meet at least one of the following requirements:\n1. We wish to stay at the hotel Park Hyatt Shanghai.\n2. The total budget for the trip is 19600.0.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322203706070483"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"metro\", \"walk\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Yangmeizhu Byway':\n    if activity_end_time(activity)>='16:10':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 5, departing from Nanjing, traveling to Beijing for 2 days. The requirements are to meet any one of the following:\n1. Prefer not to use metro and walk for intra-city travel.\n2. Prefer to leave Yangmeizhu Byway no earlier than 16:10.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "uid": "20250323005159144588"
+}

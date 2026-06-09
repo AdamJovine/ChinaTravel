@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Family Room\"}<=accommodation_type_set)\nresult_list.append(result)\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=5300\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 4, traveling from Nanjing to Chongqing for 4 days, and need to meet at least one of the following: 1. Stay in a hotel offering Family Room type; 2. Have a cross-city transportation budget of 5300.0.",
+  "people_number": 4,
+  "start_city": "Nanjing",
+  "target_city": "Chongqing",
+  "uid": "20250322213901723017"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=2100\nresult_list.append(result)\nresult=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 5, departing from Nanjing to Suzhou for a 3-day trip, and we need to meet at least one of the following requirements:\n1. The dining budget is 2100.0\n2. We prefer to take a train to the destination and a train back",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Suzhou",
+  "uid": "20250324223617347694"
+}

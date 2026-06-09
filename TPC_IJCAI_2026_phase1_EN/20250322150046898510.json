@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Tile House Teahouse (Suzhou Renmin Road Branch)\"}&restaurant_name_set)\nresult_list.append(result)\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}&accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Chongqing, traveling to Suzhou for 2 days. Must meet any one of the following: 1. Want to try one of the following restaurants: Tile House Teahouse (Suzhou Renmin Road Branch) 2. Want to stay in one of the following hotel types: Free parking",
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Suzhou",
+  "uid": "20250322150046898510"
+}

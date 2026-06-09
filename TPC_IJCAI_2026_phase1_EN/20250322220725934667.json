@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"SPA\"}&accommodation_type_set)",
+    "result=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] != \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] != \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 1 person traveling from Shenzhen to Shanghai for 2 days, with the following requirements:\n- Prefer to stay in a hotel of type SPA\n- Do not want to travel to the destination by train\n- Do not want to return by train",
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322220725934667"
+}

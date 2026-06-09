@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Twin Peaks Piercing the Clouds\"}<=attraction_name_set)\nresult_list.append(result)\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Instagrammable swimming pool\"}<=accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 4, departing from Suzhou to Hangzhou for a 4-day trip, and we need to meet at least one of the following requirements:\n1. Wish to visit Twin Peaks Piercing the Clouds\n2. Wish to stay in a hotel of the type: Instagrammable swimming pool",
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "uid": "20250322111035966844"
+}

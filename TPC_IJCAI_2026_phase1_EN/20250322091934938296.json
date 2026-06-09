@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Shenzhen Bay Park\"}&attraction_name_set)\nresult_list.append(result)\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=4100\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 3, departing from Shanghai to Shenzhen for a 4-day trip. One of the following conditions must be met: 1. Do not wish to visit Shenzhen Bay Park 2. The intercity transportation budget is 4100.0",
+  "people_number": 3,
+  "start_city": "Shanghai",
+  "target_city": "Shenzhen",
+  "uid": "20250322091934938296"
+}

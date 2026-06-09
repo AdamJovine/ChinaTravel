@@ -1,0 +1,15 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=not({\"Museum/Memorial Hall\"}&attraction_type_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people, departing from Nanjing, traveling to Shenzhen for 2 days, with the following requirement: do not wish to visit Museum/Memorial Hall.",
+  "people_number": 3,
+  "start_city": "Nanjing",
+  "target_city": "Shenzhen",
+  "uid": "20250320190641665548"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Qibao Ancient Town':\n    if activity_end_time(activity)>='14:00':\n      result=True\nresult_list.append(result)\nresult=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=2: result=False\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "One person traveling from Shenzhen to Shanghai for 2 days, with any one of the following requirements: 1. Leave Qibao Ancient Town no earlier than 14:00, or 2. Stay in a twin room.",
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250323234459126349"
+}

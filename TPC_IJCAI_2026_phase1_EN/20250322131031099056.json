@@ -1,0 +1,16 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"commercial district\"}&attraction_type_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Zhejiang West Lake Art Museum':\n    if activity_start_time(activity)<='09:00' and activity_end_time(activity)>='10:30':\n      result=True",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people traveling from Suzhou to Hangzhou for 4 days, with the following requirements: we want to visit a commercial district, and we want to visit Zhejiang West Lake Art Museum between 09:00 and 10:30.",
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "uid": "20250322131031099056"
+}

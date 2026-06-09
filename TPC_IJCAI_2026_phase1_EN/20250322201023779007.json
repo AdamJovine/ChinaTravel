@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Wenlv Gusu Yard Hotel Donghuali\"}<=accommodation_name_set)\nresult_list.append(result)\naccommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=2200\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Chongqing, traveling to Suzhou for 2 days, and we need to meet any one of the following: 1. Stay at the hotel Wenlv Gusu Yard Hotel Donghuali, or 2. Have an accommodation budget of 2200.0.",
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Suzhou",
+  "uid": "20250322201023779007"
+}

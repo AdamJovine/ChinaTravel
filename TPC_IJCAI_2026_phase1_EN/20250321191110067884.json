@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Kunming Lake\", \"Dingling Mausoleum\"}&attraction_name_set)\nresult_list.append(result)\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=1100\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 5 people traveling from Nanjing to Beijing for 2 days, and we require meeting any one of the following:\n1. Do not wish to visit Kunming Lake and Dingling Mausoleum.\n2. The budget for dining is 1100.0.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "uid": "20250321191110067884"
+}

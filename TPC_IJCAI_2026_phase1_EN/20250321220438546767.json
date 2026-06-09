@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Manjushri Temple\"}&attraction_name_set)\nresult_list.append(result)\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Sia Suites (Chengdu Tai Koo Li)\"}<=accommodation_name_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Wuhan to Chengdu for 2 days. The plan must satisfy either of the following:  \n1. Do not wish to visit Manjushri Temple.  \n2. Wish to stay at Sia Suites (Chengdu Tai Koo Li).",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "uid": "20250321220438546767"
+}

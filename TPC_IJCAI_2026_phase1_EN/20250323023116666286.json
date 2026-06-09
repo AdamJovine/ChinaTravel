@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\ntotal_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=2900)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Peppa Pig's Happy Land (Chengdu Branch)':\n    if activity_end_time(activity)>='14:10':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Wuhan to Chengdu for 2 days, meeting either of the following conditions:\n1. Total travel budget is 2900.0\n2. We hope to leave Peppa Pig's Happy Land (Chengdu Branch) no earlier than 14:10",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "uid": "20250323023116666286"
+}

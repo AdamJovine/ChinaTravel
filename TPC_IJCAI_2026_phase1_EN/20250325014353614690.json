@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=100\nresult_list.append(result)\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=1800\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "One person, traveling from Beijing to Shenzhen for 3 days. Must satisfy either: 1. Sightseeing budget is 100.0 2. Intercity transportation budget is 1800.0",
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "uid": "20250325014353614690"
+}

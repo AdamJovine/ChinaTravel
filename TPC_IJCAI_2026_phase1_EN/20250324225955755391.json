@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Atour X Hotel Jing'an Temple Huanghai Middle Road Shanghai\"}<=accommodation_name_set)\nresult_list.append(result)\nresult=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=2: result=False\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "One person traveling from Chongqing to Shanghai for 3 days, meeting either of the following requirements:\n1. Stay at Atour X Hotel Jing'an Temple Huanghai Middle Road Shanghai\n2. Want a twin room",
+  "people_number": 1,
+  "start_city": "Chongqing",
+  "target_city": "Shanghai",
+  "uid": "20250324225955755391"
+}

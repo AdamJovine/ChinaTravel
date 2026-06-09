@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Dalden Meijin Hotel\"}<=accommodation_name_set)\nresult_list.append(result)\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Parking lot\"}<=accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people traveling from Shanghai to Shenzhen for 4 days, with one of the following requirements:\n1. Wish to stay at Dalden Meijin Hotel\n2. Wish to stay at a hotel with Parking lot",
+  "people_number": 3,
+  "start_city": "Shanghai",
+  "target_city": "Shenzhen",
+  "uid": "20250322194458260914"
+}

@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"red tourism sites\"}<=attraction_type_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Wang Shaolong Hot Pot (Shanan Street Branch)':\n    if activity_start_time(activity)<='17:00' and activity_end_time(activity)>='17:40':\n      result=True",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 1 person traveling from Suzhou to Chongqing for 3 days, with the following requirements:\n- Hope to visit red tourism sites\n- Hope to visit Wang Shaolong Hot Pot (Shanan Street Branch) between 17:00 and 17:40",
+  "people_number": 1,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "uid": "20250322123503517813"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Xujiahui Origin\"}<=attraction_name_set)\nresult_list.append(result)\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"SPA\"}<=accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Wuhan, traveling to Shanghai for",
+  "people_number": 3,
+  "start_city": "Wuhan",
+  "target_city": "Shanghai",
+  "uid": "20250322001041444207"
+}

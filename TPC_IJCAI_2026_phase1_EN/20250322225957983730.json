@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\", \"taxi\"}&inner_city_transportation_set)\nresult_list.append(result)\ninner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=110)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Chongqing, traveling to Wuhan for 3 days. It must satisfy either of the following:  \n1. Do not want to use walking or taxi for intra-city travel.  \n2. The budget for intra-city travel is 110.",
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Wuhan",
+  "uid": "20250322225957983730"
+}

@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Jing'an Temple\", \"Oriental Pearl Tower 259-Meter Fully Transparent Suspended Sightseeing Corridor\", \"North Bund Riverside Green Space\"}<=attraction_name_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Jingyunhua Roast Duck & Dim Sum (New World Store)':\n    if activity_end_time(activity)>='17:30':\n      result=True",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "A party of 4 traveling from Shenzhen to Shanghai for 3 days, with the following requirements:\n- Wish to visit Jing'an Temple, Oriental Pearl Tower's 259-Meter Fully Transparent Suspended Sightseeing Corridor, and North Bund Riverside Green Space.\n- Must not leave Jingyunhua Roast Duck & Dim Sum (New World Store) before 17:30.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250324082922869744"
+}

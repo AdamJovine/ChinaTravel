@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=1900)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Wuhan Optics Valley Hilton Hotel - Imperial Seal Chinese Restaurant':\n    if activity_start_time(activity)<='17:00':\n      result=True",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 1 person, departing from Guangzhou, traveling to Wuhan for 2 days, with the following requirements: total travel budget is 1900.0, and we hope to arrive at Wuhan Optics Valley Hilton Hotel - Imperial Seal Chinese Restaurant no later than 17:00.",
+  "people_number": 1,
+  "start_city": "Guangzhou",
+  "target_city": "Wuhan",
+  "uid": "20250323032319434224"
+}

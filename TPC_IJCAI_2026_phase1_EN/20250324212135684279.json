@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\ntotal_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=16000)\nresult_list.append(result)\nresult=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Beijing, traveling to Shanghai for 3 days. Must satisfy either: 1. Total travel budget is 16000.0, or 2. Prefer a single bed room.",
+  "people_number": 3,
+  "start_city": "Beijing",
+  "target_city": "Shanghai",
+  "uid": "20250324212135684279"
+}

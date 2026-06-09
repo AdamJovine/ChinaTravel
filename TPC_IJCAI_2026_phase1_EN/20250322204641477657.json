@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Qiuguo S Hotel·1924 (Beijing Wukesong PLA 301 General Hospital)\"}<=accommodation_name_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Yangmeizhu Byway':\n    if activity_start_time(activity)<='14:40' and activity_end_time(activity)>='16:10':\n      result=True",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "We are a group of 5 people traveling from Nanjing to Beijing for 2 days. Requirements: stay at Qiuguo S Hotel·1924 (Beijing Wukesong PLA 301 General Hospital), and visit Yangmeizhu Byway between 14:40 and 16:10.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "uid": "20250322204641477657"
+}

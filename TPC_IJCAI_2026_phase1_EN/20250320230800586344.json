@@ -1,0 +1,15 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=not({\"Yucheng Hotel (Wuhan Hanyang Jiangtan Guobo)\", \"All Seasons Hotel (Wuhan Baishazhou Longhu Tianjie Branch)\"}&accommodation_name_set)",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 1 person, departing from Hangzhou, traveling to Wuhan for 4 days, with the following requirement: \nDo not wish to stay at the following hotels: Yucheng Hotel (Wuhan Hanyang Jiangtan Guobo) and All Seasons Hotel (Wuhan Baishazhou Longhu Tianjie Branch).",
+  "people_number": 1,
+  "start_city": "Hangzhou",
+  "target_city": "Wuhan",
+  "uid": "20250320230800586344"
+}

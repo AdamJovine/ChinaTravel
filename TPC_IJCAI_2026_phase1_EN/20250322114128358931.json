@@ -1,0 +1,16 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=not({\"Museum/Memorial Hall\"}&attraction_type_set)",
+    "restaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Hunan cuisine\", \"Barbecue\", \"Japanese cuisine\"}&restaurant_type_set)",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people traveling from Shanghai to Shenzhen for 4 days. Requirements: Do not want to visit Museum/Memorial Hall. Want to try one of the following restaurant types: Hunan cuisine, Barbecue, or Japanese cuisine.",
+  "people_number": 3,
+  "start_city": "Shanghai",
+  "target_city": "Shenzhen",
+  "uid": "20250322114128358931"
+}

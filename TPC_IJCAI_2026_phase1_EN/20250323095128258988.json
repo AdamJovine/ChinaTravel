@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Runyuan Grand Restaurant (Xuhui Branch)\", \"Xinghua Lou (Huanghe Road Branch)\", \"Night Shanghai (Xintiandi Taiping Lake Branch)\"}<=restaurant_name_set)",
+    "result=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Nanpu Bridge', accommodation_position)<=2.029185531779205)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people traveling from Shenzhen to Shanghai for 3 days, with the following requirements:  \nWe want to try these restaurants: Runyuan Grand Restaurant (Xuhui Branch), Xinghua Lou (Huanghe Road Branch), and Night Shanghai (Xintiandi Taiping Lake Branch).  \nAccommodation should be within 2.03 km of Nanpu Bridge.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250323095128258988"
+}

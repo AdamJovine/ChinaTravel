@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Hot pot\"}&restaurant_type_set)\nresult_list.append(result)\nresult=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Chengdu to Suzhou for 4 days. Requirements: satisfy at least one of the following: 1. Want to try a Hot pot restaurant; 2. Want to stay in a single-bed room.",
+  "people_number": 2,
+  "start_city": "Chengdu",
+  "target_city": "Suzhou",
+  "uid": "20250322192559565594"
+}

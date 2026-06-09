@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Taiping Heavenly Kingdom History Museum (Zhan Garden)\"}&attraction_name_set)\nresult_list.append(result)\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=700\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Shanghai to Nanjing for 3 days. One of the following conditions must be met:\n1. We do not wish to visit Taiping Heavenly Kingdom History Museum (Zhan Garden).\n2. The budget for intercity transportation is 700.0.",
+  "people_number": 2,
+  "start_city": "Shanghai",
+  "target_city": "Nanjing",
+  "uid": "20250322102322142139"
+}

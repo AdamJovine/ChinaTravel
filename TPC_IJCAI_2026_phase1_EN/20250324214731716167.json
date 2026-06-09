@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Laowang Pork Tripe and Chicken (Huquan Branch)\"}&restaurant_name_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Laowang Pork Tripe and Chicken (Huquan Branch)':\n    if activity_time(activity)>=50:\n      result=True",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 1 person traveling from Guangzhou to Wuhan for 3 days, with the following requirements:\n- Hope to try one of these restaurants: Laowang Pork Tripe and Chicken (Huquan Branch)\n- Hope to stay at Laowang Pork Tripe and Chicken (Huquan Branch) for at least 50 minutes",
+  "people_number": 1,
+  "start_city": "Guangzhou",
+  "target_city": "Wuhan",
+  "uid": "20250324214731716167"
+}

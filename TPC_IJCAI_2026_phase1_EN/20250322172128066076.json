@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=not({\"Farmhouse cuisine\", \"Korean cuisine\", \"Halal cuisine\"}&restaurant_type_set)",
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=not({\"Crowne Plaza Shanghai\", \"Shanghai Pearl Hotel\"}&accommodation_name_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people departing from Shenzhen to Shanghai for 3 days, with the following requirements: Do not want to try Farmhouse cuisine, Korean cuisine, or Halal cuisine. Do not want to stay at Crowne Plaza Shanghai or Shanghai Pearl Hotel.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322172128066076"
+}

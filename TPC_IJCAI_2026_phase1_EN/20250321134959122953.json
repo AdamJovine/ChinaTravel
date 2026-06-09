@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Republican Era Folk Stove (Tiger Stove)\", \"Lion Mountain Scenic Area\"}<=attraction_name_set)\nresult_list.append(result)\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=0\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people traveling from Chongqing to Nanjing for 3 days. Please meet either of the following requirements:\n1. We want to visit Republican Era Folk Stove (Tiger Stove) and Lion Mountain Scenic Area.\n2. We want to visit only free attractions.",
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Nanjing",
+  "uid": "20250321134959122953"
+}

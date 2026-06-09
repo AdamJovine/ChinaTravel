@@ -1,0 +1,11 @@
+{
+  "days": 5,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=840)\nresult_list.append(result)\ntotal_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=16800)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Chongqing, traveling to Shanghai for 5 days. Must satisfy either: 1. Budget for intra-city transportation is 840.0, or 2. Total budget for the trip is 16800.0.",
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Shanghai",
+  "uid": "20250323003257249183"
+}

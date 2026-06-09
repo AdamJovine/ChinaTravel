@@ -1,0 +1,11 @@
+{
+  "days": 5,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Manjushri Temple\"}&attraction_name_set)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Four Seasons Ski Resort':\n    if activity_end_time(activity)>='14:00':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 5 people traveling from Chongqing to Chengdu for 5 days. The plan must meet at least one of the following:  \n1. Not visit Manjushri Temple.  \n2. Depart from Four Seasons Ski Resort no earlier than 14:00.",
+  "people_number": 5,
+  "start_city": "Chongqing",
+  "target_city": "Chengdu",
+  "uid": "20250324091253666121"
+}

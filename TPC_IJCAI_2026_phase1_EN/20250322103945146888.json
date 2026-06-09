@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Luxiang Ancient Village\", \"Suzhou Ancient Canal Cruise (New City Bridge Pier)\", \"Ruiguang Pagoda\"}&attraction_name_set)\nresult_list.append(result)\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=500\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, traveling from Hangzhou to Suzhou for 3 days. It must meet any one of the following:\n1. We do not wish to visit Luxiang Ancient Village, Suzhou Ancient Canal Cruise (New City Bridge Pier), and Ruiguang Pagoda.\n2. The budget for intercity transportation is 500.0.",
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Suzhou",
+  "uid": "20250322103945146888"
+}

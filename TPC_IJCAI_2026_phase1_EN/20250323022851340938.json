@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=1300\nresult_list.append(result)\ntotal_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3100)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "One person traveling from Shenzhen to Suzhou for 4 days, meeting either of the following conditions:\n1. Intercity transportation budget is 1300.0\n2. Total travel budget is 3100.0",
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Suzhou",
+  "uid": "20250323022851340938"
+}

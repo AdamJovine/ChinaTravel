@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=not({\"park\", \"Other\"}&attraction_type_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Yangyang Chinese Restaurant (Shiquan Street Branch)':\n    if activity_end_time(activity)>='17:40':\n      result=True",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "We are a group of 5, departing from Nanjing, traveling to Suzhou for 3 days, with the following requirements: We do not wish to visit park and Other. We hope to leave Yangyang Chinese Restaurant (Shiquan Street Branch) no earlier than 17:40.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Suzhou",
+  "uid": "20250322124504193008"
+}

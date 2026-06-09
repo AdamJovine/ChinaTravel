@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Imperial Treasure (Yifeng Waitanyuan Branch)\", \"Jingyunhua Roast Duck & Dim Sum (New World Store)\", \"O'mills Sourdough Bakery & Bistro (Yongjia Road Branch)\"}<=restaurant_name_set)",
+    "result=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Shanghai Jiao Tong University', accommodation_position)<=6.811035906029765)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "One person traveling from Shenzhen to Shanghai for 2 days, with the following requirements:\n- Would like to try these restaurants: Imperial Treasure (Yifeng Waitanyuan Branch), Jingyunhua Roast Duck & Dim Sum (New World Store), and O'mills Sourdough Bakery & Bistro (Yongjia Road Branch).\n- Accommodation should be within 6.82 km of Shanghai Jiao Tong University.",
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250323114048262328"
+}

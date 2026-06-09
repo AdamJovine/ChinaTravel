@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=0\nresult_list.append(result)\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=6600\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people, departing from Chongqing, traveling to Suzhou for 2 days, and we need to meet either of the following: 1. Only visit free attractions 2. The intercity transportation budget is 6600.0",
+  "people_number": 4,
+  "start_city": "Chongqing",
+  "target_city": "Suzhou",
+  "uid": "20250325014133373159"
+}

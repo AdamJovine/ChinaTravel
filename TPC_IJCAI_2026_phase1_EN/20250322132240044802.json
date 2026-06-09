@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=0\nresult_list.append(result)\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Family Room\"}&accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Chongqing, traveling to Suzhou for 2 days. Please satisfy at least one of the following: 1. Only visit free attractions; 2. Stay in a hotel of type Family Room.",
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Suzhou",
+  "uid": "20250322132240044802"
+}

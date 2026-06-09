@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Han Show Theater\"}&attraction_name_set)\nresult_list.append(result)\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=3700\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 5 people, departing from Beijing, traveling to Wuhan for 4 days, and require meeting any one of the following: 1. Do not want to visit Han Show Theater 2. Budget for meals is 3700.0",
+  "people_number": 5,
+  "start_city": "Beijing",
+  "target_city": "Wuhan",
+  "uid": "20250321185309089586"
+}

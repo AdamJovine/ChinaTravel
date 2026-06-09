@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Qianmen Street\", \"Dragon Pond Park\"}<=attraction_name_set)\nresult_list.append(result)\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=300\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "Our group of 4 is traveling from Wuhan to Beijing for 4 days. We need to meet any one of the following: 1. Visit Qianmen Street and Dragon Pond Park; 2. Have a sightseeing budget of 300.0.",
+  "people_number": 4,
+  "start_city": "Wuhan",
+  "target_city": "Beijing",
+  "uid": "20250321124425303150"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=1400\nresult_list.append(result)\nresult=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "1 person traveling from Beijing to Suzhou for 2 days. Must meet at least one of the following: 1. Intercity transportation budget is 1400.0; 2. Prefer a single bed room.",
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Suzhou",
+  "uid": "20250323025156525701"
+}

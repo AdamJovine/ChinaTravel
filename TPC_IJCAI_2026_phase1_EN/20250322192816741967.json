@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=2600\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Yihuali Night View Park':\n    if activity_end_time(activity)>='14:30':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 4, departing from Nanjing, traveling to Chongqing for 4 days, and we need to meet any one of the following requirements:\n1. The budget for dining is 2600.0\n2. Hope to leave Yihuali Night View Park no earlier than 14:30",
+  "people_number": 4,
+  "start_city": "Nanjing",
+  "target_city": "Chongqing",
+  "uid": "20250322192816741967"
+}

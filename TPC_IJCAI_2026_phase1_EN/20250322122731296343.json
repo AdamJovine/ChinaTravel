@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"Amusement Park/Sports Entertainment\"}&attraction_type_set)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Gaiwan'er Pear Garden • Sichuan Opera Face-Changing and Fire-Spitting Performance Theater • Intangible Cultural Heritage Inheritance Exhibition Base (Tianfu Square Branch)':\n    if activity_end_time(activity)>='13:50':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people, departing from Nanjing, traveling to Chengdu for 4 days, and must satisfy any of the following: 1. We hope to visit Amusement Park/Sports Entertainment; 2. We hope to leave Gai",
+  "people_number": 2,
+  "start_city": "Nanjing",
+  "target_city": "Chengdu",
+  "uid": "20250322122731296343"
+}

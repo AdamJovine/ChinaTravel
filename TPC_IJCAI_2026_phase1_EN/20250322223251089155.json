@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}<=accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Dream Back to the Tang Dynasty Immersive Ancient-Style Theme Park':\n    if activity_end_time(activity)>='14:30':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Shenzhen, traveling to Shanghai for 3 days, and require meeting any one of the following:\n1. Hope to stay at a hotel with Free parking\n2. Hope to leave no earlier than 14:30 from Dream Back to the Tang Dynasty Immersive Ancient-Style Theme Park",
+  "people_number": 3,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322223251089155"
+}

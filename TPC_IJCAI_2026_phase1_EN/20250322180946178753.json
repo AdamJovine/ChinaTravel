@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=not({\"Hubei cuisine\", \"Other\", \"Halal cuisine\"}&restaurant_type_set)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Jin Mao Tower Cloud Walk':\n    if activity_end_time(activity)>='13:50':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people traveling from Shenzhen to Shanghai for 3 days. We need to meet any one of the following conditions:\n1. Do not want to try the following types of restaurants: Hubei cuisine, Other, and Halal cuisine.\n2. Want to leave Jin Mao Tower Cloud Walk no earlier than 13:50.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322180946178753"
+}

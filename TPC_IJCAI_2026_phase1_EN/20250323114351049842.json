@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=not({\"Yitel Hotel (Pudian Road Subway Station, Lujiazui, Shanghai )\", \"Shanghai Pearl Hotel\"}&accommodation_name_set)",
+    "result=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Xujiahui Library', accommodation_position)<=8.949868350350796)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "One person traveling from Suzhou to Shanghai for 3 days, with the following requirements: Do not stay at the following hotels: Yitel Hotel (Pudian Road Subway Station, Lujiazui, Shanghai) and Shanghai Pearl Hotel. Accommodation must be within 8.95 km of Xujiahui Library.",
+  "people_number": 1,
+  "start_city": "Suzhou",
+  "target_city": "Shanghai",
+  "uid": "20250323114351049842"
+}

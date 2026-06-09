@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=0\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Shekou Industrial Zone', accommodation_position)<=11.02792506653099)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people traveling from Hangzhou to Shenzhen for 3 days, and we want to meet at least one of the following conditions:  \n1. Visit only free attractions  \n2. Stay within 11.03 km of Shekou Industrial Zone",
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Shenzhen",
+  "uid": "20250324221359242434"
+}

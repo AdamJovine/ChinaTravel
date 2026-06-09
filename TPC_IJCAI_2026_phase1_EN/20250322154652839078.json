@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=not({\"Hidden World Courtyard · Banquet Wedding Birthday (Monster Drinking Shop)\", \"Chao Shang Chao (Zhengda Branch)\"}&restaurant_name_set)\nresult_list.append(result)\naccommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=2500\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 5 people, traveling from Nanjing to Beijing for 2 days. We need to meet at least one of the following: 1. Do not want to dine at the following restaurants: Hidden World Courtyard · Banquet Wedding Birthday (Monster Drinking Shop) and Chao Shang Chao (Zhengda Branch). 2. Accommodation budget is 2500.0.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "uid": "20250322154652839078"
+}

@@ -1,0 +1,15 @@
+{
+    "uid": "20250320191245902804",
+    "start_city": "南京",
+    "target_city": "深圳",
+    "days": 5,
+    "people_number": 1,
+    "hard_logic_py": [
+        "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"公园\"}<=attraction_type_set)",
+        "result=(day_count(plan)==5)",
+        "result=(people_count(plan)==1)",
+        "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+        "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+    ],
+    "nature_language": "我们1人，从南京出发，到深圳旅行5天，要求如下：\n希望游览公园"
+}

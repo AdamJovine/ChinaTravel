@@ -1,0 +1,11 @@
+{
+  "days": 5,
+  "hard_logic_py": [
+    "result_list=[]\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=4800\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Yanhan Mountain Country Park', accommodation_position)<=5.669175084067744)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people, departing from Hangzhou to Shenzhen for a 5-day trip, meeting any one of the following:  \n1. The intercity transportation budget is 4800.0  \n2. Accommodation should be within 5.67 kilometers of Yanhan Mountain Country Park",
+  "people_number": 4,
+  "start_city": "Hangzhou",
+  "target_city": "Shenzhen",
+  "uid": "20250324225205833451"
+}

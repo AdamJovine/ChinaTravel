@@ -1,0 +1,16 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=not({\"Kapok - Enchanting Cantonese Flavors (COCO Park Branch)\"}&restaurant_name_set)",
+    "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"taxi\"}&inner_city_transportation_set)",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people, departing from Shanghai to Shenzhen for a 4-day trip, with the following requirements: Do not want to try the restaurant Kapok - Enchanting Cantonese Flavors (COCO Park Branch); Do not want to use taxi as a mode of transportation within the city.",
+  "people_number": 3,
+  "start_city": "Shanghai",
+  "target_city": "Shenzhen",
+  "uid": "20250322151829011488"
+}

@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Shanghai Insect Museum\", \"Jin Mao Tower\", \"City God Temple\"}<=attraction_name_set)",
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"basePLUS-Binjiang Serviced Apartment\", \"Crowne Plaza Shanghai\"}&accommodation_name_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people departing from Shenzhen for a 3-day trip to Shanghai, with the following requirements: we want to visit Shanghai Insect Museum, Jin Mao Tower, and City God Temple, and we want to stay at one of these hotels: basePLUS-Binjiang Serviced Apartment or Crowne Plaza Shanghai.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250321212831950991"
+}

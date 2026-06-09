@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=5000)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Blue Airflow Skydiving and Paragliding Club':\n    if activity_start_time(activity)<='14:20' and activity_end_time(activity)>='15:50':\n      result=True",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "Two of us, traveling from Wuhan to Chengdu for 2 days, with the following requirements:\nTotal travel budget is 5000.0\nWe want to visit Blue Airflow Skydiving and Paragliding Club between 14:20 and 15:50",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "uid": "20250323031255302334"
+}

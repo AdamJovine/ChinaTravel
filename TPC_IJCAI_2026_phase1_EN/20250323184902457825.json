@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"taxi\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Crown Escalator':\n    if activity_end_time(activity)>='13:40':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "One person, traveling from Suzhou to Chongqing for 3 days, with either of the following requirements:  \n1. Do not want to use taxi for intra-city travel.  \n2. Want to leave Crown Escalator no earlier than 13:40.",
+  "people_number": 1,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "uid": "20250323184902457825"
+}

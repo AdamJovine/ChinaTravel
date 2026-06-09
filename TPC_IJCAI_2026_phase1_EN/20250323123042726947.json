@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"taxi\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Han Show Theater', accommodation_position)<=3.395482729629459)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "Our group of 5 will depart from Beijing to Wuhan for a 4-day trip. We require that at least one of the following conditions be met: 1. We do not wish to use taxis for intra-city travel. 2. We prefer accommodation within 3.4 km of the Han Show Theater.",
+  "people_number": 5,
+  "start_city": "Beijing",
+  "target_city": "Wuhan",
+  "uid": "20250323123042726947"
+}

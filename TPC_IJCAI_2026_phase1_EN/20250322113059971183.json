@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"Amusement Park/Sports Entertainment\"}<=attraction_type_set)\nresult_list.append(result)\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=500\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "One person traveling from Guangzhou to Wuhan for 2 days, meeting any of the following:  \n1. Want to visit Amusement Park/Sports Entertainment  \n2. Dining budget is 500.0",
+  "people_number": 1,
+  "start_city": "Guangzhou",
+  "target_city": "Wuhan",
+  "uid": "20250322113059971183"
+}

@@ -1,0 +1,15 @@
+{
+    "uid": "20250320190641665548",
+    "start_city": "南京",
+    "target_city": "深圳",
+    "days": 2,
+    "people_number": 3,
+    "hard_logic_py": [
+        "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=not({\"博物馆/纪念馆\"}&attraction_type_set)",
+        "result=(day_count(plan)==2)",
+        "result=(people_count(plan)==3)",
+        "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+        "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+    ],
+    "nature_language": "我们3人，从南京出发，到深圳旅行2天，要求如下：\n不希望游览博物馆/纪念馆"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Chengdu Century City New International Convention and Exhibition Center':\n    if activity_end_time(activity)>='14:00':\n      result=True\nresult_list.append(result)\nresult=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=2: result=False\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Wuhan to Chengdu for 2 days, and we need to satisfy one of the following: 1. We want to leave the Chengdu Century City New International Convention and Exhibition Center no earlier than 14:00. 2. We want to stay in a twin room.",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "uid": "20250324002722227405"
+}

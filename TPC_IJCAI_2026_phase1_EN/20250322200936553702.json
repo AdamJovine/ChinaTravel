@@ -1,0 +1,16 @@
+{
+  "days": 5,
+  "hard_logic_py": [
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Hemer Inns\"}<=accommodation_name_set)",
+    "result=False\nidx_activity0=0\nidx_activity1=0\ni=0\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Optics Valley International Tennis Center':\n    idx_activity0=i\n  if activity_position(activity)=='The Boots Muddy Boots & MINI (Optics Valley Branch)':\n    idx_activity1=i\n  i+=1\nif idx_activity0<idx_activity1:\n  result=True",
+    "result=(day_count(plan)==5)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people traveling from Chongqing to Wuhan for 5 days, with the following requirements: we want to stay at the hotel Hemer Inns, and we want to visit Optics Valley International Tennis Center first, then The Boots Muddy Boots & MINI (Optics Valley Branch).",
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Wuhan",
+  "uid": "20250322200936553702"
+}

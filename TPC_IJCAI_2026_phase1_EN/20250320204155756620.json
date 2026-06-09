@@ -1,0 +1,15 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Tasteless Comfort Food (Qibao Branch)\", \"Sake Devourer (Music Workshop Branch)\"}<=restaurant_name_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 2 people traveling from Wuhan to Shanghai for 3 days. Requirements: We want to try the following restaurants: Tasteless Comfort Food (Qibao Branch) and Sake Devourer (Music Workshop Branch).",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Shanghai",
+  "uid": "20250320204155756620"
+}

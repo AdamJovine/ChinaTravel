@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Lai Lai Soup Dumplings · Qiao Ai\", \"Large Intestine Noodles\", \"Guangzhou Restaurant (Shangri-La Branch)\"}<=restaurant_name_set)",
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Howard Johnson Huaihai Hotel Shanghai\"}<=accommodation_name_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "I'm traveling alone from Shenzhen to Shanghai for 2 days and would like to:\n- Try the following restaurants: Lai Lai Soup Dumplings · Qiao Ai, Large Intestine Noodles, and Guangzhou Restaurant (Shangri-La Branch)\n- Stay at Howard Johnson Huaihai Hotel Shanghai",
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322140449483006"
+}

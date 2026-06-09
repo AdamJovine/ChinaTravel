@@ -1,0 +1,15 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people departing from Guangzhou, traveling to Chengdu for 4 days, with the following requirement: we hope to stay in a single bed room.",
+  "people_number": 3,
+  "start_city": "Guangzhou",
+  "target_city": "Chengdu",
+  "uid": "20250321091853115267"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"Amusement Park/Sports Entertainment\"}&attraction_type_set)\nresult_list.append(result)\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Family Room\"}<=accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 5 people traveling from Beijing to Wuhan for 4 days. One of the following must be satisfied:  \n1. We want to visit Amusement Park/Sports Entertainment.  \n2. We want to stay in a hotel with a Family Room.",
+  "people_number": 5,
+  "start_city": "Beijing",
+  "target_city": "Wuhan",
+  "uid": "20250322104640766577"
+}

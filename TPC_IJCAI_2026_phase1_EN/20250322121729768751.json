@@ -1,0 +1,16 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"park\", \"university campus\", \"historical site\"}<=attraction_type_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Shanghai Club (Hong Kong Metropolis Branch)':\n    if activity_start_time(activity)<='11:00':\n      result=True",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "I am traveling alone from Shenzhen to Shanghai for 2 days. Requirements: I want to visit a park, a university campus, and a historical site. I must arrive at Shanghai Club (Hong Kong Metropolis Branch) no later than 11:00.",
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322121729768751"
+}

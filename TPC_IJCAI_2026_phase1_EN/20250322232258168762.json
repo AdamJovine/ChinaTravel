@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\", \"taxi\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Peppa Pig's Happy Land (Chengdu Branch)':\n    if activity_end_time(activity)>='14:10':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "For 2 people, departing from Wuhan to Chengdu for a 2-day trip, meeting either of the following requirements:  \n1. Do not wish to travel within the city by walking or taxi;  \n2. Wish to leave Peppa Pig's Happy Land (Chengdu Branch) no earlier than 14:10.",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "uid": "20250322232258168762"
+}

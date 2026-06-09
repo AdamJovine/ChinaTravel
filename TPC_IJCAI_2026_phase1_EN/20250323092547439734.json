@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Drunk East Oriental House (Jing'an Kerry Centre Branch)\", \"Jingpu Club (Shanghai Tower Branch)\", \"Zhuang's Longxing Crab Roe Noodles (Nanjing East Road Branch)\"}<=restaurant_name_set)",
+    "result=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'North Bund Riverside Green Space', accommodation_position)<=8.851522495588497)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are a group of 4 people traveling from Shenzhen to Shanghai for 3 days, with the following requirements:\n- We want to dine at these restaurants: Drunk East Oriental House (Jing'an Kerry Centre Branch), Jingpu Club (Shanghai Tower Branch), and Zhuang's Longxing Crab Roe Noodles (Nanjing East Road Branch).\n- Accommodation must be within 8.86 km of North Bund Riverside Green Space.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250323092547439734"
+}

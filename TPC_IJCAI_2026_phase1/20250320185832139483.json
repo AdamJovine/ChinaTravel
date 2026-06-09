@@ -1,0 +1,15 @@
+{
+    "uid": "20250320185832139483",
+    "start_city": "成都",
+    "target_city": "重庆",
+    "days": 2,
+    "people_number": 4,
+    "hard_logic_py": [
+        "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=not({\"红色景点\"}&attraction_type_set)",
+        "result=(day_count(plan)==2)",
+        "result=(people_count(plan)==4)",
+        "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+        "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+    ],
+    "nature_language": "我们4人，从成都出发，到重庆旅行2天，要求如下：\n不希望游览红色景点"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 5,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}&accommodation_type_set)\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Suzhou Water Tour', accommodation_position)<=2.531086470297386)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people traveling from Shenzhen to Suzhou for 5 days. The following conditions must be satisfied (any one of them): 1. We want to stay at a hotel that offers free parking. 2. The accommodation should be within 2.54 km of Suzhou Water Tour.",
+  "people_number": 3,
+  "start_city": "Shenzhen",
+  "target_city": "Suzhou",
+  "uid": "20250323111047892296"
+}

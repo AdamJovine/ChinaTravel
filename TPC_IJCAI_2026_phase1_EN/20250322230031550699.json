@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=3700\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Comrade Mao Zedong's Former Residence':\n    if activity_end_time(activity)>='15:30':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "5 of us traveling from Beijing to Wuhan for 4 days, must meet at least one of the following:\n1. Accommodation budget is 3700.0\n2. Hope to leave Comrade Mao Zedong's Former Residence no earlier than 15:30",
+  "people_number": 5,
+  "start_city": "Beijing",
+  "target_city": "Wuhan",
+  "uid": "20250322230031550699"
+}

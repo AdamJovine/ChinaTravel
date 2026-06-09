@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "attraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=800",
+    "result=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Suzhou Ancient Canal Cruise (Bai Juyi Pier at Shantang Street)', accommodation_position)<=6.627826473365627)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "We are 5 people, departing from Nanjing, traveling to Suzhou for 3 days. Requirements: sightseeing budget is 800.0; accommodation should be within 6.63 km of Suzhou Ancient Canal Cruise (Bai Juyi Pier at Shantang Street).",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Suzhou",
+  "uid": "20250323105153221012"
+}

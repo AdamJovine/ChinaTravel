@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Cantonese cuisine\", \"Japanese cuisine\", \"Western cuisine\"}<=restaurant_type_set)\nresult_list.append(result)\ninner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=80)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people traveling from Hangzhou to Suzhou for 3 days. The trip must satisfy at least one of the following: 1. We want to try restaurants of the following types: Cantonese cuisine, Japanese cuisine, and Western cuisine. 2. The budget for travel within the city is 80.0.",
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Suzhou",
+  "uid": "20250322164554441702"
+}

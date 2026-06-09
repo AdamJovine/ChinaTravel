@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=500\nresult_list.append(result)\nresult=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Chengdu Century City New International Convention and Exhibition Center':\n    if activity_end_time(activity)>='14:00':\n      result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "Our two-person trip from Wuhan to Chengdu lasts 2 days. We need to satisfy either of these conditions:\n1. Accommodation budget is 500.0.\n2. We want to leave Chengdu Century City New International Convention and Exhibition Center no earlier than 14:00.",
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "uid": "20250323231128451797"
+}

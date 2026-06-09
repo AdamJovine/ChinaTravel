@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Huaqiangbei Museum\", \"Nick Playtime Park\"}&attraction_name_set)\nresult_list.append(result)\naccommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=1300\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Chengdu to Shenzhen for 2 days. The plan must satisfy either: 1. Do not want to visit Huaqiangbei Museum and Nick Playtime Park, or 2. Accommodation budget is 1300.0.",
+  "people_number": 2,
+  "start_city": "Chengdu",
+  "target_city": "Shenzhen",
+  "uid": "20250322022442605730"
+}

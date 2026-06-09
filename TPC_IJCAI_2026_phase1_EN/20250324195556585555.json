@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_cost+=activity_cost(activity)\nresult=attraction_cost<=200\nresult_list.append(result)\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"The Langbo Chengdu, in The Unbound Collection by Hyatt\"}<=accommodation_name_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 4 people traveling from Chongqing to Chengdu for 3 days, and the trip must meet at least one of the following:  \n1. A sightseeing budget of 200.0  \n2. Stay at the hotel The Langbo Chengdu, in The Unbound Collection by Hyatt",
+  "people_number": 4,
+  "start_city": "Chongqing",
+  "target_city": "Chengdu",
+  "uid": "20250324195556585555"
+}

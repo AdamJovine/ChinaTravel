@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=100\nresult_list.append(result)\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"City 118 Chain Hotel (Chongqing Children's Hospital)\"}<=accommodation_name_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people traveling from Suzhou to Chongqing for 2 days. We need to meet either of the following:  \n1. A dining budget of 100.0  \n2. Want to stay at the following hotel: City 118 Chain Hotel (Chongqing Children's Hospital)",
+  "people_number": 2,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "uid": "20250322185047891707"
+}

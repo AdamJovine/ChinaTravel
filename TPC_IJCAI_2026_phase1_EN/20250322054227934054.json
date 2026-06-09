@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Shanghai Jiao Tong University\", \"Sinan Road\", \"Dongba Donbar (Lujiazui Tourist Loop Line)\"}<=attraction_name_set)\nresult_list.append(result)\ninner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=120)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 4, traveling from Shenzhen to Shanghai for 3 days, and the plan must meet either of the following:\n1. Visit Shanghai Jiao Tong University, Sinan Road, and Dongba Donbar (Lujiazui Tourist Loop Line)\n2. City transportation budget is 120.0",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322054227934054"
+}

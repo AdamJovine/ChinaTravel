@@ -1,0 +1,15 @@
+{
+    "uid": "20250320181941699936",
+    "start_city": "成都",
+    "target_city": "南京",
+    "days": 3,
+    "people_number": 3,
+    "hard_logic_py": [
+        "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"博物馆/纪念馆\"}<=attraction_type_set)",
+        "result=(day_count(plan)==3)",
+        "result=(people_count(plan)==3)",
+        "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+        "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+    ],
+    "nature_language": "我们3人，从成都出发，到南京旅行3天，要求如下：\n希望游览博物馆/纪念馆"
+}

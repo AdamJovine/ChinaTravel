@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=not({\"Wachang Yuzu Japanese Cuisine (Shihui Fang Branch)\", \"A Fu Clay Pot Casserole (Pedestrian Street Branch)\", \"CAPRAIBEXCOFFEE Goat Market (Lujia Lane Branch)\"}&restaurant_name_set)\nresult_list.append(result)\ninner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=100)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Hangzhou, traveling to Suzhou for 3 days, and we need to meet any one of the following requirements:\n1. Do not want to try the following restaurants: Wachang Yuzu Japanese Cuisine (Shihui Fang Branch), A Fu Clay Pot Casserole (Pedestrian Street Branch), and CAPRAIBEXCOFFEE Goat Market (Lujia Lane Branch)\n2. The budget for travel within the city is 100.0",
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Suzhou",
+  "uid": "20250322144056684743"
+}

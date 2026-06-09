@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=3800\nresult_list.append(result)\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Sauna\"}<=accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Nanjing, traveling to Chengdu for 3 days, and need to meet one of the following:  \n1. Dining budget of 3800.0  \n2. Wish to stay in a hotel of the following type: Sauna",
+  "people_number": 3,
+  "start_city": "Nanjing",
+  "target_city": "Chengdu",
+  "uid": "20250322183118666614"
+}

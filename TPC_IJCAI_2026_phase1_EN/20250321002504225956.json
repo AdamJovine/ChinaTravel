@@ -1,0 +1,15 @@
+{
+  "days": 5,
+  "hard_logic_py": [
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Swimming pool\"}&accommodation_type_set)",
+    "result=(day_count(plan)==5)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "We are 5 people, departing from Nanjing to Shenzhen for a 5-day trip. Requirements: We hope to stay at one of the following hotel types: Swimming pool.",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Shenzhen",
+  "uid": "20250321002504225956"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nresult=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True\nresult_list.append(result)\nresult=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Mars 2035 Immersive Science and Art Exhibition Wuhan Station', accommodation_position)<=13.296079055237026)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 2 people, departing from Suzhou to Wuhan for a 3-day trip, meeting one of the following requirements:  \n1. We prefer to travel to the destination by train and return by train.  \n2. We prefer the accommodation to be within 13.3 km of the Mars 2035 Immersive Science and Art Exhibition Wuhan Station.",
+  "people_number": 2,
+  "start_city": "Suzhou",
+  "target_city": "Wuhan",
+  "uid": "20250323101817003697"
+}

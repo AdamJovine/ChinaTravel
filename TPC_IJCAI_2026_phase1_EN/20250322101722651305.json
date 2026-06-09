@@ -1,0 +1,16 @@
+{
+  "days": 5,
+  "hard_logic_py": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"commercial district\"}<=attraction_type_set)",
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Vienna International Hotel (Chengdu Chunxi Road Taikoo Li Branch)\"}<=accommodation_name_set)",
+    "result=(day_count(plan)==5)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nature_language": "We are a group of 5, departing from Chongqing, traveling to Chengdu for 5 days. Requirements: we want to visit a commercial district, and we want to stay at the following hotel: Vienna International Hotel (Chengdu Chunxi Road Taikoo Li Branch).",
+  "people_number": 5,
+  "start_city": "Chongqing",
+  "target_city": "Chengdu",
+  "uid": "20250322101722651305"
+}

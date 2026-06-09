@@ -1,0 +1,15 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Confucius Temple and Qinhuai River Scenic Area', accommodation_position)<=7.126702917708813)",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 4 people traveling from Chongqing to Nanjing for 4 days. Requirements: Accommodation should be within 7.13 kilometers of the Confucius Temple and Qinhuai River Scenic Area.",
+  "people_number": 4,
+  "start_city": "Chongqing",
+  "target_city": "Nanjing",
+  "uid": "20250323110221959432"
+}

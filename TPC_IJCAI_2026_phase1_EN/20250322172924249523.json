@@ -1,0 +1,11 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Other\"}&restaurant_type_set)\nresult_list.append(result)\naccommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=7100\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people traveling from Wuhan to Shanghai for 4 days, and we need to meet any one of the following:\n1. Hope to try one of the following types of restaurants: Other\n2. Budget for accommodation is 7100.0",
+  "people_number": 3,
+  "start_city": "Wuhan",
+  "target_city": "Shanghai",
+  "uid": "20250322172924249523"
+}

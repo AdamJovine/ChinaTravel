@@ -1,0 +1,16 @@
+{
+  "days": 4,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=not({\"Da Wu Yakiniku (Zhuoyue Center Branch)\"}&restaurant_name_set)",
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=not({\"Shenzhen Coastal City Shopping Center Nanshan Subway Station Atour Hotel\", \"Shenzhen Maancoco Seaview Villa (Jiaochangwei Coastline)\"}&accommodation_name_set)",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 3 people traveling from Shanghai to Shenzhen for 4 days, with the following requirements:  \n- Do not want to try the restaurant Da Wu Yakiniku (Zhuoyue Center Branch).  \n- Do not want to stay at the hotels Shenzhen Coastal City Shopping Center Nanshan Subway Station Atour Hotel and Shenzhen Maancoco Seaview Villa (Jiaochangwei Coastline).",
+  "people_number": 3,
+  "start_city": "Shanghai",
+  "target_city": "Shenzhen",
+  "uid": "20250322144758000010"
+}

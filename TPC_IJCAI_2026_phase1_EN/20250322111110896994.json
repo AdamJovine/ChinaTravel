@@ -1,0 +1,11 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "result_list=[]\nattraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"Art Museum\"}<=attraction_type_set)\nresult_list.append(result)\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=2300\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 5, departing from Nanjing for a 3-day trip to Shanghai. We need to meet at least one of the following requirements: 1. Visit the Art Museum 2. Inter-city transportation budget of 2300.0",
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Shanghai",
+  "uid": "20250322111110896994"
+}

@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"CitiGO Hotel, Sanlitun, Beijing\"}&accommodation_name_set)\nresult_list.append(result)\ninter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=5200\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "Our group of 4 is traveling from Hangzhou to Beijing for 2 days, and we need to meet at least one of the following: 1. Stay at one of these hotels: CitiGO Hotel, Sanlitun, Beijing; 2. The intercity transportation budget is 5200.0.",
+  "people_number": 4,
+  "start_city": "Hangzhou",
+  "target_city": "Beijing",
+  "uid": "20250324220050355278"
+}

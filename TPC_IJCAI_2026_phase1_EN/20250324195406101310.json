@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\nrestaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=100\nresult_list.append(result)\ninner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"taxi\", \"walk\"}&inner_city_transportation_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are 3 people, departing from Suzhou, traveling to Chongqing for 2 days. The requirement is to satisfy any one of the following: 1. The budget for dining is 100.0. 2. Prefer not to use taxi and walking for intra-city travel.",
+  "people_number": 3,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "uid": "20250324195406101310"
+}

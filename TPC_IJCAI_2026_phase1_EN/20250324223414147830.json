@@ -1,0 +1,11 @@
+{
+  "days": 2,
+  "hard_logic_py": [
+    "result_list=[]\naccommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Beijing Tiananmenwangfujing Manxin Hotel\"}&accommodation_name_set)\nresult_list.append(result)\ninner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=830)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nature_language": "We are a group of 4, departing from Hangzhou to Beijing for a 2-day trip. One of the following conditions must be met: 1. Stay at one of the following hotels: Beijing Tiananmenwangfujing Manxin Hotel. 2. The budget for intra-city transportation is 830.0.",
+  "people_number": 4,
+  "start_city": "Hangzhou",
+  "target_city": "Beijing",
+  "uid": "20250324223414147830"
+}

@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=4700",
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Four Points by Sheraton Shanghai Kangqiao\", \"Atour S hotel, Shanghai Wanyuan Road\"}&accommodation_name_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are 1 person, traveling from Nanjing to Shanghai for 3 days. The requirements are as follows: the budget for meals is 4700.0, and we hope to stay at one of the following hotels: Four Points by Sheraton Shanghai Kangqiao or Atour S hotel, Shanghai Wanyuan Road.",
+  "people_number": 1,
+  "start_city": "Nanjing",
+  "target_city": "Shanghai",
+  "uid": "20250324195501640761"
+}

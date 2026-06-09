@@ -1,0 +1,16 @@
+{
+  "days": 3,
+  "hard_logic_py": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"The Westin Shanghai, Pago Italian Restaurant (Henan Middle Road Branch)\", \"Palan Siam Cuisine (University Road Branch)\", \"SHAUGHNESSY Dry-Aged Steakhouse\"}<=restaurant_name_set)",
+    "accommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=16000",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nature_language": "We are a group of 4 traveling from Shenzhen to Shanghai for 3 days. We want to try the following restaurants: The Westin Shanghai, Pago Italian Restaurant (Henan Middle Road Branch), Palan Siam Cuisine (University Road Branch), and SHAUGHNESSY Dry-Aged Steakhouse. Our accommodation budget is 16000.0.",
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "uid": "20250322143017200261"
+}
