@@ -1,6 +1,11 @@
 __pycache__/
 .DS_Store
 **/.DS_Store
+.env
+*.zip
+__MACOSX/
+**/__MACOSX/
+*.egg-info/
 .venv/
 run_exp.sh
 eval_exp.sh

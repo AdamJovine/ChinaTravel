@@ -7,7 +7,6 @@ from transformers import AutoConfig
 # from modelscope import AutoModelForCausalLM, AutoTokenizer
 import tiktoken
 
-from vllm import LLM, SamplingParams
 import re
 import sys
 import os
@@ -207,13 +206,58 @@ class GPT4o(AbstractLLM):
         return res_str
 
 
+class Groq(AbstractLLM):
+    def __init__(self, model_name="llama-3.3-70b-versatile"):
+        super().__init__()
+        self.llm = OpenAI(
+            base_url="https://api.groq.com/openai/v1",
+            api_key=os.environ.get("GROQ_API_KEY"),
+        )
+        self.name = model_name
+        self.model_name = model_name
+        self.tokenizer = tiktoken.get_encoding("cl100k_base")
+
+    def _send_request(self, messages, kwargs):
+        tokens = self.tokenizer.encode(chat_template(messages))
+        self.input_token_count += len(tokens)
+        self.input_token_maxx = max(self.input_token_maxx, len(tokens))
+        res_str = (
+            self.llm.chat.completions.create(messages=messages, **kwargs)
+            .choices[0]
+            .message.content
+        )
+        self.output_token_count += len(self.tokenizer.encode(res_str))
+        return res_str.strip()
+
+    def _get_response(self, messages, one_line, json_mode):
+        kwargs = {
+            "model": self.model_name,
+            "max_tokens": 4096,
+            "temperature": 0,
+            "top_p": 0.01,
+        }
+        if one_line:
+            kwargs["stop"] = ["\n"]
+        elif json_mode:
+            kwargs["response_format"] = {"type": "json_object"}
+        try:
+            res_str = self._send_request(messages, kwargs)
+            if json_mode:
+                res_str = repair_json(res_str, ensure_ascii=False)
+        except Exception as e:
+            print(e)
+            res_str = '{"error": "Request failed, please try again."}'
+        return res_str
+
+
 class Qwen(AbstractLLM):
     def __init__(self, model_name, max_model_len=None):
         super().__init__()
+        from vllm import LLM, SamplingParams
         self.path = os.path.join(
             project_root_path, "chinatravel", "local_llm", model_name
         )
-        os.environ["VLLM_ALLOW_LONG_MAX_MODEL_LEN"] = "1" 
+        os.environ["VLLM_ALLOW_LONG_MAX_MODEL_LEN"] = "1"
         if "Qwen3" in model_name:    
             self.sampling_params = SamplingParams(temperature=0.6, top_p=0.95, top_k=20, max_tokens=4096)
             
@@ -329,6 +373,7 @@ class Qwen(AbstractLLM):
 class Mistral(AbstractLLM):
     def __init__(self, max_model_len=None):
         super().__init__()
+        from vllm import LLM, SamplingParams
         self.path = os.path.join(
             project_root_path, "chinatravel", "local_llm", "Mistral-7B-Instruct-v0.3",
         )
@@ -400,7 +445,7 @@ class Mistral(AbstractLLM):
 class Llama(AbstractLLM):
     def __init__(self, model_name):
         super().__init__()
-
+        from vllm import LLM, SamplingParams
 
         Llama_supported = ["Llama3-3B", "Llama3-8B"]
         if model_name not in Llama_supported:

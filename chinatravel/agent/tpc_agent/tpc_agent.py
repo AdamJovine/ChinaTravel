@@ -1,10 +1,5 @@
 import sys
 import os
-import time
-import argparse
-import pandas as pd
-import json
-import numpy as np
 
 sys.path.append("./../../../")
 project_root_path = os.path.dirname(
@@ -14,21 +9,12 @@ project_root_path = os.path.dirname(
 if project_root_path not in sys.path:
     sys.path.insert(0, project_root_path)
 
+from chinatravel.agent.nesy_agent.llm_driven_rec import LLMDrivenAgent
 
-from agent.base import AbstractAgent, BaseAgent
 
-class TPCAgent(BaseAgent):
+class TPCAgent(LLMDrivenAgent):
     def __init__(self, **kwargs):
-        super().__init__(name="TPC", **kwargs)
-    
-    def run(self, query, prob_idx, oralce_translation=False):
+        super().__init__(**kwargs)
 
-
-        self.reset_clock()
-
-        result = {
-            "itinerary": [], 
-            "elapsed_time(sec)": time.time() - self.start_clock, 
-            }
-        
-        return False, result
+    def run(self, query, prob_idx=None, oralce_translation=False):
+        return super().run(query, oralce_translation=oralce_translation)

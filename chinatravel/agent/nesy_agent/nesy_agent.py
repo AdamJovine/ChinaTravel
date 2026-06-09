@@ -1,10 +1,19 @@
 import sys
 import os
+import re
 import time
 import argparse
 import pandas as pd
 import json
 import numpy as np
+
+# Regex patterns for extracting per-category spending ceilings from hard_logic_py
+_BUDGET_PATTERNS = {
+    "attraction":    r"result\s*=\s*\(?attraction_cost\s*<=\s*([\d.]+)",
+    "restaurant":    r"result\s*=\s*\(?restaurant_cost\s*<=\s*([\d.]+)",
+    "accommodation": r"result\s*=\s*\(?accommodation_cost\s*<=\s*([\d.]+)",
+    "total":         r"result\s*=\s*\(?total_cost\s*<=\s*([\d.]+)",
+}
 
 sys.path.append("./../../../")
 project_root_path = os.path.dirname(
@@ -1717,6 +1726,79 @@ class NesyAgent(BaseAgent):
 
         return False, {"error_info": "No solution found."}
 
+    def parse_budget_constraints(self, query):
+        """Return {category: ceiling} from standalone hard_logic_py constraints.
+
+        OR-compound constraints (those that accumulate into result_list and
+        combine with 'result or r') are intentionally skipped: satisfying any
+        one branch is enough, so we cannot safely pre-filter on a single branch.
+        """
+        budgets = {}
+        for constraint in query.get("hard_logic_py", []):
+            # Skip OR-compound blocks — filtering on one branch would be unsound
+            if "result_list" in constraint or "result or r" in constraint:
+                continue
+            for category, pattern in _BUDGET_PATTERNS.items():
+                m = re.search(pattern, constraint)
+                if m and category not in budgets:
+                    budgets[category] = float(m.group(1))
+        return budgets
+
+    def prefilter_candidates_by_budget(self, budgets, query):
+        """Drop POIs whose minimum single-visit cost exceeds its category ceiling.
+
+        A POI is safe to remove when adding it alone would already violate a
+        MUST-hold constraint — no valid plan can ever include it.
+        """
+        people = query["people_number"]
+        days   = query["days"]
+
+        attraction_budget    = budgets.get("attraction")
+        restaurant_budget    = budgets.get("restaurant")
+        accommodation_budget = budgets.get("accommodation")
+        total_budget         = budgets.get("total")
+
+        # Fall back to total_budget as a ceiling for unconstrained categories
+        if attraction_budget is None and total_budget is not None:
+            attraction_budget = total_budget
+        if restaurant_budget is None and total_budget is not None:
+            restaurant_budget = total_budget
+
+        if attraction_budget is not None:
+            before = len(self.memory["attractions"])
+            mask = self.memory["attractions"]["price"] * people <= attraction_budget
+            self.memory["attractions"] = (
+                self.memory["attractions"][mask].reset_index(drop=True)
+            )
+            print(
+                f"[Budget pre-filter] attractions: {before} -> "
+                f"{len(self.memory['attractions'])} (ceiling ¥{attraction_budget})"
+            )
+
+        if restaurant_budget is not None:
+            before = len(self.memory["restaurants"])
+            mask = self.memory["restaurants"]["price"] * people <= restaurant_budget
+            self.memory["restaurants"] = (
+                self.memory["restaurants"][mask].reset_index(drop=True)
+            )
+            print(
+                f"[Budget pre-filter] restaurants: {before} -> "
+                f"{len(self.memory['restaurants'])} (ceiling ¥{restaurant_budget})"
+            )
+
+        if accommodation_budget is not None and days > 1:
+            nights = days - 1
+            before = len(self.memory["accommodations"])
+            # Even 1 room for all nights must fit; if not, no valid room count works
+            mask = self.memory["accommodations"]["price"] * nights <= accommodation_budget
+            self.memory["accommodations"] = (
+                self.memory["accommodations"][mask].reset_index(drop=True)
+            )
+            print(
+                f"[Budget pre-filter] accommodations: {before} -> "
+                f"{len(self.memory['accommodations'])} (ceiling ¥{accommodation_budget})"
+            )
+
     def symbolic_search(self, symoblic_query):
 
         # print(symoblic_query)
@@ -1762,6 +1844,10 @@ class NesyAgent(BaseAgent):
         self.memory["restaurants"] = self.collect_poi_info_all(
             symoblic_query["target_city"], "restaurant"
         )
+
+        budgets = self.parse_budget_constraints(symoblic_query)
+        if budgets:
+            self.prefilter_candidates_by_budget(budgets, symoblic_query)
 
         # print(symoblic_query)
 

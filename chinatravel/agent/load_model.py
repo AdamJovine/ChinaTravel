@@ -76,7 +76,7 @@ def init_agent(kwargs):
 
 
 def init_llm(llm_name, max_model_len=None):
-    from .llms import Deepseek, GPT4o, GLM4Plus, Qwen, Mistral, Llama, EmptyLLM
+    from .llms import Deepseek, GPT4o, GLM4Plus, Qwen, Mistral, Llama, EmptyLLM, Groq
 
     from .tpc_agent.tpc_llm import TPCLLM
 
@@ -92,6 +92,9 @@ def init_llm(llm_name, max_model_len=None):
         llm = Mistral(max_model_len=max_model_len)
     elif "Llama" in llm_name:
         llm = Llama(llm_name)
+    elif llm_name == "groq" or llm_name.startswith("groq/"):
+        model_name = llm_name[len("groq/"):] if llm_name.startswith("groq/") else "llama-3.3-70b-versatile"
+        llm = Groq(model_name)
     elif llm_name == "rule":
         return EmptyLLM()
     elif llm_name == "TPCLLM":

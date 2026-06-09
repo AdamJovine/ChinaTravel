@@ -151,6 +151,7 @@ if __name__ == "__main__":
     )  # , choices=METHOD_LIST)
     parser.add_argument("--preference", "-p", action="store_true", default=False)
     parser.add_argument("--lang", "--locale", choices=["zh", "en"], default="zh")
+    parser.add_argument("--oracle_translation", action="store_true", default=True)
     args = parser.parse_args()
     if args.lang == "en" and not args.method.endswith("_en"):
         args.method += "_en"
