@@ -1160,6 +1160,20 @@ class NesyAgent(BaseAgent):
                         ranking_idx,
                     )
 
+                    # Pre-filter: drop restaurants that are already closed given a 20-min travel lower bound.
+                    _earliest_arrival = add_time_delta(current_time, 20)
+                    _rests = self.memory["restaurants"]
+                    ranking_idx = [
+                        r_i for r_i in ranking_idx
+                        if 0 <= r_i < len(_rests)
+                        and not time_compare_if_earlier_equal(
+                            _rests.iloc[r_i]["endtime"], _earliest_arrival
+                        )
+                    ]
+                    # If nothing is reachable at all, clear the list
+                    if time_compare_if_earlier_equal("22:00", _earliest_arrival):
+                        ranking_idx = []
+
                     for sea_i, r_i in enumerate(ranking_idx):
 
                         if self.search_width != None and sea_i >= self.search_width:
@@ -1266,6 +1280,22 @@ class NesyAgent(BaseAgent):
                         query,
                         ranking_idx,
                     )
+
+                    # Pre-filter: drop candidates that can't be reached before 21:00
+                    # or whose closing time is already past, using a 20-min travel lower bound.
+                    _earliest_arrival = add_time_delta(current_time, 20)
+                    if time_compare_if_earlier_equal("21:00", _earliest_arrival):
+                        # Already past 21:00 even with fastest travel — no attraction reachable
+                        ranking_idx = []
+                    else:
+                        _attrs = self.memory["attractions"]
+                        ranking_idx = [
+                            r_i for r_i in ranking_idx
+                            if 0 <= r_i < len(_attrs)
+                            and not time_compare_if_earlier_equal(
+                                _attrs.iloc[r_i]["endtime"], _earliest_arrival
+                            )
+                        ]
 
                     for sea_i, r_i in enumerate(ranking_idx):
 

@@ -6,6 +6,9 @@ import sys
 import os
 import json
 from func_timeout import func_timeout, FunctionTimedOut
+from dotenv import load_dotenv
+
+load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env"))
 
 project_root_path = os.path.dirname(os.path.abspath(__file__))
 if project_root_path not in sys.path:
