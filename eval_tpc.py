@@ -61,6 +61,12 @@ DEFAULT_PR=[
 METHOD_LIST = [
 ]
 
+
+def _method_has_en_suffix(method):
+    base_method = method.split("_oracletranslation")[0].split("_oracle_translation")[0]
+    return base_method.endswith("_en")
+
+
 from tqdm import tqdm
 from chinatravel.symbol_verification.concept_func import func_dict
 from copy import deepcopy
@@ -151,9 +157,8 @@ if __name__ == "__main__":
     )  # , choices=METHOD_LIST)
     parser.add_argument("--preference", "-p", action="store_true", default=False)
     parser.add_argument("--lang", "--locale", choices=["zh", "en"], default="zh")
-    parser.add_argument("--oracle_translation", action="store_true", default=True)
     args = parser.parse_args()
-    if args.lang == "en" and not args.method.endswith("_en"):
+    if args.lang == "en" and not _method_has_en_suffix(args.method):
         args.method += "_en"
 
     # print(args.splits)
@@ -221,7 +226,7 @@ if __name__ == "__main__":
         scores['ATT']=pre_res[1]*100
         scores['DDR']=pre_res[2]*100
 
-        final_score=0.1*micro_comm+0.1*macro_comm+0.25*conditional_micro_logi+0.05*scores['DAV']+0.05*scores['ATT']+0.05*scores['DDR']+0.4*fpr
+        final_score=0.1*micro_comm+0.1*micro_comm+0.25*conditional_micro_logi+0.05*scores['DAV']+0.05*scores['ATT']+0.05*scores['DDR']+0.4*fpr
         print('Overall Score: ',final_score)
         scores['overall'] = final_score
         print(scores)
@@ -235,4 +240,5 @@ if __name__ == "__main__":
                 query_data,
                 result_data[method],
                 list(set(commonsense_pass_id) & set(logi_pass_id)),
+                lang=args.lang,
             )

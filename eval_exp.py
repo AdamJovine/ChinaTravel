@@ -35,6 +35,11 @@ METHOD_LIST = [
 ]
 
 
+def _method_has_en_suffix(method):
+    base_method = method.split("_oracletranslation")[0].split("_oracle_translation")[0]
+    return base_method.endswith("_en")
+
+
 def load_result(args, query_index, verbose=False):
 
     def load_result_for_method(method):
@@ -81,7 +86,7 @@ if __name__ == "__main__":
     parser.add_argument("--preference", "-p", action="store_true", default=False)
     parser.add_argument("--lang", "--locale", choices=["zh", "en"], default="zh")
     args = parser.parse_args()
-    if args.lang == "en" and args.method != "all" and not args.method.endswith("_en"):
+    if args.lang == "en" and args.method != "all" and not _method_has_en_suffix(args.method):
         args.method += "_en"
 
     # print(args.splits)
@@ -189,6 +194,7 @@ if __name__ == "__main__":
                 query_data,
                 result_data[method],
                 list(set(commonsense_pass_id) & set(logi_pass_id)),
+                lang=args.lang,
             )
 
             res_file = "eval_res/splits_{}/{}/preference.csv".format(

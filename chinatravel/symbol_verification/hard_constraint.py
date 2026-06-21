@@ -8,7 +8,11 @@ from chinatravel.environment.tools.intercity_transport.apis import IntercityTran
 from chinatravel.environment.tools.transportation.apis import Transportation
 from chinatravel.environment.language import CITY_NAMES, normalize_lang
 
-from chinatravel.symbol_verification.concept_func import func_dict, set_concept_func_lang
+from chinatravel.symbol_verification.concept_func import (
+    func_dict,
+    normalize_concept_constraint_source,
+    set_concept_func_lang,
+)
 from chinatravel.evaluation.utils import load_json_file
 
 import pandas as pd
@@ -444,6 +448,7 @@ for activity in allactivities(plan):
 """
     # hard_logic_py.append(debug_logic_py)
     for constraint in hard_logic_py:
+        constraint = normalize_concept_constraint_source(constraint)
         vars_dict = deepcopy(func_dict)
         vars_dict["plan"] = plan
         # exec(constraint, {"__builtins__": {"set": set, "print": print}}, vars_dict)
