@@ -21,3 +21,8 @@ uv.lock
 .venv
 agent_env/runs
 agent_env/config.toml
+rank_cache/
+.claude/
+LISTEN_v1/
+LISTEN_v2/
+LISTEN_v2 2/
