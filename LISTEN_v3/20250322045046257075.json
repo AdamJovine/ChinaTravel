@@ -1,0 +1,293 @@
+{
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Chengdu",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "22:11",
+          "end_time": "00:06",
+          "start": "Hangzhou Xiaoshan International Airport",
+          "end": "Chengdu Shuangliu International Airport",
+          "price": 783.94,
+          "cost": 2351.82,
+          "tickets": 3,
+          "transports": [],
+          "FlightID": "FL536"
+        },
+        {
+          "type": "attraction",
+          "position": "Four Seasons Ski Resort",
+          "start_time": "10:00",
+          "end_time": "10:12",
+          "price": 98.0,
+          "cost": 294.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Chengdu Shuangliu International Airport",
+              "end": "Shuangliu Airport Terminal 2 East-Metro Station",
+              "mode": "walk",
+              "start_time": "00:06",
+              "end_time": "00:21",
+              "cost": 0,
+              "distance": 1.25,
+              "price": 0.0
+            },
+            {
+              "start": "Shuangliu Airport Terminal 2 East-Metro Station",
+              "end": "Shiyang-Metro Station",
+              "mode": "metro",
+              "start_time": "00:21",
+              "end_time": "00:35",
+              "cost": 9,
+              "distance": 7.29,
+              "price": 3,
+              "tickets": 3
+            },
+            {
+              "start": "Shiyang-Metro Station",
+              "end": "Four Seasons Ski Resort",
+              "mode": "walk",
+              "start_time": "00:35",
+              "end_time": "00:43",
+              "cost": 0,
+              "distance": 0.69,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Atour Yeation Hotel (Chengdu Jiuyanqiao)",
+          "start_time": "10:41",
+          "end_time": "24:00",
+          "price": 472.0,
+          "cost": 944.0,
+          "tickets": 3,
+          "rooms": 2,
+          "room_type": 2,
+          "transports": [
+            {
+              "start": "Four Seasons Ski Resort",
+              "end": "Shiyang-Metro Station",
+              "mode": "walk",
+              "start_time": "10:12",
+              "end_time": "10:20",
+              "cost": 0,
+              "distance": 0.69,
+              "price": 0.0
+            },
+            {
+              "start": "Shiyang-Metro Station",
+              "end": "Niushikou-Metro Station",
+              "mode": "metro",
+              "start_time": "10:20",
+              "end_time": "10:38",
+              "cost": 12,
+              "distance": 9.36,
+              "price": 4,
+              "tickets": 3
+            },
+            {
+              "start": "Niushikou-Metro Station",
+              "end": "Atour Yeation Hotel (Chengdu Jiuyanqiao)",
+              "mode": "walk",
+              "start_time": "10:38",
+              "end_time": "10:41",
+              "cost": 0,
+              "distance": 0.3,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Atour Yeation Hotel (Chengdu Jiuyanqiao)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:18",
+          "end_time": "23:13",
+          "start": "Chengdu Shuangliu International Airport",
+          "end": "Hangzhou Xiaoshan International Airport",
+          "price": 815.94,
+          "cost": 2447.82,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Atour Yeation Hotel (Chengdu Jiuyanqiao)",
+              "end": "Niushikou-Metro Station",
+              "mode": "walk",
+              "start_time": "08:05",
+              "end_time": "08:08",
+              "cost": 0,
+              "distance": 0.3,
+              "price": 0.0
+            },
+            {
+              "start": "Niushikou-Metro Station",
+              "end": "Shuangliu Airport Terminal 2 East-Metro Station",
+              "mode": "metro",
+              "start_time": "08:08",
+              "end_time": "08:40",
+              "cost": 15,
+              "distance": 16.29,
+              "price": 5,
+              "tickets": 3
+            },
+            {
+              "start": "Shuangliu Airport Terminal 2 East-Metro Station",
+              "end": "Chengdu Shuangliu International Airport",
+              "mode": "walk",
+              "start_time": "08:40",
+              "end_time": "08:55",
+              "cost": 0,
+              "distance": 1.25,
+              "price": 0.0
+            }
+          ],
+          "FlightID": "FL455"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322045046257075",
+  "nl2sl_nature_language": "We are 3 people, departing from Hangzhou, traveling to Chengdu for 2 days, with the following requirements: Visit Four Seasons Ski Resort, and the budget for intra-city transportation is 40.0.",
+  "nl2sl_ground_truth": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Four Seasons Ski Resort\"}&attraction_name_set)",
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=40)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=40.0)",
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Four Seasons Ski Resort\"}<=attraction_name_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_attraction",
+      "passed": true,
+      "snippet": "attraction_name_set=set()",
+      "full_snippet": "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Four Seasons Ski Resort\"}&attraction_name_set)",
+      "computed": {
+        "attraction_name_set": [
+          "Four Seasons Ski Resort"
+        ],
+        "required_attraction": [
+          "Four Seasons Ski Resort"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "inner_city_budget",
+      "passed": true,
+      "snippet": "inner_city_transportation_cost=0 ",
+      "full_snippet": "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=40)",
+      "computed": {
+        "inner_city_transportation_cost": 36,
+        "budget_limit": 40.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==3)",
+      "full_snippet": "result=(people_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 12.5,
+    "ATT": 77.46,
+    "DDR": 16.67
+  }
+}

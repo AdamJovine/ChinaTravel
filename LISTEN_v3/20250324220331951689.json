@@ -1,0 +1,475 @@
+{
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Suzhou",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "19:21",
+          "end_time": "07:03",
+          "start": "Beijing Fengtai Station",
+          "end": "Suzhou Station",
+          "price": 514.19,
+          "cost": 514.19,
+          "tickets": 1,
+          "transports": [],
+          "TrainID": "Z281"
+        },
+        {
+          "type": "breakfast",
+          "position": "Wang's Linji Baked Pancake (Shuangta Main Store)",
+          "start_time": "07:08",
+          "end_time": "07:13",
+          "price": 9.0,
+          "cost": 9.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Suzhou Station",
+              "end": "Wang's Linji Baked Pancake (Shuangta Main Store)",
+              "mode": "taxi",
+              "start_time": "07:03",
+              "end_time": "07:08",
+              "cost": 16.9,
+              "distance": 3.49,
+              "price": 16.9,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Maple Bridge Scenic Area",
+          "start_time": "08:00",
+          "end_time": "08:07",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Wang's Linji Baked Pancake (Shuangta Main Store)",
+              "end": "Maple Bridge Scenic Area",
+              "mode": "taxi",
+              "start_time": "07:13",
+              "end_time": "07:21",
+              "cost": 25.58,
+              "distance": 5.96,
+              "price": 25.58,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Suzhou Museum",
+          "start_time": "09:00",
+          "end_time": "09:07",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Maple Bridge Scenic Area",
+              "end": "Suzhou Museum",
+              "mode": "taxi",
+              "start_time": "08:07",
+              "end_time": "08:15",
+              "cost": 25.61,
+              "distance": 5.97,
+              "price": 25.61,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shantang Street",
+          "start_time": "09:10",
+          "end_time": "09:12",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Suzhou Museum",
+              "end": "Shantang Street",
+              "mode": "taxi",
+              "start_time": "09:07",
+              "end_time": "09:10",
+              "cost": 13.26,
+              "distance": 2.44,
+              "price": 13.26,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Pingjiang Road Historic District",
+          "start_time": "09:16",
+          "end_time": "09:23",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shantang Street",
+              "end": "Pingjiang Road Historic District",
+              "mode": "taxi",
+              "start_time": "09:12",
+              "end_time": "09:16",
+              "cost": 15.34,
+              "distance": 3.04,
+              "price": 15.34,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Old Wang's Egg Pancake (Shuyuan Alley Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 10.0,
+          "cost": 10.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Pingjiang Road Historic District",
+              "end": "Old Wang's Egg Pancake (Shuyuan Alley Branch)",
+              "mode": "taxi",
+              "start_time": "09:23",
+              "end_time": "09:27",
+              "cost": 15.81,
+              "distance": 3.17,
+              "price": 15.81,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Golden Rooster Lake",
+          "start_time": "11:17",
+          "end_time": "11:22",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Old Wang's Egg Pancake (Shuyuan Alley Branch)",
+              "end": "Golden Rooster Lake",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:17",
+              "cost": 34.81,
+              "distance": 8.6,
+              "price": 34.81,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Suzhou Water Tour",
+          "start_time": "11:35",
+          "end_time": "11:45",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Golden Rooster Lake",
+              "end": "Suzhou Water Tour",
+              "mode": "taxi",
+              "start_time": "11:22",
+              "end_time": "11:35",
+              "cost": 35.63,
+              "distance": 8.84,
+              "price": 35.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Yangcheng Lake",
+          "start_time": "12:18",
+          "end_time": "12:30",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Suzhou Water Tour",
+              "end": "Yangcheng Lake",
+              "mode": "taxi",
+              "start_time": "11:45",
+              "end_time": "12:18",
+              "cost": 95.22,
+              "distance": 22.34,
+              "price": 95.22,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "West Garden Temple",
+          "start_time": "13:03",
+          "end_time": "13:08",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Yangcheng Lake",
+              "end": "West Garden Temple",
+              "mode": "taxi",
+              "start_time": "12:30",
+              "end_time": "13:03",
+              "cost": 96.48,
+              "distance": 22.62,
+              "price": 96.48,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Old Patron's Egg Pancake",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 11.0,
+          "cost": 11.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "West Garden Temple",
+              "end": "Old Patron's Egg Pancake",
+              "mode": "taxi",
+              "start_time": "13:08",
+              "end_time": "13:14",
+              "cost": 19.75,
+              "distance": 4.3,
+              "price": 19.75,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Orange Crystal Suzhou Guanqian Street Hotel",
+          "start_time": "17:06",
+          "end_time": "24:00",
+          "price": 414.0,
+          "cost": 414.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Old Patron's Egg Pancake",
+              "end": "Orange Crystal Suzhou Guanqian Street Hotel",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:06",
+              "cost": 11.0,
+              "distance": 1.17,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Orange Crystal Suzhou Guanqian Street Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Chen's Wonton (Wuqufang Branch)",
+          "start_time": "11:01",
+          "end_time": "11:06",
+          "price": 11.0,
+          "cost": 11.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Orange Crystal Suzhou Guanqian Street Hotel",
+              "end": "Chen's Wonton (Wuqufang Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:01",
+              "cost": 11.0,
+              "distance": 1.29,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "22:10",
+          "end_time": "09:24",
+          "start": "Suzhou Station",
+          "end": "Beijing South Railway Station",
+          "price": 617.02,
+          "cost": 617.02,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Chen's Wonton (Wuqufang Branch)",
+              "end": "Suzhou Station",
+              "mode": "taxi",
+              "start_time": "11:06",
+              "end_time": "11:09",
+              "cost": 11.71,
+              "distance": 2.0,
+              "price": 11.71,
+              "cars": 1
+            }
+          ],
+          "TrainID": "D10"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250324220331951689",
+  "nl2sl_nature_language": "1 person, departing from Beijing to Suzhou for 2 days. Requirements: want to stay in a Family Room type hotel, accommodation budget is 1600.0.",
+  "nl2sl_ground_truth": [
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Family Room\"}<=accommodation_type_set)",
+    "accommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=1600",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "accommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=1600.0",
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Family Room\"}&accommodation_type_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_hotel_feature",
+      "passed": true,
+      "snippet": "accommodation_type_set=set()",
+      "full_snippet": "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Family Room\"}<=accommodation_type_set)",
+      "computed": {
+        "accommodation_type_set": [
+          "family room"
+        ],
+        "required_hotel_type": [
+          "Family Room"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "accommodation_budget",
+      "passed": true,
+      "snippet": "accommodation_cost=0",
+      "full_snippet": "accommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=1600",
+      "computed": {
+        "accommodation_cost": 414.0,
+        "budget_limit": 1600.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 83.33
+  }
+}

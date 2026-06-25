@@ -1,0 +1,665 @@
+{
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "23:54",
+          "end_time": "04:40",
+          "start": "Beijing Fengtai Station",
+          "end": "Shenzhen East Station",
+          "price": 777.26,
+          "cost": 777.26,
+          "tickets": 1,
+          "transports": [],
+          "TrainID": "K105"
+        },
+        {
+          "type": "breakfast",
+          "position": "Joyful Gathering (Jingtian Branch)",
+          "start_time": "07:00",
+          "end_time": "07:05",
+          "price": 28.0,
+          "cost": 28.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen East Station",
+              "end": "Buji-Metro Station",
+              "mode": "walk",
+              "start_time": "04:40",
+              "end_time": "04:43",
+              "cost": 0,
+              "distance": 0.28,
+              "price": 0.0
+            },
+            {
+              "start": "Buji-Metro Station",
+              "end": "Xiangmei North-Metro Station",
+              "mode": "metro",
+              "start_time": "04:43",
+              "end_time": "05:04",
+              "cost": 4,
+              "distance": 10.56,
+              "price": 4,
+              "tickets": 1
+            },
+            {
+              "start": "Xiangmei North-Metro Station",
+              "end": "Joyful Gathering (Jingtian Branch)",
+              "mode": "walk",
+              "start_time": "05:04",
+              "end_time": "05:09",
+              "cost": 0,
+              "distance": 0.43,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Happy Harbor",
+          "start_time": "10:30",
+          "end_time": "10:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Joyful Gathering (Jingtian Branch)",
+              "end": "Xiangmei North-Metro Station",
+              "mode": "walk",
+              "start_time": "07:05",
+              "end_time": "07:10",
+              "cost": 0,
+              "distance": 0.43,
+              "price": 0.0
+            },
+            {
+              "start": "Xiangmei North-Metro Station",
+              "end": "Baohua-Metro Station",
+              "mode": "metro",
+              "start_time": "07:10",
+              "end_time": "07:40",
+              "cost": 5,
+              "distance": 15.19,
+              "price": 5,
+              "tickets": 1
+            },
+            {
+              "start": "Baohua-Metro Station",
+              "end": "Happy Harbor",
+              "mode": "walk",
+              "start_time": "07:40",
+              "end_time": "07:44",
+              "cost": 0,
+              "distance": 0.37,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dameisha Seaside Park",
+          "start_time": "12:15",
+          "end_time": "12:25",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Happy Harbor",
+              "end": "Baohua-Metro Station",
+              "mode": "walk",
+              "start_time": "10:35",
+              "end_time": "10:39",
+              "cost": 0,
+              "distance": 0.37,
+              "price": 0.0
+            },
+            {
+              "start": "Baohua-Metro Station",
+              "end": "Dameisha-Metro Station",
+              "mode": "metro",
+              "start_time": "10:39",
+              "end_time": "12:06",
+              "cost": 8,
+              "distance": 43.75,
+              "price": 8,
+              "tickets": 1
+            },
+            {
+              "start": "Dameisha-Metro Station",
+              "end": "Dameisha Seaside Park",
+              "mode": "walk",
+              "start_time": "12:06",
+              "end_time": "12:15",
+              "cost": 0,
+              "distance": 0.77,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Delicious Noodle House (Taoyuan Branch)",
+          "start_time": "13:59",
+          "end_time": "14:04",
+          "price": 26.0,
+          "cost": 26.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Dameisha-Metro Station",
+              "mode": "walk",
+              "start_time": "12:25",
+              "end_time": "12:34",
+              "cost": 0,
+              "distance": 0.77,
+              "price": 0.0
+            },
+            {
+              "start": "Dameisha-Metro Station",
+              "end": "Taoyuan-Metro Station",
+              "mode": "metro",
+              "start_time": "12:34",
+              "end_time": "13:54",
+              "cost": 8,
+              "distance": 40.0,
+              "price": 8,
+              "tickets": 1
+            },
+            {
+              "start": "Taoyuan-Metro Station",
+              "end": "Delicious Noodle House (Taoyuan Branch)",
+              "mode": "walk",
+              "start_time": "13:54",
+              "end_time": "13:59",
+              "cost": 0,
+              "distance": 0.44,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Lotus Hill Park",
+          "start_time": "14:42",
+          "end_time": "14:47",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Delicious Noodle House (Taoyuan Branch)",
+              "end": "Taoyuan-Metro Station",
+              "mode": "walk",
+              "start_time": "14:04",
+              "end_time": "14:09",
+              "cost": 0,
+              "distance": 0.44,
+              "price": 0.0
+            },
+            {
+              "start": "Taoyuan-Metro Station",
+              "end": "Donggualing-Metro Station",
+              "mode": "metro",
+              "start_time": "14:09",
+              "end_time": "14:39",
+              "cost": 5,
+              "distance": 15.04,
+              "price": 5,
+              "tickets": 1
+            },
+            {
+              "start": "Donggualing-Metro Station",
+              "end": "Lotus Hill Park",
+              "mode": "walk",
+              "start_time": "14:39",
+              "end_time": "14:42",
+              "cost": 0,
+              "distance": 0.28,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nellbore Family Center (Zhuoyue Branch)",
+          "start_time": "15:10",
+          "end_time": "15:12",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Lotus Hill Park",
+              "end": "Nellbore Family Center (Zhuoyue Branch)",
+              "mode": "walk",
+              "start_time": "14:47",
+              "end_time": "15:10",
+              "cost": 0.0,
+              "distance": 1.966369405571075,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Guan Shanyue Art Museum",
+          "start_time": "15:28",
+          "end_time": "15:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nellbore Family Center (Zhuoyue Branch)",
+              "end": "Guan Shanyue Art Museum",
+              "mode": "walk",
+              "start_time": "15:12",
+              "end_time": "15:28",
+              "cost": 0.0,
+              "distance": 1.4102729897225894,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen Book City (Central City Branch)",
+          "start_time": "15:41",
+          "end_time": "15:43",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Guan Shanyue Art Museum",
+              "end": "Shenzhen Book City (Central City Branch)",
+              "mode": "walk",
+              "start_time": "15:35",
+              "end_time": "15:41",
+              "cost": 0.0,
+              "distance": 0.534063745770656,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Eastern General Aviation Air Taxi Helicopter Flight Base (Greater China Store)",
+          "start_time": "15:52",
+          "end_time": "15:54",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen Book City (Central City Branch)",
+              "end": "Eastern General Aviation Air Taxi Helicopter Flight Base (Greater China Store)",
+              "mode": "walk",
+              "start_time": "15:43",
+              "end_time": "15:52",
+              "cost": 0.0,
+              "distance": 0.7621096870582212,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen Industrial Exhibition Hall",
+          "start_time": "16:01",
+          "end_time": "16:03",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Eastern General Aviation Air Taxi Helicopter Flight Base (Greater China Store)",
+              "end": "Shenzhen Industrial Exhibition Hall",
+              "mode": "walk",
+              "start_time": "15:54",
+              "end_time": "16:01",
+              "cost": 0.0,
+              "distance": 0.6026192341608309,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Ping An Finance Centre Sky-High Observation Deck in Shenzhen",
+          "start_time": "16:17",
+          "end_time": "16:19",
+          "price": 180.0,
+          "cost": 180.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen Industrial Exhibition Hall",
+              "end": "Ping An Finance Centre Sky-High Observation Deck in Shenzhen",
+              "mode": "walk",
+              "start_time": "16:03",
+              "end_time": "16:17",
+              "cost": 0.0,
+              "distance": 1.2045680745620189,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Taoshan Greenway",
+          "start_time": "17:05",
+          "end_time": "17:10",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Ping An Finance Centre Sky-High Observation Deck in Shenzhen",
+              "end": "Civic Center-Metro Station",
+              "mode": "walk",
+              "start_time": "16:19",
+              "end_time": "16:23",
+              "cost": 0,
+              "distance": 0.34,
+              "price": 0.0
+            },
+            {
+              "start": "Civic Center-Metro Station",
+              "end": "Buxin-Metro Station",
+              "mode": "metro",
+              "start_time": "16:23",
+              "end_time": "16:41",
+              "cost": 4,
+              "distance": 9.02,
+              "price": 4,
+              "tickets": 1
+            },
+            {
+              "start": "Buxin-Metro Station",
+              "end": "Taoshan Greenway",
+              "mode": "walk",
+              "start_time": "16:41",
+              "end_time": "17:05",
+              "cost": 0,
+              "distance": 2.07,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Mandarin Oriental Shenzhen",
+          "start_time": "17:56",
+          "end_time": "24:00",
+          "price": 3806.0,
+          "cost": 3806.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Taoshan Greenway",
+              "end": "Buxin-Metro Station",
+              "mode": "walk",
+              "start_time": "17:10",
+              "end_time": "17:34",
+              "cost": 0,
+              "distance": 2.07,
+              "price": 0.0
+            },
+            {
+              "start": "Buxin-Metro Station",
+              "end": "Donggualing-Metro Station",
+              "mode": "metro",
+              "start_time": "17:34",
+              "end_time": "17:49",
+              "cost": 3,
+              "distance": 7.59,
+              "price": 3,
+              "tickets": 1
+            },
+            {
+              "start": "Donggualing-Metro Station",
+              "end": "Mandarin Oriental Shenzhen",
+              "mode": "walk",
+              "start_time": "17:49",
+              "end_time": "17:56",
+              "cost": 0,
+              "distance": 0.61,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Mandarin Oriental Shenzhen",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "accommodation",
+          "position": "Mandarin Oriental Shenzhen",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "price": 3806.0,
+          "cost": 3806.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Mandarin Oriental Shenzhen",
+              "end": "Mandarin Oriental Shenzhen",
+              "mode": "walk",
+              "start_time": "17:00",
+              "end_time": "17:00",
+              "cost": 0.0,
+              "distance": 0.0,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Mandarin Oriental Shenzhen",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "train",
+          "start_time": "19:55",
+          "end_time": "07:10",
+          "start": "Shenzhen North Railway Station",
+          "end": "Beijing West Railway Station",
+          "price": 1165.89,
+          "cost": 1165.89,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Mandarin Oriental Shenzhen",
+              "end": "Donggualing-Metro Station",
+              "mode": "walk",
+              "start_time": "08:05",
+              "end_time": "08:12",
+              "cost": 0,
+              "distance": 0.61,
+              "price": 0.0
+            },
+            {
+              "start": "Donggualing-Metro Station",
+              "end": "Shenzhen North Railway Station-Metro Station",
+              "mode": "metro",
+              "start_time": "08:12",
+              "end_time": "08:25",
+              "cost": 3,
+              "distance": 6.74,
+              "price": 3,
+              "tickets": 1
+            },
+            {
+              "start": "Shenzhen North Railway Station-Metro Station",
+              "end": "Shenzhen North Railway Station",
+              "mode": "walk",
+              "start_time": "08:25",
+              "end_time": "08:26",
+              "cost": 0,
+              "distance": 0.15,
+              "price": 0.0
+            }
+          ],
+          "TrainID": "D928"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 152,
+  "uid": "20250325010748881718",
+  "nl2sl_nature_language": "1 person traveling from Beijing to Shenzhen for 3 days. Requirements: intra-city travel budget is 40, and must arrive at Taoshan Greenway no later than 08:30.",
+  "nl2sl_ground_truth": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=40)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Taoshan Greenway':\n    if activity_start_time(activity)<='08:30':\n      result=True",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=40.0)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Taoshan Greenway':\n    if activity_start_time(activity)<='08:30':\n      result=True",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "inner_city_budget",
+      "passed": true,
+      "snippet": "inner_city_transportation_cost=0 ",
+      "full_snippet": "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=40)",
+      "computed": {
+        "inner_city_transportation_cost": 40.0,
+        "budget_limit": 40.0
+      },
+      "error": null
+    },
+    {
+      "label": "poi_timing",
+      "passed": false,
+      "snippet": "result=False",
+      "full_snippet": "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Taoshan Greenway':\n    if activity_start_time(activity)<='08:30':\n      result=True",
+      "computed": {
+        "required_poi": "Taoshan Greenway",
+        "actual_start": "17:05",
+        "actual_end": "17:10",
+        "required_start_by": "08:30"
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 83.33,
+    "ATT": 83.3,
+    "DDR": 44.44
+  }
+}

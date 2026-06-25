@@ -1,0 +1,641 @@
+{
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "23:54",
+          "end_time": "04:40",
+          "start": "Beijing Fengtai Station",
+          "end": "Shenzhen East Station",
+          "price": 777.26,
+          "cost": 777.26,
+          "tickets": 1,
+          "transports": [],
+          "TrainID": "K105"
+        },
+        {
+          "type": "attraction",
+          "position": "Dameisha Seaside Park",
+          "start_time": "08:00",
+          "end_time": "08:10",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen East Station",
+              "end": "Dameisha Seaside Park",
+              "mode": "taxi",
+              "start_time": "04:40",
+              "end_time": "05:09",
+              "cost": 84.45,
+              "distance": 19.94,
+              "price": 84.45,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "China Merchants Shekou Cruise Home Port Tour",
+          "start_time": "09:14",
+          "end_time": "09:24",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "China Merchants Shekou Cruise Home Port Tour",
+              "mode": "taxi",
+              "start_time": "08:10",
+              "end_time": "09:14",
+              "cost": 187.18,
+              "distance": 42.77,
+              "price": 187.18,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+          "start_time": "09:24",
+          "end_time": "09:34",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "China Merchants Shekou Cruise Home Port Tour",
+              "end": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "mode": "taxi",
+              "start_time": "09:24",
+              "end_time": "09:24",
+              "cost": 11.0,
+              "distance": 0.0,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen Bay Park",
+          "start_time": "09:45",
+          "end_time": "10:00",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "end": "Shenzhen Bay Park",
+              "mode": "taxi",
+              "start_time": "09:34",
+              "end_time": "09:45",
+              "cost": 31.06,
+              "distance": 7.53,
+              "price": 31.06,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Hakka Concept Store (Coastal City Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 92.0,
+          "cost": 92.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen Bay Park",
+              "end": "Hakka Concept Store (Coastal City Branch)",
+              "mode": "taxi",
+              "start_time": "10:00",
+              "end_time": "10:05",
+              "cost": 17.31,
+              "distance": 3.6,
+              "price": 17.31,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Seaside Park",
+          "start_time": "11:11",
+          "end_time": "11:13",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Hakka Concept Store (Coastal City Branch)",
+              "end": "Seaside Park",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:11",
+              "cost": 20.51,
+              "distance": 4.52,
+              "price": 20.51,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Qianhai Performance Park",
+          "start_time": "11:13",
+          "end_time": "11:20",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Seaside Park",
+              "end": "Qianhai Performance Park",
+              "mode": "taxi",
+              "start_time": "11:13",
+              "end_time": "11:13",
+              "cost": 11.0,
+              "distance": 0.0,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Binhai Cultural Park",
+          "start_time": "11:22",
+          "end_time": "11:24",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Qianhai Performance Park",
+              "end": "Binhai Cultural Park",
+              "mode": "taxi",
+              "start_time": "11:20",
+              "end_time": "11:22",
+              "cost": 11.0,
+              "distance": 1.5,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Happy Harbor",
+          "start_time": "11:24",
+          "end_time": "11:29",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Binhai Cultural Park",
+              "end": "Happy Harbor",
+              "mode": "taxi",
+              "start_time": "11:24",
+              "end_time": "11:24",
+              "cost": 11.0,
+              "distance": 0.14,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Bao'an Library",
+          "start_time": "11:29",
+          "end_time": "11:31",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Happy Harbor",
+              "end": "Bao'an Library",
+              "mode": "taxi",
+              "start_time": "11:29",
+              "end_time": "11:29",
+              "cost": 11.0,
+              "distance": 0.55,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dutch Flower Town",
+          "start_time": "11:35",
+          "end_time": "11:40",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Bao'an Library",
+              "end": "Dutch Flower Town",
+              "mode": "taxi",
+              "start_time": "11:31",
+              "end_time": "11:35",
+              "cost": 15.26,
+              "distance": 3.02,
+              "price": 15.26,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nantou Ancient City",
+          "start_time": "11:41",
+          "end_time": "11:43",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dutch Flower Town",
+              "end": "Nantou Ancient City",
+              "mode": "taxi",
+              "start_time": "11:40",
+              "end_time": "11:41",
+              "cost": 11.0,
+              "distance": 0.95,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Bao'an Stadium",
+          "start_time": "11:49",
+          "end_time": "11:51",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nantou Ancient City",
+              "end": "Bao'an Stadium",
+              "mode": "taxi",
+              "start_time": "11:43",
+              "end_time": "11:49",
+              "cost": 19.22,
+              "distance": 4.15,
+              "price": 19.22,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Fat Ming's Luosifen",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 39.0,
+          "cost": 39.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Bao'an Stadium",
+              "end": "Fat Ming's Luosifen",
+              "mode": "taxi",
+              "start_time": "11:51",
+              "end_time": "12:16",
+              "cost": 72.33,
+              "distance": 17.25,
+              "price": 72.33,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+          "start_time": "17:10",
+          "end_time": "24:00",
+          "price": 420.0,
+          "cost": 420.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 2,
+          "transports": [
+            {
+              "start": "Fat Ming's Luosifen",
+              "end": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:10",
+              "cost": 17.7,
+              "distance": 3.71,
+              "price": 17.7,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+          "start_time": "13:00",
+          "end_time": "13:05",
+          "price": 16.0,
+          "cost": 16.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+              "end": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:08",
+              "cost": 24.19,
+              "distance": 5.57,
+              "price": 24.19,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Old Zhou's Shunde Double-Skin Milk",
+          "start_time": "17:13",
+          "end_time": "17:18",
+          "price": 20.0,
+          "cost": 20.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "end": "Old Zhou's Shunde Double-Skin Milk",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:13",
+              "cost": 35.56,
+              "distance": 8.82,
+              "price": 35.56,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+          "start_time": "17:24",
+          "end_time": "24:00",
+          "price": 420.0,
+          "cost": 420.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 2,
+          "transports": [
+            {
+              "start": "Old Zhou's Shunde Double-Skin Milk",
+              "end": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+              "mode": "taxi",
+              "start_time": "17:18",
+              "end_time": "17:24",
+              "cost": 20.1,
+              "distance": 4.4,
+              "price": 20.1,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+          "start_time": "11:06",
+          "end_time": "11:11",
+          "price": 22.0,
+          "cost": 22.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+              "end": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:06",
+              "cost": 19.24,
+              "distance": 4.16,
+              "price": 19.24,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "YO!Tea (Futian CITIC Plaza Branch)",
+          "start_time": "17:07",
+          "end_time": "17:12",
+          "price": 22.0,
+          "cost": 22.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "end": "YO!Tea (Futian CITIC Plaza Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:07",
+              "cost": 23.2,
+              "distance": 5.29,
+              "price": 23.2,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "19:39",
+          "end_time": "06:52",
+          "start": "Shenzhen North Railway Station",
+          "end": "Beijing West Railway Station",
+          "price": 1165.89,
+          "cost": 1165.89,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "YO!Tea (Futian CITIC Plaza Branch)",
+              "end": "Shenzhen North Railway Station",
+              "mode": "taxi",
+              "start_time": "17:12",
+              "end_time": "17:28",
+              "cost": 42.74,
+              "distance": 10.67,
+              "price": 42.74,
+              "cars": 1
+            }
+          ],
+          "TrainID": "D904"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250323033538068543",
+  "nl2sl_nature_language": "One person traveling from Beijing to Shenzhen for 3 days, with the following requirements: arrive at Hakka Concept Store (Coastal City Branch) no later than 11:00, and request a twin room.",
+  "nl2sl_ground_truth": [
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Hakka Concept Store (Coastal City Branch)':\n    if activity_start_time(activity)<='11:00':\n      result=True",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=2: result=False",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=2: result=False",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Hakka Concept Store (Coastal City Branch)':\n    if activity_start_time(activity)<='11:00':\n      result=True",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "poi_timing",
+      "passed": true,
+      "snippet": "result=False",
+      "full_snippet": "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Hakka Concept Store (Coastal City Branch)':\n    if activity_start_time(activity)<='11:00':\n      result=True",
+      "computed": {
+        "required_poi": "Hakka Concept Store (Coastal City Branch)",
+        "actual_start": "11:00",
+        "actual_end": "11:05",
+        "required_start_by": "11:00"
+      },
+      "error": null
+    },
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=2: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 88.89
+  }
+}

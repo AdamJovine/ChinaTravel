@@ -1,0 +1,326 @@
+{
+  "people_number": 3,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "23:54",
+          "end_time": "04:40",
+          "start": "Beijing Fengtai Station",
+          "end": "Shenzhen East Station",
+          "price": 777.26,
+          "cost": 2331.7799999999997,
+          "tickets": 3,
+          "transports": [],
+          "TrainID": "K105"
+        },
+        {
+          "type": "breakfast",
+          "position": "Yuhua Seafood (Fuyong Branch)",
+          "start_time": "08:30",
+          "end_time": "08:35",
+          "price": 170.0,
+          "cost": 510.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shenzhen East Station",
+              "end": "Yuhua Seafood (Fuyong Branch)",
+              "mode": "taxi",
+              "start_time": "04:40",
+              "end_time": "05:27",
+              "cost": 137.97,
+              "distance": 31.84,
+              "price": 137.97,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Old Zhou's Shunde Double-Skin Milk",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 20.0,
+          "cost": 60.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Yuhua Seafood (Fuyong Branch)",
+              "end": "Old Zhou's Shunde Double-Skin Milk",
+              "mode": "taxi",
+              "start_time": "08:35",
+              "end_time": "09:14",
+              "cost": 114.39,
+              "distance": 26.6,
+              "price": 114.39,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 16.0,
+          "cost": 48.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Old Zhou's Shunde Double-Skin Milk",
+              "end": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:18",
+              "cost": 35.56,
+              "distance": 8.82,
+              "price": 35.56,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "True Go Hotel",
+          "start_time": "17:14",
+          "end_time": "24:00",
+          "price": 391.0,
+          "cost": 1173.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "end": "True Go Hotel",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:14",
+              "cost": 27.38,
+              "distance": 6.48,
+              "price": 27.38,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "True Go Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+          "start_time": "11:07",
+          "end_time": "11:12",
+          "price": 22.0,
+          "cost": 66.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "True Go Hotel",
+              "end": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:07",
+              "cost": 21.76,
+              "distance": 4.87,
+              "price": 21.76,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "YO!Tea (Futian CITIC Plaza Branch)",
+          "start_time": "17:07",
+          "end_time": "17:12",
+          "price": 22.0,
+          "cost": 66.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "end": "YO!Tea (Futian CITIC Plaza Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:07",
+              "cost": 23.2,
+              "distance": 5.29,
+              "price": 23.2,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "23:24",
+          "end_time": "01:49",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Beijing Daxing International Airport",
+          "price": 1006.35,
+          "cost": 3019.05,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "YO!Tea (Futian CITIC Plaza Branch)",
+              "end": "Shenzhen Bao'an International Airport",
+              "mode": "taxi",
+              "start_time": "17:12",
+              "end_time": "17:58",
+              "cost": 134.0,
+              "distance": 30.96,
+              "price": 134.0,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL174"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322151304423517",
+  "nl2sl_nature_language": "We are 3 people traveling from Beijing to Shenzhen for 2 days, with the following requirements: we want to try the restaurant Yuhua Seafood (Fuyong Branch). The total budget for the trip is 8200.0.",
+  "nl2sl_ground_truth": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Yuhua Seafood (Fuyong Branch)\"}<=restaurant_name_set)",
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=8200)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "total_cost=0\nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost+=innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=8200.0)",
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Yuhua Seafood (Fuyong Branch)\"}<=restaurant_name_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_restaurant",
+      "passed": true,
+      "snippet": "restaurant_name_set=set()",
+      "full_snippet": "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Yuhua Seafood (Fuyong Branch)\"}<=restaurant_name_set)",
+      "computed": {
+        "restaurant_name_set": [
+          "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+          "Old Zhou's Shunde Double-Skin Milk",
+          "True Go Hotel",
+          "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+          "YO!Tea (Futian CITIC Plaza Branch)",
+          "Yuhua Seafood (Fuyong Branch)"
+        ],
+        "required_restaurant": [
+          "Yuhua Seafood (Fuyong Branch)"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "total_budget",
+      "passed": true,
+      "snippet": "total_cost=0 ",
+      "full_snippet": "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=8200)",
+      "computed": {
+        "total_cost": 7768.089999999999,
+        "budget_limit": 8200.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==3)",
+      "full_snippet": "result=(people_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 0.0,
+    "ATT": 91.43,
+    "DDR": 100.0
+  }
+}

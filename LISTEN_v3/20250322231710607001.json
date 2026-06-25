@@ -1,0 +1,292 @@
+{
+  "people_number": 2,
+  "start_city": "Chengdu",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "01:04",
+          "end_time": "02:44",
+          "start": "Chengdu Tianfu International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "price": 639.2,
+          "cost": 1278.4,
+          "tickets": 2,
+          "transports": [],
+          "FlightID": "FL424"
+        },
+        {
+          "type": "lunch",
+          "position": "Old Zhou's Shunde Double-Skin Milk",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 20.0,
+          "cost": 40.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Shenzhen Bao'an International Airport",
+              "end": "Old Zhou's Shunde Double-Skin Milk",
+              "mode": "taxi",
+              "start_time": "02:44",
+              "end_time": "03:22",
+              "cost": 109.01,
+              "distance": 25.4,
+              "price": 109.01,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 22.0,
+          "cost": 44.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Old Zhou's Shunde Double-Skin Milk",
+              "end": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:05",
+              "cost": 11.0,
+              "distance": 0.61,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "True Go Hotel",
+          "start_time": "17:12",
+          "end_time": "24:00",
+          "price": 391.0,
+          "cost": 782.0,
+          "tickets": 2,
+          "rooms": 2,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "end": "True Go Hotel",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:12",
+              "cost": 21.76,
+              "distance": 4.87,
+              "price": 21.76,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "True Go Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+          "start_time": "13:00",
+          "end_time": "13:05",
+          "price": 16.0,
+          "cost": 32.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "True Go Hotel",
+              "end": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:09",
+              "cost": 27.38,
+              "distance": 6.48,
+              "price": 27.38,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "YO!Tea (Futian CITIC Plaza Branch)",
+          "start_time": "17:05",
+          "end_time": "17:10",
+          "price": 22.0,
+          "cost": 44.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "end": "YO!Tea (Futian CITIC Plaza Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:05",
+              "cost": 18.32,
+              "distance": 3.89,
+              "price": 18.32,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "20:58",
+          "end_time": "18:44",
+          "start": "Shenzhen East Station",
+          "end": "Chengdu West Railway Station",
+          "price": 667.34,
+          "cost": 1334.68,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "YO!Tea (Futian CITIC Plaza Branch)",
+              "end": "Shenzhen East Station",
+              "mode": "taxi",
+              "start_time": "17:10",
+              "end_time": "17:20",
+              "cost": 29.28,
+              "distance": 7.02,
+              "price": 29.28,
+              "cars": 1
+            }
+          ],
+          "TrainID": "Z586"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322231710607001",
+  "nl2sl_nature_language": "We are 2 people traveling from Chengdu to Shenzhen for 2 days. Requirements: we do not want to use walking or taxi for transportation within the city. The total travel budget is 4200.0.",
+  "nl2sl_ground_truth": [
+    "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\", \"taxi\"}&inner_city_transportation_set)",
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=4200)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "total_cost=0\nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost+=innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=4200.0)",
+    "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\", \"taxi\"}&inner_city_transportation_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "forbidden_walk_mode",
+      "passed": true,
+      "snippet": "inner_city_transportation_set=set()",
+      "full_snippet": "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\", \"taxi\"}&inner_city_transportation_set)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "total_budget",
+      "passed": true,
+      "snippet": "total_cost=0 ",
+      "full_snippet": "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=4200)",
+      "computed": {
+        "total_cost": 3771.8300000000004,
+        "budget_limit": 4200.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==2)",
+      "full_snippet": "result=(people_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 0.0,
+    "ATT": 100.0,
+    "DDR": 83.33
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "people_number": 5,
+  "start_city": "Suzhou",
+  "target_city": "Chengdu",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "21:43",
+          "end_time": "08:44",
+          "start": "Suzhou Station",
+          "end": "Chengdu West Railway Station",
+          "price": 630.35,
+          "cost": 3151.75,
+          "tickets": 5,
+          "transports": [],
+          "TrainID": "K282"
+        },
+        {
+          "type": "attraction",
+          "position": "Chengdu Museum",
+          "start_time": "09:10",
+          "end_time": "09:15",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Chengdu West Railway Station",
+              "end": "Chengdu West Railway Station-Metro Station",
+              "mode": "walk",
+              "start_time": "08:44",
+              "end_time": "08:47",
+              "cost": 0,
+              "distance": 0.28,
+              "price": 0.0
+            },
+            {
+              "start": "Chengdu West Railway Station-Metro Station",
+              "end": "Luomashi-Metro Station",
+              "mode": "metro",
+              "start_time": "08:47",
+              "end_time": "09:04",
+              "cost": 15,
+              "distance": 8.73,
+              "price": 3,
+              "tickets": 5
+            },
+            {
+              "start": "Luomashi-Metro Station",
+              "end": "Chengdu Museum",
+              "mode": "walk",
+              "start_time": "09:04",
+              "end_time": "09:10",
+              "cost": 0,
+              "distance": 0.56,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Manjushri Lane",
+          "start_time": "09:38",
+          "end_time": "09:39",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Chengdu Museum",
+              "end": "Manjushri Lane",
+              "mode": "walk",
+              "start_time": "09:15",
+              "end_time": "09:38",
+              "cost": 0.0,
+              "distance": 1.9456385543246577,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Deng's New Generation Sweet Oil Glutinous Rice Balls",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 5.0,
+          "cost": 25.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Manjushri Lane",
+              "end": "Liangjia Lane-Metro Station",
+              "mode": "walk",
+              "start_time": "09:39",
+              "end_time": "09:45",
+              "cost": 0,
+              "distance": 0.51,
+              "price": 0.0
+            },
+            {
+              "start": "Liangjia Lane-Metro Station",
+              "end": "Kuanzhai Alley-Metro Station",
+              "mode": "metro",
+              "start_time": "09:45",
+              "end_time": "09:52",
+              "cost": 10,
+              "distance": 3.65,
+              "price": 2,
+              "tickets": 5
+            },
+            {
+              "start": "Kuanzhai Alley-Metro Station",
+              "end": "Deng's New Generation Sweet Oil Glutinous Rice Balls",
+              "mode": "walk",
+              "start_time": "09:52",
+              "end_time": "10:02",
+              "cost": 0,
+              "distance": 0.9,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Tianfu Greenway",
+          "start_time": "11:31",
+          "end_time": "11:36",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Deng's New Generation Sweet Oil Glutinous Rice Balls",
+              "end": "Kuanzhai Alley-Metro Station",
+              "mode": "walk",
+              "start_time": "11:05",
+              "end_time": "11:15",
+              "cost": 0,
+              "distance": 0.9,
+              "price": 0.0
+            },
+            {
+              "start": "Kuanzhai Alley-Metro Station",
+              "end": "South Railway Station-Metro Station",
+              "mode": "metro",
+              "start_time": "11:15",
+              "end_time": "11:28",
+              "cost": 15,
+              "distance": 6.83,
+              "price": 3,
+              "tickets": 5
+            },
+            {
+              "start": "South Railway Station-Metro Station",
+              "end": "Tianfu Greenway",
+              "mode": "walk",
+              "start_time": "11:28",
+              "end_time": "11:31",
+              "cost": 0,
+              "distance": 0.29,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Peppa Pig's Happy Land (Chengdu Branch)",
+          "start_time": "11:58",
+          "end_time": "11:59",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Tianfu Greenway",
+              "end": "South Railway Station-Metro Station",
+              "mode": "walk",
+              "start_time": "11:36",
+              "end_time": "11:39",
+              "cost": 0,
+              "distance": 0.29,
+              "price": 0.0
+            },
+            {
+              "start": "South Railway Station-Metro Station",
+              "end": "Jinshi Road-Metro Station",
+              "mode": "metro",
+              "start_time": "11:39",
+              "end_time": "11:44",
+              "cost": 10,
+              "distance": 2.68,
+              "price": 2,
+              "tickets": 5
+            },
+            {
+              "start": "Jinshi Road-Metro Station",
+              "end": "Peppa Pig's Happy Land (Chengdu Branch)",
+              "mode": "walk",
+              "start_time": "11:44",
+              "end_time": "11:58",
+              "cost": 0,
+              "distance": 1.21,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chengdu Financial City Performing Arts Center",
+          "start_time": "12:12",
+          "end_time": "12:22",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Peppa Pig's Happy Land (Chengdu Branch)",
+              "end": "Chengdu Financial City Performing Arts Center",
+              "mode": "walk",
+              "start_time": "11:59",
+              "end_time": "12:12",
+              "cost": 0.0,
+              "distance": 1.158658015410448,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Global Center Ocean Park",
+          "start_time": "12:31",
+          "end_time": "12:32",
+          "price": 165.0,
+          "cost": 825.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Chengdu Financial City Performing Arts Center",
+              "end": "Global Center Ocean Park",
+              "mode": "walk",
+              "start_time": "12:22",
+              "end_time": "12:31",
+              "cost": 0.0,
+              "distance": 0.8079768917655267,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Cave Exploration Factory (Global Center Flagship Store)",
+          "start_time": "12:36",
+          "end_time": "12:37",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Global Center Ocean Park",
+              "end": "Cave Exploration Factory (Global Center Flagship Store)",
+              "mode": "walk",
+              "start_time": "12:32",
+              "end_time": "12:36",
+              "cost": 0.0,
+              "distance": 0.3806630842389679,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Jincheng Park in Chengdu",
+          "start_time": "12:47",
+          "end_time": "12:48",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Cave Exploration Factory (Global Center Flagship Store)",
+              "end": "Jincheng Park in Chengdu",
+              "mode": "walk",
+              "start_time": "12:37",
+              "end_time": "12:47",
+              "cost": 0.0,
+              "distance": 0.8531288976240535,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Panda Science Exploration Museum",
+          "start_time": "14:14",
+          "end_time": "14:15",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Jincheng Park in Chengdu",
+              "end": "Incubation Park-Metro Station",
+              "mode": "walk",
+              "start_time": "12:48",
+              "end_time": "12:54",
+              "cost": 0,
+              "distance": 0.53,
+              "price": 0.0
+            },
+            {
+              "start": "Incubation Park-Metro Station",
+              "end": "Military Region General Hospital-Metro Station",
+              "mode": "metro",
+              "start_time": "12:54",
+              "end_time": "13:32",
+              "cost": 25,
+              "distance": 19.32,
+              "price": 5,
+              "tickets": 5
+            },
+            {
+              "start": "Military Region General Hospital-Metro Station",
+              "end": "Panda Science Exploration Museum",
+              "mode": "walk",
+              "start_time": "13:32",
+              "end_time": "14:14",
+              "cost": 0,
+              "distance": 3.5,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Huayueju Serviced Apartment (Chengdu Financial City Yintai Center)",
+          "start_time": "15:39",
+          "end_time": "24:00",
+          "price": 398.0,
+          "cost": 1990.0,
+          "tickets": 5,
+          "rooms": 5,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Panda Science Exploration Museum",
+              "end": "Military Region General Hospital-Metro Station",
+              "mode": "walk",
+              "start_time": "14:15",
+              "end_time": "14:57",
+              "cost": 0,
+              "distance": 3.5,
+              "price": 0.0
+            },
+            {
+              "start": "Military Region General Hospital-Metro Station",
+              "end": "Financial City-Metro Station",
+              "mode": "metro",
+              "start_time": "14:57",
+              "end_time": "15:34",
+              "cost": 25,
+              "distance": 18.61,
+              "price": 5,
+              "tickets": 5
+            },
+            {
+              "start": "Financial City-Metro Station",
+              "end": "Huayueju Serviced Apartment (Chengdu Financial City Yintai Center)",
+              "mode": "walk",
+              "start_time": "15:34",
+              "end_time": "15:39",
+              "cost": 0,
+              "distance": 0.49,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Huayueju Serviced Apartment (Chengdu Financial City Yintai Center)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": []
+        },
+        {
+          "type": "accommodation",
+          "position": "Huayueju Serviced Apartment (Chengdu Financial City Yintai Center)",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "price": 398.0,
+          "cost": 1990.0,
+          "tickets": 5,
+          "rooms": 5,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Huayueju Serviced Apartment (Chengdu Financial City Yintai Center)",
+              "end": "Huayueju Serviced Apartment (Chengdu Financial City Yintai Center)",
+              "mode": "walk",
+              "start_time": "17:00",
+              "end_time": "17:00",
+              "cost": 0.0,
+              "distance": 0.0,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Huayueju Serviced Apartment (Chengdu Financial City Yintai Center)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": []
+        },
+        {
+          "type": "train",
+          "start_time": "17:42",
+          "end_time": "04:27",
+          "start": "Chengdu West Railway Station",
+          "end": "Suzhou Station",
+          "price": 630.35,
+          "cost": 3151.75,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Huayueju Serviced Apartment (Chengdu Financial City Yintai Center)",
+              "end": "Financial City-Metro Station",
+              "mode": "walk",
+              "start_time": "08:05",
+              "end_time": "08:10",
+              "cost": 0,
+              "distance": 0.49,
+              "price": 0.0
+            },
+            {
+              "start": "Financial City-Metro Station",
+              "end": "Chengdu West Railway Station-Metro Station",
+              "mode": "metro",
+              "start_time": "08:10",
+              "end_time": "08:37",
+              "cost": 20,
+              "distance": 13.98,
+              "price": 4,
+              "tickets": 5
+            },
+            {
+              "start": "Chengdu West Railway Station-Metro Station",
+              "end": "Chengdu West Railway Station",
+              "mode": "walk",
+              "start_time": "08:37",
+              "end_time": "08:40",
+              "cost": 0,
+              "distance": 0.28,
+              "price": 0.0
+            }
+          ],
+          "TrainID": "K292"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 504,
+  "uid": "20250324225301554257",
+  "nl2sl_nature_language": "We are 5 people, departing from Suzhou to Chengdu for a 3-day trip, with the following requirements: the budget for in-city transportation is 120, and we prefer single bed rooms.",
+  "nl2sl_ground_truth": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=120)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nl2sl_predicted": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=120.0)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "inner_city_budget",
+      "passed": true,
+      "snippet": "inner_city_transportation_cost=0 ",
+      "full_snippet": "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=120)",
+      "computed": {
+        "inner_city_transportation_cost": 120.0,
+        "budget_limit": 120.0
+      },
+      "error": null
+    },
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==5)",
+      "full_snippet": "result=(people_count(plan)==5)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 75.0,
+    "ATT": 87.84,
+    "DDR": 33.33
+  }
+}

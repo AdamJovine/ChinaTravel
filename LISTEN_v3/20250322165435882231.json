@@ -1,0 +1,601 @@
+{
+  "people_number": 3,
+  "start_city": "Wuhan",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "07:55",
+          "end_time": "12:47",
+          "start": "Wuhan Station",
+          "end": "Shenzhen North Railway Station",
+          "price": 582.03,
+          "cost": 1746.09,
+          "tickets": 3,
+          "transports": [],
+          "TrainID": "G1003"
+        },
+        {
+          "type": "lunch",
+          "position": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+          "start_time": "12:55",
+          "end_time": "13:00",
+          "price": 24.0,
+          "cost": 72.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shenzhen North Railway Station",
+              "end": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "mode": "taxi",
+              "start_time": "12:47",
+              "end_time": "12:55",
+              "cost": 24.59,
+              "distance": 5.68,
+              "price": 24.59,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nick Playtime Park",
+          "start_time": "13:10",
+          "end_time": "13:12",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "end": "Nick Playtime Park",
+              "mode": "taxi",
+              "start_time": "13:00",
+              "end_time": "13:10",
+              "cost": 29.26,
+              "distance": 7.02,
+              "price": 29.26,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen OCT Harbour",
+          "start_time": "13:12",
+          "end_time": "13:14",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Nick Playtime Park",
+              "end": "Shenzhen OCT Harbour",
+              "mode": "taxi",
+              "start_time": "13:12",
+              "end_time": "13:12",
+              "cost": 11.0,
+              "distance": 0.43,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Hakka Tulou (Fujian)",
+          "start_time": "13:15",
+          "end_time": "13:17",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shenzhen OCT Harbour",
+              "end": "Hakka Tulou (Fujian)",
+              "mode": "taxi",
+              "start_time": "13:14",
+              "end_time": "13:15",
+              "cost": 11.0,
+              "distance": 0.81,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "OCAT (Shenzhen Pavilion)",
+          "start_time": "13:18",
+          "end_time": "13:20",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Hakka Tulou (Fujian)",
+              "end": "OCAT (Shenzhen Pavilion)",
+              "mode": "taxi",
+              "start_time": "13:17",
+              "end_time": "13:18",
+              "cost": 11.0,
+              "distance": 0.86,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Splendid China",
+          "start_time": "16:00",
+          "end_time": "16:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "OCAT (Shenzhen Pavilion)",
+              "end": "Splendid China",
+              "mode": "taxi",
+              "start_time": "13:20",
+              "end_time": "13:20",
+              "cost": 11.0,
+              "distance": 0.56,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Splendid China - Mogao Caves",
+          "start_time": "16:02",
+          "end_time": "16:09",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Splendid China",
+              "end": "Splendid China - Mogao Caves",
+              "mode": "taxi",
+              "start_time": "16:02",
+              "end_time": "16:02",
+              "cost": 11.0,
+              "distance": 0.2,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Zhaojun Tomb",
+          "start_time": "16:09",
+          "end_time": "16:16",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Splendid China - Mogao Caves",
+              "end": "Zhaojun Tomb",
+              "mode": "taxi",
+              "start_time": "16:09",
+              "end_time": "16:09",
+              "cost": 11.0,
+              "distance": 0.19,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Splendid China - Ethnic Minority Folk Houses",
+          "start_time": "16:16",
+          "end_time": "16:18",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Zhaojun Tomb",
+              "end": "Splendid China - Ethnic Minority Folk Houses",
+              "mode": "taxi",
+              "start_time": "16:16",
+              "end_time": "16:16",
+              "cost": 11.0,
+              "distance": 0.11,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Keming Ice Room (Jindi Weixin Center Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 53.0,
+          "cost": 159.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Splendid China - Ethnic Minority Folk Houses",
+              "end": "Keming Ice Room (Jindi Weixin Center Branch)",
+              "mode": "taxi",
+              "start_time": "16:18",
+              "end_time": "16:25",
+              "cost": 21.07,
+              "distance": 4.68,
+              "price": 21.07,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+          "start_time": "17:12",
+          "end_time": "24:00",
+          "price": 420.0,
+          "cost": 840.0,
+          "tickets": 3,
+          "rooms": 2,
+          "room_type": 2,
+          "transports": [
+            {
+              "start": "Keming Ice Room (Jindi Weixin Center Branch)",
+              "end": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:12",
+              "cost": 23.13,
+              "distance": 5.27,
+              "price": 23.13,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Love Bowl Pavilion - Freshly Stir-Fried Hunan Cuisine (Shixia Times Square Branch)",
+          "start_time": "11:05",
+          "end_time": "11:10",
+          "price": 71.0,
+          "cost": 213.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+              "end": "Love Bowl Pavilion - Freshly Stir-Fried Hunan Cuisine (Shixia Times Square Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:05",
+              "cost": 17.65,
+              "distance": 3.7,
+              "price": 17.65,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Jun Ting Chinese Restaurant (Hua Qiang Road Branch)",
+          "start_time": "17:05",
+          "end_time": "17:10",
+          "price": 241.0,
+          "cost": 723.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Love Bowl Pavilion - Freshly Stir-Fried Hunan Cuisine (Shixia Times Square Branch)",
+              "end": "Jun Ting Chinese Restaurant (Hua Qiang Road Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:05",
+              "cost": 18.0,
+              "distance": 3.8,
+              "price": 18.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+          "start_time": "17:10",
+          "end_time": "24:00",
+          "price": 420.0,
+          "cost": 840.0,
+          "tickets": 3,
+          "rooms": 2,
+          "room_type": 2,
+          "transports": [
+            {
+              "start": "Jun Ting Chinese Restaurant (Hua Qiang Road Branch)",
+              "end": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+              "mode": "taxi",
+              "start_time": "17:10",
+              "end_time": "17:10",
+              "cost": 11.0,
+              "distance": 0.18,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Happy Harbor",
+          "start_time": "10:30",
+          "end_time": "10:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Rezen Dong Hotel (Shenzhen Huaqiangbei)",
+              "end": "Happy Harbor",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:35",
+              "cost": 85.13,
+              "distance": 20.1,
+              "price": 85.13,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dameisha Seaside Park",
+          "start_time": "11:41",
+          "end_time": "11:51",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Happy Harbor",
+              "end": "Dameisha Seaside Park",
+              "mode": "taxi",
+              "start_time": "10:35",
+              "end_time": "11:41",
+              "cost": 192.98,
+              "distance": 44.06,
+              "price": 192.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Shenzhen Mandarin Oriental Hotel · East Bay",
+          "start_time": "12:28",
+          "end_time": "12:33",
+          "price": 835.0,
+          "cost": 2505.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Shenzhen Mandarin Oriental Hotel · East Bay",
+              "mode": "taxi",
+              "start_time": "11:51",
+              "end_time": "12:28",
+              "cost": 108.55,
+              "distance": 25.3,
+              "price": 108.55,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "China Merchants Shekou Cruise Home Port Tour",
+          "start_time": "13:00",
+          "end_time": "13:10",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shenzhen Mandarin Oriental Hotel · East Bay",
+              "end": "China Merchants Shekou Cruise Home Port Tour",
+              "mode": "taxi",
+              "start_time": "12:33",
+              "end_time": "13:00",
+              "cost": 76.23,
+              "distance": 18.12,
+              "price": 76.23,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+          "start_time": "13:10",
+          "end_time": "13:20",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "China Merchants Shekou Cruise Home Port Tour",
+              "end": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "mode": "taxi",
+              "start_time": "13:10",
+              "end_time": "13:10",
+              "cost": 11.0,
+              "distance": 0.0,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "17:50",
+          "end_time": "23:23",
+          "start": "Shenzhen North Railway Station",
+          "end": "Wuhan Station",
+          "price": 582.03,
+          "cost": 1746.09,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "end": "Shenzhen North Railway Station",
+              "mode": "taxi",
+              "start_time": "13:20",
+              "end_time": "13:48",
+              "cost": 78.85,
+              "distance": 18.7,
+              "price": 78.85,
+              "cars": 1
+            }
+          ],
+          "TrainID": "G2708"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322165435882231",
+  "nl2sl_nature_language": "We are 3 people traveling from Wuhan to Shenzhen for 3 days, and we need to satisfy at least one of the following: 1. We want to try the following types of restaurants: Hunan cuisine, Snacks, and Cantonese cuisine. 2. We want to take the train to the destination and return by train.",
+  "nl2sl_ground_truth": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Hunan cuisine\", \"Snacks\", \"Cantonese cuisine\"}<=restaurant_type_set)\nresult_list.append(result)\nresult=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nl2sl_predicted": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Hunan cuisine\", \"Snacks\", \"Cantonese cuisine\"}<=restaurant_type_set)\nresult_list.append(result)\nresult=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "OR_compound",
+      "passed": true,
+      "snippet": "result_list=[]",
+      "full_snippet": "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Hunan cuisine\", \"Snacks\", \"Cantonese cuisine\"}<=restaurant_type_set)\nresult_list.append(result)\nresult=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r",
+      "computed": {
+        "restaurant_type_set": [
+          "cantonese cuisine",
+          "empty",
+          "hunan cuisine",
+          "snacks"
+        ],
+        "branches": [
+          {
+            "branch": 1,
+            "passed": true,
+            "computed": {
+              "restaurant_type_set": [
+                "cantonese cuisine",
+                "empty",
+                "hunan cuisine",
+                "snacks"
+              ],
+              "required": [
+                "Hunan cuisine",
+                "Snacks",
+                "Cantonese cuisine"
+              ]
+            },
+            "error": null,
+            "code": "restaurant_type_set=set()"
+          },
+          {
+            "branch": 2,
+            "passed": true,
+            "computed": {
+              "actual_go_type": "train",
+              "actual_back_type": "train"
+            },
+            "error": null,
+            "code": "intercity_transport_go=''"
+          }
+        ]
+      },
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 77.78
+  }
+}

@@ -1,0 +1,832 @@
+{
+  "people_number": 4,
+  "start_city": "Nanjing",
+  "target_city": "Chongqing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "03:26",
+          "end_time": "04:56",
+          "start": "Nanjing Lukou International Airport",
+          "end": "Chongqing Jiangbei International Airport",
+          "price": 578.37,
+          "cost": 2313.48,
+          "tickets": 4,
+          "transports": [],
+          "FlightID": "FL689"
+        },
+        {
+          "type": "attraction",
+          "position": "Hongya Cave",
+          "start_time": "09:00",
+          "end_time": "09:15",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Chongqing Jiangbei International Airport",
+              "end": "Hongya Cave",
+              "mode": "taxi",
+              "start_time": "04:56",
+              "end_time": "05:23",
+              "cost": 76.03,
+              "distance": 18.07,
+              "price": 76.03,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Ci Qi Kou Ancient Town",
+          "start_time": "09:33",
+          "end_time": "09:48",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hongya Cave",
+              "end": "Ci Qi Kou Ancient Town",
+              "mode": "taxi",
+              "start_time": "09:15",
+              "end_time": "09:33",
+              "cost": 51.52,
+              "distance": 12.63,
+              "price": 51.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chongqing Happy Valley",
+          "start_time": "10:04",
+          "end_time": "10:16",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Ci Qi Kou Ancient Town",
+              "end": "Chongqing Happy Valley",
+              "mode": "taxi",
+              "start_time": "09:48",
+              "end_time": "10:04",
+              "cost": 45.66,
+              "distance": 11.32,
+              "price": 45.66,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Two Rivers Ferry",
+          "start_time": "10:35",
+          "end_time": "10:42",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Chongqing Happy Valley",
+              "end": "Two Rivers Ferry",
+              "mode": "taxi",
+              "start_time": "10:16",
+              "end_time": "10:35",
+              "cost": 53.32,
+              "distance": 13.03,
+              "price": 53.32,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Baixiang Street · Stretched Rice Cake (Bayi Road Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 9.0,
+          "cost": 36.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Two Rivers Ferry",
+              "end": "Baixiang Street · Stretched Rice Cake (Bayi Road Branch)",
+              "mode": "taxi",
+              "start_time": "10:42",
+              "end_time": "10:44",
+              "cost": 11.0,
+              "distance": 1.7,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Bear Grandma's Garden",
+          "start_time": "11:15",
+          "end_time": "11:17",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Baixiang Street · Stretched Rice Cake (Bayi Road Branch)",
+              "end": "Bear Grandma's Garden",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:15",
+              "cost": 29.99,
+              "distance": 7.23,
+              "price": 29.99,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Guanyinqiao Pedestrian Street",
+          "start_time": "11:22",
+          "end_time": "11:27",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Bear Grandma's Garden",
+              "end": "Guanyinqiao Pedestrian Street",
+              "mode": "taxi",
+              "start_time": "11:17",
+              "end_time": "11:22",
+              "cost": 17.71,
+              "distance": 3.72,
+              "price": 17.71,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Three Gorges Museum",
+          "start_time": "11:30",
+          "end_time": "11:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Guanyinqiao Pedestrian Street",
+              "end": "Three Gorges Museum",
+              "mode": "taxi",
+              "start_time": "11:27",
+              "end_time": "11:30",
+              "cost": 12.56,
+              "distance": 2.24,
+              "price": 12.56,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chongqing Runze Shooting Club",
+          "start_time": "11:49",
+          "end_time": "11:54",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Three Gorges Museum",
+              "end": "Chongqing Runze Shooting Club",
+              "mode": "taxi",
+              "start_time": "11:35",
+              "end_time": "11:49",
+              "cost": 37.45,
+              "distance": 9.36,
+              "price": 37.45,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Hao You Lai Spicy and Sour Noodles (Delicious Street Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 10.0,
+          "cost": 40.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Chongqing Runze Shooting Club",
+              "end": "Hao You Lai Spicy and Sour Noodles (Delicious Street Branch)",
+              "mode": "taxi",
+              "start_time": "11:54",
+              "end_time": "12:09",
+              "cost": 42.48,
+              "distance": 10.62,
+              "price": 42.48,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "HC International Hotel",
+          "start_time": "17:30",
+          "end_time": "24:00",
+          "price": 336.0,
+          "cost": 1344.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Hao You Lai Spicy and Sour Noodles (Delicious Street Branch)",
+              "end": "HC International Hotel",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:30",
+              "cost": 71.04,
+              "distance": 16.96,
+              "price": 71.04,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "HC International Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Xingao Lake Cruise (Fengjie Port)",
+          "start_time": "15:56",
+          "end_time": "15:58",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "HC International Hotel",
+              "end": "Xingao Lake Cruise (Fengjie Port)",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "15:56",
+              "cost": 1410.04,
+              "distance": 314.52,
+              "price": 1410.04,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "HC International Hotel",
+          "start_time": "23:59",
+          "end_time": "24:00",
+          "price": 336.0,
+          "cost": 1344.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Xingao Lake Cruise (Fengjie Port)",
+              "end": "HC International Hotel",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "24:51",
+              "cost": 1410.04,
+              "distance": 314.52,
+              "price": 1410.04,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "HC International Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Chongqing Sunac Sea World Underwater Egypt Museum",
+          "start_time": "10:00",
+          "end_time": "10:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "HC International Hotel",
+              "end": "Chongqing Sunac Sea World Underwater Egypt Museum",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:42",
+              "cost": 106.03,
+              "distance": 24.74,
+              "price": 106.03,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chongqing Industrial Museum",
+          "start_time": "10:34",
+          "end_time": "10:39",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Chongqing Sunac Sea World Underwater Egypt Museum",
+              "end": "Chongqing Industrial Museum",
+              "mode": "taxi",
+              "start_time": "10:02",
+              "end_time": "10:34",
+              "cost": 92.03,
+              "distance": 21.63,
+              "price": 92.03,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Fengdu Ghost City Mingshan Scenic Area - Yellow Spring Road, Chongqing",
+          "start_time": "11:11",
+          "end_time": "11:13",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Chongqing Industrial Museum",
+              "end": "Fengdu Ghost City Mingshan Scenic Area - Yellow Spring Road, Chongqing",
+              "mode": "taxi",
+              "start_time": "10:39",
+              "end_time": "11:11",
+              "cost": 92.78,
+              "distance": 21.8,
+              "price": 92.78,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Bench Noodle House (Songshi Branch Road Store)",
+          "start_time": "11:37",
+          "end_time": "11:42",
+          "price": 9.0,
+          "cost": 36.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Fengdu Ghost City Mingshan Scenic Area - Yellow Spring Road, Chongqing",
+              "end": "Bench Noodle House (Songshi Branch Road Store)",
+              "mode": "taxi",
+              "start_time": "11:13",
+              "end_time": "11:37",
+              "cost": 68.58,
+              "distance": 16.42,
+              "price": 68.58,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Green Planet Animal Theme Park",
+          "start_time": "11:52",
+          "end_time": "11:54",
+          "price": 120.0,
+          "cost": 480.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Bench Noodle House (Songshi Branch Road Store)",
+              "end": "Green Planet Animal Theme Park",
+              "mode": "taxi",
+              "start_time": "11:42",
+              "end_time": "11:52",
+              "cost": 30.36,
+              "distance": 7.33,
+              "price": 30.36,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Daijia Alley Old Street",
+          "start_time": "11:56",
+          "end_time": "11:58",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Green Planet Animal Theme Park",
+              "end": "Daijia Alley Old Street",
+              "mode": "taxi",
+              "start_time": "11:54",
+              "end_time": "11:56",
+              "cost": 11.0,
+              "distance": 1.63,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Liberation Monument Pedestrian Street",
+          "start_time": "11:58",
+          "end_time": "12:00",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Daijia Alley Old Street",
+              "end": "Liberation Monument Pedestrian Street",
+              "mode": "taxi",
+              "start_time": "11:58",
+              "end_time": "11:58",
+              "cost": 11.0,
+              "distance": 0.38,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nengren Temple",
+          "start_time": "12:00",
+          "end_time": "12:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Liberation Monument Pedestrian Street",
+              "end": "Nengren Temple",
+              "mode": "taxi",
+              "start_time": "12:00",
+              "end_time": "12:00",
+              "cost": 11.0,
+              "distance": 0.18,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Mountain City Trail",
+          "start_time": "12:03",
+          "end_time": "12:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Nengren Temple",
+              "end": "Mountain City Trail",
+              "mode": "taxi",
+              "start_time": "12:02",
+              "end_time": "12:03",
+              "cost": 11.0,
+              "distance": 0.99,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Beicang Cultural and Creative Block",
+          "start_time": "12:11",
+          "end_time": "12:21",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Mountain City Trail",
+              "end": "Beicang Cultural and Creative Block",
+              "mode": "taxi",
+              "start_time": "12:05",
+              "end_time": "12:11",
+              "cost": 19.83,
+              "distance": 4.32,
+              "price": 19.83,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Cinder Cave",
+          "start_time": "12:36",
+          "end_time": "12:38",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Beicang Cultural and Creative Block",
+              "end": "Cinder Cave",
+              "mode": "taxi",
+              "start_time": "12:21",
+              "end_time": "12:36",
+              "cost": 40.58,
+              "distance": 10.2,
+              "price": 40.58,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Stone Pillar Forest Kingdom Resort",
+          "start_time": "17:36",
+          "end_time": "17:41",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Cinder Cave",
+              "end": "Stone Pillar Forest Kingdom Resort",
+              "mode": "taxi",
+              "start_time": "12:38",
+              "end_time": "17:36",
+              "cost": 890.87,
+              "distance": 199.15,
+              "price": 890.87,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "HC International Hotel",
+          "start_time": "22:09",
+          "end_time": "24:00",
+          "price": 336.0,
+          "cost": 1344.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Stone Pillar Forest Kingdom Resort",
+              "end": "HC International Hotel",
+              "mode": "taxi",
+              "start_time": "17:41",
+              "end_time": "22:09",
+              "cost": 800.77,
+              "distance": 179.13,
+              "price": 800.77,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "HC International Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Huailiang Pan-Fried Buns (Bayi Road Branch)",
+          "start_time": "11:25",
+          "end_time": "11:30",
+          "price": 9.0,
+          "cost": 36.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "HC International Hotel",
+              "end": "Huailiang Pan-Fried Buns (Bayi Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:25",
+              "cost": 71.15,
+              "distance": 16.99,
+              "price": 71.15,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Big Face Cat's Preserved Mustard Green and Braised Pork Pancake (Guanyinqiao Delicious Street Branch)",
+          "start_time": "17:07",
+          "end_time": "17:12",
+          "price": 7.0,
+          "cost": 28.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Huailiang Pan-Fried Buns (Bayi Road Branch)",
+              "end": "Big Face Cat's Preserved Mustard Green and Braised Pork Pancake (Guanyinqiao Delicious Street Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:07",
+              "cost": 21.4,
+              "distance": 4.77,
+              "price": 21.4,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "19:32",
+          "end_time": "21:02",
+          "start": "Chongqing Jiangbei International Airport",
+          "end": "Nanjing Lukou International Airport",
+          "price": 641.37,
+          "cost": 2565.48,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Big Face Cat's Preserved Mustard Green and Braised Pork Pancake (Guanyinqiao Delicious Street Branch)",
+              "end": "Chongqing Jiangbei International Airport",
+              "mode": "taxi",
+              "start_time": "17:12",
+              "end_time": "17:41",
+              "cost": 83.37,
+              "distance": 19.71,
+              "price": 83.37,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL397"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250324211553448025",
+  "nl2sl_nature_language": "We are a group of 4, traveling from Nanjing to Chongqing for 4 days. Requirements: dining budget of 2500.0, and we prefer single bed rooms.",
+  "nl2sl_ground_truth": [
+    "restaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=2500",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "restaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=2500.0",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "restaurant_budget",
+      "passed": true,
+      "snippet": "restaurant_cost=0",
+      "full_snippet": "restaurant_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_cost+=activity_cost(activity)\nresult=restaurant_cost<=2500",
+      "computed": {
+        "restaurant_cost": 176.0,
+        "budget_limit": 2500.0
+      },
+      "error": null
+    },
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==4)",
+      "full_snippet": "result=(day_count(plan)==4)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==4)",
+      "full_snippet": "result=(people_count(plan)==4)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": false,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 1,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": false,
+    "DAV": 100.0,
+    "ATT": 52.48,
+    "DDR": 66.67
+  }
+}

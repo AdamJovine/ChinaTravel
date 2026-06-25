@@ -1,0 +1,369 @@
+{
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "23:37",
+          "end_time": "01:08",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "price": 572.8,
+          "cost": 572.8,
+          "tickets": 1,
+          "transports": [],
+          "FlightID": "FL166"
+        },
+        {
+          "type": "attraction",
+          "position": "Chuansha Ancient Town",
+          "start_time": "08:00",
+          "end_time": "08:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Pudong International Airport",
+              "end": "Chuansha Ancient Town",
+              "mode": "taxi",
+              "start_time": "01:08",
+              "end_time": "01:25",
+              "cost": 47.63,
+              "distance": 11.76,
+              "price": 47.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Children's Museum",
+          "start_time": "08:45",
+          "end_time": "09:00",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Chuansha Ancient Town",
+              "end": "Shanghai Children's Museum",
+              "mode": "taxi",
+              "start_time": "08:02",
+              "end_time": "08:43",
+              "cost": 120.25,
+              "distance": 27.9,
+              "price": 120.25,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Expo Park",
+          "start_time": "09:10",
+          "end_time": "09:15",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Children's Museum",
+              "end": "Shanghai Expo Park",
+              "mode": "taxi",
+              "start_time": "09:00",
+              "end_time": "09:10",
+              "cost": 29.37,
+              "distance": 7.05,
+              "price": 29.37,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+          "start_time": "11:30",
+          "end_time": "11:35",
+          "price": 16.0,
+          "cost": 16.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Expo Park",
+              "end": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "mode": "taxi",
+              "start_time": "09:15",
+              "end_time": "09:32",
+              "cost": 46.21,
+              "distance": 11.45,
+              "price": 46.21,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 18.0,
+          "cost": 18.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "end": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "mode": "taxi",
+              "start_time": "11:35",
+              "end_time": "12:10",
+              "cost": 99.94,
+              "distance": 23.39,
+              "price": 99.94,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "SuShi Qingshe Hotel (Hanzhong Road subway station)",
+          "start_time": "17:25",
+          "end_time": "24:00",
+          "price": 307.0,
+          "cost": 307.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "end": "SuShi Qingshe Hotel (Hanzhong Road subway station)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:25",
+              "cost": 57.54,
+              "distance": 13.96,
+              "price": 57.54,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "SuShi Qingshe Hotel (Hanzhong Road subway station)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+          "start_time": "11:02",
+          "end_time": "11:07",
+          "price": 28.0,
+          "cost": 28.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "SuShi Qingshe Hotel (Hanzhong Road subway station)",
+              "end": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:02",
+              "cost": 11.0,
+              "distance": 1.79,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Dahuchun (Sichuan Middle Road Branch)",
+          "start_time": "17:04",
+          "end_time": "17:09",
+          "price": 29.0,
+          "cost": 29.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "end": "Dahuchun (Sichuan Middle Road Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:04",
+              "cost": 16.28,
+              "distance": 3.31,
+              "price": 16.28,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:44",
+          "end_time": "23:15",
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "price": 598.43,
+          "cost": 598.43,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dahuchun (Sichuan Middle Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "17:09",
+              "end_time": "17:31",
+              "cost": 61.13,
+              "distance": 14.76,
+              "price": 61.13,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL017"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 315,
+  "uid": "20250324083013398334",
+  "nl2sl_nature_language": "We are 1 person, traveling from Shenzhen to Shanghai for 2 days, with the following requirements: We want to visit Chuansha Ancient Town, Shanghai Children's Museum, and Shanghai Expo Park. The total budget for travel is 2100.0.",
+  "nl2sl_ground_truth": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Chuansha Ancient Town\", \"Shanghai Children's Museum\", \"Shanghai Expo Park\"}<=attraction_name_set)",
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=2100)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "total_cost=0\nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost+=innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=2100.0)",
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Chuansha Ancient Town\", \"Shanghai Children's Museum\", \"Shanghai Expo Park\"}<=attraction_name_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_attraction",
+      "passed": true,
+      "snippet": "attraction_name_set=set()",
+      "full_snippet": "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Chuansha Ancient Town\", \"Shanghai Children's Museum\", \"Shanghai Expo Park\"}<=attraction_name_set)",
+      "computed": {
+        "attraction_name_set": [
+          "Chuansha Ancient Town",
+          "Shanghai Children's Museum",
+          "Shanghai Expo Park"
+        ],
+        "required_attraction": [
+          "Chuansha Ancient Town",
+          "Shanghai Children's Museum",
+          "Shanghai Expo Park"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "total_budget",
+      "passed": true,
+      "snippet": "total_cost=0 ",
+      "full_snippet": "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=2100)",
+      "computed": {
+        "total_cost": 2058.58,
+        "budget_limit": 2100.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 37.5,
+    "ATT": 96.51,
+    "DDR": 83.33
+  }
+}

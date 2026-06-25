@@ -1,0 +1,305 @@
+{
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "03:17",
+          "end_time": "04:48",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "price": 571.18,
+          "cost": 571.18,
+          "tickets": 1,
+          "transports": [],
+          "FlightID": "FL164"
+        },
+        {
+          "type": "lunch",
+          "position": "Ningguo Vegetarian Restaurant (Huajing Road Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 75.0,
+          "cost": 75.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Ningguo Vegetarian Restaurant (Huajing Road Branch)",
+              "mode": "taxi",
+              "start_time": "04:48",
+              "end_time": "05:07",
+              "cost": 54.49,
+              "distance": 13.29,
+              "price": 54.49,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Xingxing · Shanghai-Style Local Cuisine",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 180.0,
+          "cost": 180.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Ningguo Vegetarian Restaurant (Huajing Road Branch)",
+              "end": "Xingxing · Shanghai-Style Local Cuisine",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:17",
+              "cost": 33.82,
+              "distance": 8.32,
+              "price": 33.82,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "SuShi Qingshe Hotel (Hanzhong Road subway station)",
+          "start_time": "17:17",
+          "end_time": "24:00",
+          "price": 307.0,
+          "cost": 307.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Xingxing · Shanghai-Style Local Cuisine",
+              "end": "SuShi Qingshe Hotel (Hanzhong Road subway station)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:17",
+              "cost": 33.6,
+              "distance": 8.26,
+              "price": 33.6,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "SuShi Qingshe Hotel (Hanzhong Road subway station)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "POP Terrace Restaurant · Riverside Pavilion",
+          "start_time": "11:04",
+          "end_time": "11:09",
+          "price": 398.0,
+          "cost": 398.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "SuShi Qingshe Hotel (Hanzhong Road subway station)",
+              "end": "POP Terrace Restaurant · Riverside Pavilion",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:04",
+              "cost": 16.15,
+              "distance": 3.27,
+              "price": 16.15,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+          "start_time": "17:11",
+          "end_time": "17:16",
+          "price": 16.0,
+          "cost": 16.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "POP Terrace Restaurant · Riverside Pavilion",
+              "end": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:11",
+              "cost": 31.7,
+              "distance": 7.71,
+              "price": 31.7,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:44",
+          "end_time": "23:15",
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "price": 598.43,
+          "cost": 598.43,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "17:16",
+              "end_time": "17:48",
+              "cost": 92.63,
+              "distance": 21.76,
+              "price": 92.63,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL017"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 197,
+  "uid": "20250322153759813190",
+  "nl2sl_nature_language": "1 person traveling from Shenzhen to Shanghai for 2 days, with the following requirements: Want to try these restaurants: Xingxing · Shanghai-Style Local Cuisine, Ningguo Vegetarian Restaurant (Huajing Road Branch), and POP Terrace Restaurant · Riverside Pavilion. Total travel budget is 2600.0.",
+  "nl2sl_ground_truth": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Xingxing · Shanghai-Style Local Cuisine\", \"Ningguo Vegetarian Restaurant (Huajing Road Branch)\", \"POP Terrace Restaurant · Riverside Pavilion\"}<=restaurant_name_set)",
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=2600)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "total_cost=0\nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost+=innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=2600.0)",
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Xingxing · Shanghai-Style Local Cuisine\", \"Ningguo Vegetarian Restaurant (Huajing Road Branch)\", \"POP Terrace Restaurant · Riverside Pavilion\"}<=restaurant_name_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_restaurant",
+      "passed": true,
+      "snippet": "restaurant_name_set=set()",
+      "full_snippet": "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Xingxing · Shanghai-Style Local Cuisine\", \"Ningguo Vegetarian Restaurant (Huajing Road Branch)\", \"POP Terrace Restaurant · Riverside Pavilion\"}<=restaurant_name_set)",
+      "computed": {
+        "restaurant_name_set": [
+          "Long Journey Shaved Ice (Kongjiang Road Branch)",
+          "Ningguo Vegetarian Restaurant (Huajing Road Branch)",
+          "POP Terrace Restaurant · Riverside Pavilion",
+          "SuShi Qingshe Hotel (Hanzhong Road subway station)",
+          "Xingxing · Shanghai-Style Local Cuisine"
+        ],
+        "required_restaurant": [
+          "Xingxing · Shanghai-Style Local Cuisine",
+          "Ningguo Vegetarian Restaurant (Huajing Road Branch)",
+          "POP Terrace Restaurant · Riverside Pavilion"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "total_budget",
+      "passed": true,
+      "snippet": "total_cost=0 ",
+      "full_snippet": "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=2600)",
+      "computed": {
+        "total_cost": 2408.0,
+        "budget_limit": 2600.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 0.0,
+    "ATT": 100.0,
+    "DDR": 83.33
+  }
+}

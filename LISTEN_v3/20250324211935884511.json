@@ -1,0 +1,617 @@
+{
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "23:54",
+          "end_time": "04:40",
+          "start": "Beijing Fengtai Station",
+          "end": "Shenzhen East Station",
+          "price": 777.26,
+          "cost": 777.26,
+          "tickets": 1,
+          "transports": [],
+          "TrainID": "K105"
+        },
+        {
+          "type": "attraction",
+          "position": "Happy Harbor",
+          "start_time": "10:30",
+          "end_time": "10:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen East Station",
+              "end": "Happy Harbor",
+              "mode": "taxi",
+              "start_time": "04:40",
+              "end_time": "05:16",
+              "cost": 104.62,
+              "distance": 24.43,
+              "price": 104.62,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dameisha Seaside Park",
+          "start_time": "11:41",
+          "end_time": "11:51",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Happy Harbor",
+              "end": "Dameisha Seaside Park",
+              "mode": "taxi",
+              "start_time": "10:35",
+              "end_time": "11:41",
+              "cost": 192.98,
+              "distance": 44.06,
+              "price": 192.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+          "start_time": "13:00",
+          "end_time": "13:05",
+          "price": 16.0,
+          "cost": 16.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:51",
+              "end_time": "12:19",
+              "cost": 80.45,
+              "distance": 19.06,
+              "price": 80.45,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen Central Park",
+          "start_time": "13:13",
+          "end_time": "13:18",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "end": "Shenzhen Central Park",
+              "mode": "taxi",
+              "start_time": "13:05",
+              "end_time": "13:13",
+              "cost": 24.75,
+              "distance": 5.73,
+              "price": 24.75,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nellbore Family Center (Zhuoyue Branch)",
+          "start_time": "13:19",
+          "end_time": "13:21",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen Central Park",
+              "end": "Nellbore Family Center (Zhuoyue Branch)",
+              "mode": "taxi",
+              "start_time": "13:18",
+              "end_time": "13:19",
+              "cost": 11.0,
+              "distance": 1.24,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Eastern General Aviation Air Taxi Helicopter Flight Base (Greater China Store)",
+          "start_time": "13:21",
+          "end_time": "13:23",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nellbore Family Center (Zhuoyue Branch)",
+              "end": "Eastern General Aviation Air Taxi Helicopter Flight Base (Greater China Store)",
+              "mode": "taxi",
+              "start_time": "13:21",
+              "end_time": "13:21",
+              "cost": 11.0,
+              "distance": 0.59,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen Industrial Exhibition Hall",
+          "start_time": "13:23",
+          "end_time": "13:25",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Eastern General Aviation Air Taxi Helicopter Flight Base (Greater China Store)",
+              "end": "Shenzhen Industrial Exhibition Hall",
+              "mode": "taxi",
+              "start_time": "13:23",
+              "end_time": "13:23",
+              "cost": 11.0,
+              "distance": 0.6,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen Library",
+          "start_time": "13:25",
+          "end_time": "13:32",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen Industrial Exhibition Hall",
+              "end": "Shenzhen Library",
+              "mode": "taxi",
+              "start_time": "13:25",
+              "end_time": "13:25",
+              "cost": 11.0,
+              "distance": 0.3,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen Book City (Central City Branch)",
+          "start_time": "13:32",
+          "end_time": "13:34",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen Library",
+              "end": "Shenzhen Book City (Central City Branch)",
+              "mode": "taxi",
+              "start_time": "13:32",
+              "end_time": "13:32",
+              "cost": 11.0,
+              "distance": 0.29,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Lotus Hill Park",
+          "start_time": "13:35",
+          "end_time": "13:40",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen Book City (Central City Branch)",
+              "end": "Lotus Hill Park",
+              "mode": "taxi",
+              "start_time": "13:34",
+              "end_time": "13:35",
+              "cost": 11.0,
+              "distance": 0.74,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Honey Lake",
+          "start_time": "13:44",
+          "end_time": "13:46",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Lotus Hill Park",
+              "end": "Honey Lake",
+              "mode": "taxi",
+              "start_time": "13:40",
+              "end_time": "13:44",
+              "cost": 14.51,
+              "distance": 2.8,
+              "price": 14.51,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "YO!Tea (Futian CITIC Plaza Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 22.0,
+          "cost": 22.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Honey Lake",
+              "end": "YO!Tea (Futian CITIC Plaza Branch)",
+              "mode": "taxi",
+              "start_time": "13:46",
+              "end_time": "13:55",
+              "cost": 27.43,
+              "distance": 6.49,
+              "price": 27.43,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "start_time": "17:24",
+          "end_time": "24:00",
+          "price": 231.0,
+          "cost": 231.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "YO!Tea (Futian CITIC Plaza Branch)",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:24",
+              "cost": 52.19,
+              "distance": 12.78,
+              "price": 52.19,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+          "start_time": "11:16",
+          "end_time": "11:21",
+          "price": 22.0,
+          "cost": 22.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:16",
+              "cost": 42.97,
+              "distance": 10.73,
+              "price": 42.97,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Old Zhou's Shunde Double-Skin Milk",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 20.0,
+          "cost": 20.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "end": "Old Zhou's Shunde Double-Skin Milk",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:00",
+              "cost": 11.0,
+              "distance": 0.61,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "start_time": "17:21",
+          "end_time": "24:00",
+          "price": 231.0,
+          "cost": 231.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Old Zhou's Shunde Double-Skin Milk",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:21",
+              "cost": 44.93,
+              "distance": 11.16,
+              "price": 44.93,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "China Merchants Shekou Cruise Home Port Tour",
+          "start_time": "08:46",
+          "end_time": "08:56",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "China Merchants Shekou Cruise Home Port Tour",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:46",
+              "cost": 118.98,
+              "distance": 27.62,
+              "price": 118.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+          "start_time": "08:56",
+          "end_time": "09:06",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "China Merchants Shekou Cruise Home Port Tour",
+              "end": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "mode": "taxi",
+              "start_time": "08:56",
+              "end_time": "08:56",
+              "cost": 11.0,
+              "distance": 0.0,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+          "start_time": "11:25",
+          "end_time": "11:30",
+          "price": 24.0,
+          "cost": 24.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "end": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:25",
+              "cost": 71.98,
+              "distance": 17.17,
+              "price": 71.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "16:34",
+          "end_time": "18:59",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Beijing Capital International Airport",
+          "price": 927.7,
+          "cost": 927.7,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "end": "Shenzhen Bao'an International Airport",
+              "mode": "taxi",
+              "start_time": "11:30",
+              "end_time": "12:08",
+              "cost": 110.35,
+              "distance": 25.7,
+              "price": 110.35,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL175"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250324211935884511",
+  "nl2sl_nature_language": "One person traveling from Beijing to Shenzhen for 3 days. Total budget: 3400.0. Prefer a single bed room.",
+  "nl2sl_ground_truth": [
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3400)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "total_cost=0\nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost+=innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3400.0)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "total_budget",
+      "passed": true,
+      "snippet": "total_cost=0 ",
+      "full_snippet": "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3400)",
+      "computed": {
+        "total_cost": 3245.1,
+        "budget_limit": 3400.0
+      },
+      "error": null
+    },
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 99.62,
+    "DDR": 77.78
+  }
+}

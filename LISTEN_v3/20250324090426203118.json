@@ -1,0 +1,484 @@
+{
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "03:17",
+          "end_time": "04:48",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "price": 571.18,
+          "cost": 571.18,
+          "tickets": 1,
+          "transports": [],
+          "FlightID": "FL164"
+        },
+        {
+          "type": "attraction",
+          "position": "Zhongshan Park",
+          "start_time": "08:00",
+          "end_time": "08:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Zhongshan Park",
+              "mode": "taxi",
+              "start_time": "04:48",
+              "end_time": "05:01",
+              "cost": 35.47,
+              "distance": 8.79,
+              "price": 35.47,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Venice Town",
+          "start_time": "08:08",
+          "end_time": "08:20",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Zhongshan Park",
+              "end": "Venice Town",
+              "mode": "taxi",
+              "start_time": "08:02",
+              "end_time": "08:08",
+              "cost": 18.83,
+              "distance": 4.04,
+              "price": 18.83,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Cloudrise Art Museum",
+          "start_time": "10:30",
+          "end_time": "10:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Venice Town",
+              "end": "Cloudrise Art Museum",
+              "mode": "taxi",
+              "start_time": "08:20",
+              "end_time": "08:30",
+              "cost": 28.49,
+              "distance": 6.8,
+              "price": 28.49,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "The Bund",
+          "start_time": "10:41",
+          "end_time": "10:48",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Cloudrise Art Museum",
+              "end": "The Bund",
+              "mode": "taxi",
+              "start_time": "10:35",
+              "end_time": "10:41",
+              "cost": 20.49,
+              "distance": 4.51,
+              "price": 20.49,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+          "start_time": "11:30",
+          "end_time": "11:35",
+          "price": 16.0,
+          "cost": 16.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "The Bund",
+              "end": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "mode": "taxi",
+              "start_time": "10:48",
+              "end_time": "10:57",
+              "cost": 27.52,
+              "distance": 6.52,
+              "price": 27.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Huangpu River",
+          "start_time": "11:44",
+          "end_time": "11:46",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "end": "Huangpu River",
+              "mode": "taxi",
+              "start_time": "11:35",
+              "end_time": "11:44",
+              "cost": 26.79,
+              "distance": 6.31,
+              "price": 26.79,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Museum",
+          "start_time": "11:48",
+          "end_time": "11:50",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Huangpu River",
+              "end": "Shanghai Museum",
+              "mode": "taxi",
+              "start_time": "11:46",
+              "end_time": "11:48",
+              "cost": 11.63,
+              "distance": 1.98,
+              "price": 11.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Disney Town",
+          "start_time": "12:20",
+          "end_time": "12:22",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Museum",
+              "end": "Disney Town",
+              "mode": "taxi",
+              "start_time": "11:50",
+              "end_time": "12:20",
+              "cost": 85.81,
+              "distance": 20.25,
+              "price": 85.81,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Road Pedestrian Street",
+          "start_time": "12:52",
+          "end_time": "12:57",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Disney Town",
+              "end": "Nanjing Road Pedestrian Street",
+              "mode": "taxi",
+              "start_time": "12:22",
+              "end_time": "12:52",
+              "cost": 85.05,
+              "distance": 20.08,
+              "price": 85.05,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 18.0,
+          "cost": 18.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nanjing Road Pedestrian Street",
+              "end": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "mode": "taxi",
+              "start_time": "12:57",
+              "end_time": "13:21",
+              "cost": 68.66,
+              "distance": 16.43,
+              "price": 68.66,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Wanhe Zhizhen Hotel (Shanghai Sun Moonlight Dapuqiao Subway Station)",
+          "start_time": "17:23",
+          "end_time": "24:00",
+          "price": 378.0,
+          "cost": 378.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "end": "Wanhe Zhizhen Hotel (Shanghai Sun Moonlight Dapuqiao Subway Station)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:23",
+              "cost": 50.3,
+              "distance": 12.36,
+              "price": 50.3,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Wanhe Zhizhen Hotel (Shanghai Sun Moonlight Dapuqiao Subway Station)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+          "start_time": "11:03",
+          "end_time": "11:08",
+          "price": 28.0,
+          "cost": 28.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Wanhe Zhizhen Hotel (Shanghai Sun Moonlight Dapuqiao Subway Station)",
+              "end": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:03",
+              "cost": 13.71,
+              "distance": 2.57,
+              "price": 13.71,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Dahuchun (Sichuan Middle Road Branch)",
+          "start_time": "17:04",
+          "end_time": "17:09",
+          "price": 29.0,
+          "cost": 29.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "end": "Dahuchun (Sichuan Middle Road Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:04",
+              "cost": 16.28,
+              "distance": 3.31,
+              "price": 16.28,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:44",
+          "end_time": "23:15",
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "price": 598.43,
+          "cost": 598.43,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dahuchun (Sichuan Middle Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "17:09",
+              "end_time": "17:31",
+              "cost": 61.13,
+              "distance": 14.76,
+              "price": 61.13,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL017"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250324090426203118",
+  "nl2sl_nature_language": "1 person, departing from Shenzhen, traveling to Shanghai for 2 days, with the following requirements: want to visit Zhongshan Park, Venice Town, and Cloudrise Art Museum. Total travel budget is 2500.0.",
+  "nl2sl_ground_truth": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Zhongshan Park\", \"Venice Town\", \"Cloudrise Art Museum\"}<=attraction_name_set)",
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=2500)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "total_cost=0\nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost+=innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=2500.0)",
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Zhongshan Park\", \"Venice Town\", \"Cloudrise Art Museum\"}<=attraction_name_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_attraction",
+      "passed": true,
+      "snippet": "attraction_name_set=set()",
+      "full_snippet": "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Zhongshan Park\", \"Venice Town\", \"Cloudrise Art Museum\"}<=attraction_name_set)",
+      "computed": {
+        "attraction_name_set": [
+          "Cloudrise Art Museum",
+          "Disney Town",
+          "Huangpu River",
+          "Nanjing Road Pedestrian Street",
+          "Shanghai Museum",
+          "The Bund",
+          "Venice Town",
+          "Zhongshan Park"
+        ],
+        "required_attraction": [
+          "Zhongshan Park",
+          "Venice Town",
+          "Cloudrise Art Museum"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "total_budget",
+      "passed": true,
+      "snippet": "total_cost=0 ",
+      "full_snippet": "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=2500)",
+      "computed": {
+        "total_cost": 2188.77,
+        "budget_limit": 2500.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 83.33
+  }
+}

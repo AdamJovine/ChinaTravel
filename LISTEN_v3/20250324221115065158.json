@@ -1,0 +1,643 @@
+{
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "23:54",
+          "end_time": "04:40",
+          "start": "Beijing Fengtai Station",
+          "end": "Shenzhen East Station",
+          "price": 777.26,
+          "cost": 777.26,
+          "tickets": 1,
+          "transports": [],
+          "TrainID": "K105"
+        },
+        {
+          "type": "attraction",
+          "position": "Happy Harbor",
+          "start_time": "10:30",
+          "end_time": "10:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen East Station",
+              "end": "Happy Harbor",
+              "mode": "taxi",
+              "start_time": "04:40",
+              "end_time": "05:16",
+              "cost": 104.62,
+              "distance": 24.43,
+              "price": 104.62,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dameisha Seaside Park",
+          "start_time": "11:41",
+          "end_time": "11:51",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Happy Harbor",
+              "end": "Dameisha Seaside Park",
+              "mode": "taxi",
+              "start_time": "10:35",
+              "end_time": "11:41",
+              "cost": 192.98,
+              "distance": 44.06,
+              "price": 192.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+          "start_time": "12:30",
+          "end_time": "12:35",
+          "price": 22.0,
+          "cost": 22.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "mode": "taxi",
+              "start_time": "11:51",
+              "end_time": "12:30",
+              "cost": 113.63,
+              "distance": 26.43,
+              "price": 113.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Sea World Beach Town (Sea World Hui Gang Shopping Center Phase II)",
+          "start_time": "12:59",
+          "end_time": "13:01",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "end": "Sea World Beach Town (Sea World Hui Gang Shopping Center Phase II)",
+              "mode": "taxi",
+              "start_time": "12:35",
+              "end_time": "12:59",
+              "cost": 69.02,
+              "distance": 16.52,
+              "price": 69.02,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Sea World",
+          "start_time": "13:01",
+          "end_time": "13:03",
+          "price": 88.0,
+          "cost": 88.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Sea World Beach Town (Sea World Hui Gang Shopping Center Phase II)",
+              "end": "Sea World",
+              "mode": "taxi",
+              "start_time": "13:01",
+              "end_time": "13:01",
+              "cost": 11.0,
+              "distance": 0.38,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nuwa Coastal Park",
+          "start_time": "13:03",
+          "end_time": "13:10",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Sea World",
+              "end": "Nuwa Coastal Park",
+              "mode": "taxi",
+              "start_time": "13:03",
+              "end_time": "13:03",
+              "cost": 11.0,
+              "distance": 0.36,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shekou Port Zhuhai Cruise",
+          "start_time": "13:12",
+          "end_time": "13:14",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nuwa Coastal Park",
+              "end": "Shekou Port Zhuhai Cruise",
+              "mode": "taxi",
+              "start_time": "13:10",
+              "end_time": "13:12",
+              "cost": 11.0,
+              "distance": 1.37,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shekou Value Factory",
+          "start_time": "13:16",
+          "end_time": "13:21",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shekou Port Zhuhai Cruise",
+              "end": "Shekou Value Factory",
+              "mode": "taxi",
+              "start_time": "13:14",
+              "end_time": "13:16",
+              "cost": 11.18,
+              "distance": 1.85,
+              "price": 11.18,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanshan Park",
+          "start_time": "13:25",
+          "end_time": "13:30",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shekou Value Factory",
+              "end": "Nanshan Park",
+              "mode": "taxi",
+              "start_time": "13:21",
+              "end_time": "13:25",
+              "cost": 15.53,
+              "distance": 3.1,
+              "price": 15.53,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanshan",
+          "start_time": "13:30",
+          "end_time": "13:32",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nanshan Park",
+              "end": "Nanshan",
+              "mode": "taxi",
+              "start_time": "13:30",
+              "end_time": "13:30",
+              "cost": 11.0,
+              "distance": 0.33,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Old Zhou's Shunde Double-Skin Milk",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 20.0,
+          "cost": 20.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nanshan",
+              "end": "Old Zhou's Shunde Double-Skin Milk",
+              "mode": "taxi",
+              "start_time": "13:32",
+              "end_time": "13:56",
+              "cost": 66.99,
+              "distance": 16.06,
+              "price": 66.99,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "ECHARM PLUS Hotel (Shenzhen Futian Convention and Exhibition Center)",
+          "start_time": "17:11",
+          "end_time": "24:00",
+          "price": 429.0,
+          "cost": 429.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Old Zhou's Shunde Double-Skin Milk",
+              "end": "ECHARM PLUS Hotel (Shenzhen Futian Convention and Exhibition Center)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:11",
+              "cost": 20.16,
+              "distance": 4.42,
+              "price": 20.16,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "ECHARM PLUS Hotel (Shenzhen Futian Convention and Exhibition Center)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen Shekou Marine Science Museum",
+          "start_time": "09:00",
+          "end_time": "09:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "ECHARM PLUS Hotel (Shenzhen Futian Convention and Exhibition Center)",
+              "end": "Shenzhen Shekou Marine Science Museum",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:27",
+              "cost": 60.88,
+              "distance": 14.71,
+              "price": 60.88,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+          "start_time": "13:00",
+          "end_time": "13:05",
+          "price": 16.0,
+          "cost": 16.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen Shekou Marine Science Museum",
+              "end": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:32",
+              "cost": 92.76,
+              "distance": 21.79,
+              "price": 92.76,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "YO!Tea (Futian CITIC Plaza Branch)",
+          "start_time": "17:05",
+          "end_time": "17:10",
+          "price": 22.0,
+          "cost": 22.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "end": "YO!Tea (Futian CITIC Plaza Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:05",
+              "cost": 18.32,
+              "distance": 3.89,
+              "price": 18.32,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "ECHARM PLUS Hotel (Shenzhen Futian Convention and Exhibition Center)",
+          "start_time": "17:14",
+          "end_time": "24:00",
+          "price": 429.0,
+          "cost": 429.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "YO!Tea (Futian CITIC Plaza Branch)",
+              "end": "ECHARM PLUS Hotel (Shenzhen Futian Convention and Exhibition Center)",
+              "mode": "taxi",
+              "start_time": "17:10",
+              "end_time": "17:14",
+              "cost": 15.91,
+              "distance": 3.2,
+              "price": 15.91,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "ECHARM PLUS Hotel (Shenzhen Futian Convention and Exhibition Center)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "China Merchants Shekou Cruise Home Port Tour",
+          "start_time": "08:29",
+          "end_time": "08:39",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "ECHARM PLUS Hotel (Shenzhen Futian Convention and Exhibition Center)",
+              "end": "China Merchants Shekou Cruise Home Port Tour",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:29",
+              "cost": 69.69,
+              "distance": 16.66,
+              "price": 69.69,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+          "start_time": "08:39",
+          "end_time": "08:49",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "China Merchants Shekou Cruise Home Port Tour",
+              "end": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "mode": "taxi",
+              "start_time": "08:39",
+              "end_time": "08:39",
+              "cost": 11.0,
+              "distance": 0.0,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+          "start_time": "11:25",
+          "end_time": "11:30",
+          "price": 24.0,
+          "cost": 24.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "end": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:25",
+              "cost": 71.98,
+              "distance": 17.17,
+              "price": 71.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Delicious Noodle House (Taoyuan Branch)",
+          "start_time": "17:21",
+          "end_time": "17:26",
+          "price": 26.0,
+          "cost": 26.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "end": "Delicious Noodle House (Taoyuan Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:21",
+              "cost": 59.16,
+              "distance": 14.33,
+              "price": 59.16,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "19:55",
+          "end_time": "07:10",
+          "start": "Shenzhen North Railway Station",
+          "end": "Beijing West Railway Station",
+          "price": 1165.89,
+          "cost": 1165.89,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Delicious Noodle House (Taoyuan Branch)",
+              "end": "Shenzhen North Railway Station",
+              "mode": "taxi",
+              "start_time": "17:26",
+              "end_time": "17:47",
+              "cost": 57.74,
+              "distance": 14.01,
+              "price": 57.74,
+              "cars": 1
+            }
+          ],
+          "TrainID": "D928"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250324221115065158",
+  "nl2sl_nature_language": "We are 1 person traveling from Beijing to Shenzhen for 3 days, with the following requirements:\n- Prefer a hotel with free parking\n- Prefer a single bed room",
+  "nl2sl_ground_truth": [
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}<=accommodation_type_set)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}&accommodation_type_set)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_hotel_feature",
+      "passed": true,
+      "snippet": "accommodation_type_set=set()",
+      "full_snippet": "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}<=accommodation_type_set)",
+      "computed": {
+        "accommodation_type_set": [
+          "free parking"
+        ],
+        "required_hotel_type": [
+          "Free parking"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 98.1,
+    "DDR": 88.89
+  }
+}

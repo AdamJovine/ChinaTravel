@@ -1,0 +1,894 @@
+{
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "03:29",
+          "end_time": "07:27",
+          "start": "Suzhou Station",
+          "end": "Hangzhou South Railway Station",
+          "price": 48.4,
+          "cost": 193.6,
+          "tickets": 4,
+          "transports": [],
+          "TrainID": "K335"
+        },
+        {
+          "type": "attraction",
+          "position": "Lingyin Temple",
+          "start_time": "08:00",
+          "end_time": "08:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou South Railway Station",
+              "end": "Lingyin Temple",
+              "mode": "taxi",
+              "start_time": "07:27",
+              "end_time": "07:56",
+              "cost": 83.51,
+              "distance": 19.74,
+              "price": 83.51,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "West Lake Scenic Area",
+          "start_time": "08:06",
+          "end_time": "08:11",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Lingyin Temple",
+              "end": "West Lake Scenic Area",
+              "mode": "taxi",
+              "start_time": "08:02",
+              "end_time": "08:06",
+              "cost": 14.42,
+              "distance": 2.78,
+              "price": 14.42,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Leifeng Pagoda",
+          "start_time": "08:15",
+          "end_time": "08:17",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "West Lake Scenic Area",
+              "end": "Leifeng Pagoda",
+              "mode": "taxi",
+              "start_time": "08:11",
+              "end_time": "08:15",
+              "cost": 14.45,
+              "distance": 2.79,
+              "price": 14.45,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Qiantang River",
+          "start_time": "08:33",
+          "end_time": "08:43",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Leifeng Pagoda",
+              "end": "Qiantang River",
+              "mode": "taxi",
+              "start_time": "08:17",
+              "end_time": "08:33",
+              "cost": 45.42,
+              "distance": 11.27,
+              "price": 45.42,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Sizhao'er · Hangzhou Local Cuisine (Gulou Branch 1)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 90.0,
+          "cost": 360.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Qiantang River",
+              "end": "Sizhao'er · Hangzhou Local Cuisine (Gulou Branch 1)",
+              "mode": "taxi",
+              "start_time": "08:43",
+              "end_time": "09:00",
+              "cost": 46.17,
+              "distance": 11.44,
+              "price": 46.17,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Liangzhu Museum",
+          "start_time": "11:36",
+          "end_time": "11:41",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Sizhao'er · Hangzhou Local Cuisine (Gulou Branch 1)",
+              "end": "Liangzhu Museum",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:36",
+              "cost": 88.3,
+              "distance": 20.8,
+              "price": 88.3,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Wulin Night Market",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Liangzhu Museum",
+              "end": "Wulin Night Market",
+              "mode": "taxi",
+              "start_time": "11:41",
+              "end_time": "12:08",
+              "cost": 75.98,
+              "distance": 18.06,
+              "price": 75.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Very Tired Hainanese Chicken Rice (European and American Center Branch)",
+          "start_time": "17:09",
+          "end_time": "17:14",
+          "price": 75.0,
+          "cost": 300.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Wulin Night Market",
+              "end": "Very Tired Hainanese Chicken Rice (European and American Center Branch)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:09",
+              "cost": 14.78,
+              "distance": 2.88,
+              "price": 14.78,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "17:19",
+          "end_time": "24:00",
+          "price": 618.0,
+          "cost": 2472.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Very Tired Hainanese Chicken Rice (European and American Center Branch)",
+              "end": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "mode": "taxi",
+              "start_time": "17:14",
+              "end_time": "17:19",
+              "cost": 16.47,
+              "distance": 3.36,
+              "price": 16.47,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Prince Bay Park",
+          "start_time": "08:09",
+          "end_time": "08:16",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "end": "Prince Bay Park",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:09",
+              "cost": 14.75,
+              "distance": 2.87,
+              "price": 14.75,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "China Fan Museum",
+          "start_time": "09:00",
+          "end_time": "09:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Prince Bay Park",
+              "end": "China Fan Museum",
+              "mode": "taxi",
+              "start_time": "08:16",
+              "end_time": "08:31",
+              "cost": 41.18,
+              "distance": 10.33,
+              "price": 41.18,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Spring Dawn at Su Causeway Stele Pavilion",
+          "start_time": "09:14",
+          "end_time": "09:16",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "China Fan Museum",
+              "end": "Spring Dawn at Su Causeway Stele Pavilion",
+              "mode": "taxi",
+              "start_time": "09:02",
+              "end_time": "09:14",
+              "cost": 33.74,
+              "distance": 8.3,
+              "price": 33.74,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Sinbad Ocean Park",
+          "start_time": "09:51",
+          "end_time": "09:53",
+          "price": 69.9,
+          "cost": 279.6,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Spring Dawn at Su Causeway Stele Pavilion",
+              "end": "Sinbad Ocean Park",
+              "mode": "taxi",
+              "start_time": "09:16",
+              "end_time": "09:51",
+              "cost": 100.27,
+              "distance": 23.46,
+              "price": 100.27,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Hangzhou Amusement Park",
+          "start_time": "10:48",
+          "end_time": "10:50",
+          "price": 160.0,
+          "cost": 640.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Sinbad Ocean Park",
+              "end": "Hangzhou Amusement Park",
+              "mode": "taxi",
+              "start_time": "09:53",
+              "end_time": "10:48",
+              "cost": 162.3,
+              "distance": 37.24,
+              "price": 162.3,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Meijiawu Village",
+          "start_time": "11:13",
+          "end_time": "11:15",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou Amusement Park",
+              "end": "Meijiawu Village",
+              "mode": "taxi",
+              "start_time": "10:50",
+              "end_time": "11:13",
+              "cost": 66.11,
+              "distance": 15.87,
+              "price": 66.11,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "One Specialty Fish Year (Jiangcheng Branch)",
+          "start_time": "11:27",
+          "end_time": "11:32",
+          "price": 86.0,
+          "cost": 344.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Meijiawu Village",
+              "end": "One Specialty Fish Year (Jiangcheng Branch)",
+              "mode": "taxi",
+              "start_time": "11:15",
+              "end_time": "11:27",
+              "cost": 34.41,
+              "distance": 8.49,
+              "price": 34.41,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Hangzhou Southern Song Dynasty Guan Kiln Museum",
+          "start_time": "11:35",
+          "end_time": "11:37",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "One Specialty Fish Year (Jiangcheng Branch)",
+              "end": "Hangzhou Southern Song Dynasty Guan Kiln Museum",
+              "mode": "taxi",
+              "start_time": "11:32",
+              "end_time": "11:35",
+              "cost": 13.92,
+              "distance": 2.63,
+              "price": 13.92,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Zhejiang Science and Technology Museum",
+          "start_time": "11:48",
+          "end_time": "11:55",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou Southern Song Dynasty Guan Kiln Museum",
+              "end": "Zhejiang Science and Technology Museum",
+              "mode": "taxi",
+              "start_time": "11:37",
+              "end_time": "11:48",
+              "cost": 30.71,
+              "distance": 7.43,
+              "price": 30.71,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shengli River Food Street",
+          "start_time": "12:00",
+          "end_time": "12:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Zhejiang Science and Technology Museum",
+              "end": "Shengli River Food Street",
+              "mode": "taxi",
+              "start_time": "11:55",
+              "end_time": "11:58",
+              "cost": 13.75,
+              "distance": 2.59,
+              "price": 13.75,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Zhejiang West Lake Art Museum",
+          "start_time": "12:09",
+          "end_time": "12:11",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Shengli River Food Street",
+              "end": "Zhejiang West Lake Art Museum",
+              "mode": "taxi",
+              "start_time": "12:02",
+              "end_time": "12:09",
+              "cost": 22.8,
+              "distance": 5.17,
+              "price": 22.8,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Autumn Water Villa",
+          "start_time": "12:11",
+          "end_time": "12:18",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Zhejiang West Lake Art Museum",
+              "end": "Autumn Water Villa",
+              "mode": "taxi",
+              "start_time": "12:11",
+              "end_time": "12:11",
+              "cost": 11.0,
+              "distance": 0.51,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Yang Gong Causeway",
+          "start_time": "12:19",
+          "end_time": "12:21",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Autumn Water Villa",
+              "end": "Yang Gong Causeway",
+              "mode": "taxi",
+              "start_time": "12:18",
+              "end_time": "12:19",
+              "cost": 11.0,
+              "distance": 1.22,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Qiandao Lake Skydiving",
+          "start_time": "15:43",
+          "end_time": "15:45",
+          "price": 500.0,
+          "cost": 2000.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Yang Gong Causeway",
+              "end": "Qiandao Lake Skydiving",
+              "mode": "taxi",
+              "start_time": "12:21",
+              "end_time": "15:43",
+              "cost": 601.79,
+              "distance": 134.91,
+              "price": 601.79,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Huanglong Sports Center",
+          "start_time": "19:09",
+          "end_time": "19:11",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Qiandao Lake Skydiving",
+              "end": "Huanglong Sports Center",
+              "mode": "taxi",
+              "start_time": "15:45",
+              "end_time": "19:09",
+              "cost": 607.61,
+              "distance": 136.2,
+              "price": 607.61,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Vegetarian Canteen (Jiefang Road Branch)",
+          "start_time": "19:17",
+          "end_time": "19:22",
+          "price": 29.0,
+          "cost": 116.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Huanglong Sports Center",
+              "end": "Vegetarian Canteen (Jiefang Road Branch)",
+              "mode": "taxi",
+              "start_time": "19:11",
+              "end_time": "19:17",
+              "cost": 20.42,
+              "distance": 4.49,
+              "price": 20.42,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "19:30",
+          "end_time": "24:00",
+          "price": 618.0,
+          "cost": 2472.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Vegetarian Canteen (Jiefang Road Branch)",
+              "end": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "mode": "taxi",
+              "start_time": "19:22",
+              "end_time": "19:30",
+              "cost": 23.39,
+              "distance": 5.34,
+              "price": 23.39,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Aomori Cuisine (Zhongshan North Road Branch)",
+          "start_time": "11:07",
+          "end_time": "11:12",
+          "price": 107.0,
+          "cost": 428.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "end": "Aomori Cuisine (Zhongshan North Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:07",
+              "cost": 21.25,
+              "distance": 4.73,
+              "price": 21.25,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "17:07",
+          "end_time": "24:00",
+          "price": 618.0,
+          "cost": 2472.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Aomori Cuisine (Zhongshan North Road Branch)",
+              "end": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:07",
+              "cost": 21.25,
+              "distance": 4.73,
+              "price": 21.25,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Southern Eclectic Buns (Lakeside Branch)",
+          "start_time": "11:05",
+          "end_time": "11:10",
+          "price": 8.0,
+          "cost": 32.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "end": "Southern Eclectic Buns (Lakeside Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:05",
+              "cost": 18.6,
+              "distance": 3.97,
+              "price": 18.6,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Grandma Sun's Scallion Pancake Rolls",
+          "start_time": "17:03",
+          "end_time": "17:08",
+          "price": 10.0,
+          "cost": 40.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Southern Eclectic Buns (Lakeside Branch)",
+              "end": "Grandma Sun's Scallion Pancake Rolls",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:03",
+              "cost": 11.72,
+              "distance": 2.01,
+              "price": 11.72,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "20:43",
+          "end_time": "22:07",
+          "start": "Hangzhou East Railway Station",
+          "end": "Suzhou Station",
+          "price": 78.65,
+          "cost": 314.6,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Grandma Sun's Scallion Pancake Rolls",
+              "end": "Hangzhou East Railway Station",
+              "mode": "taxi",
+              "start_time": "17:08",
+              "end_time": "17:20",
+              "cost": 34.04,
+              "distance": 8.38,
+              "price": 34.04,
+              "cars": 1
+            }
+          ],
+          "TrainID": "G7350"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322170953173480",
+  "nl2sl_nature_language": "We are a group of 4 traveling from Suzhou to Hangzhou for 4 days, with the following requirements:\n- Would like to try one of these restaurants: Aomori Cuisine (Zhongshan North Road Branch)\n- Would like to visit Huanglong Sports Center between 08:00 and 09:30",
+  "nl2sl_ground_truth": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Aomori Cuisine (Zhongshan North Road Branch)\"}&restaurant_name_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Huanglong Sports Center':\n    if activity_start_time(activity)<='08:00' and activity_end_time(activity)>='09:30':\n      result=True",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Huanglong Sports Center\"}<=attraction_name_set)",
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Aomori Cuisine (Zhongshan North Road Branch)\"}<=restaurant_name_set)",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Huanglong Sports Center':\n    if activity_start_time(activity)<='08:00' and activity_end_time(activity)>='09:30':\n      result=True",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_restaurant",
+      "passed": true,
+      "snippet": "restaurant_name_set=set()",
+      "full_snippet": "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Aomori Cuisine (Zhongshan North Road Branch)\"}&restaurant_name_set)",
+      "computed": {
+        "restaurant_name_set": [
+          "Aomori Cuisine (Zhongshan North Road Branch)",
+          "Grandma Sun's Scallion Pancake Rolls",
+          "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "One Specialty Fish Year (Jiangcheng Branch)",
+          "Sizhao'er · Hangzhou Local Cuisine (Gulou Branch 1)",
+          "Southern Eclectic Buns (Lakeside Branch)",
+          "Vegetarian Canteen (Jiefang Road Branch)",
+          "Very Tired Hainanese Chicken Rice (European and American Center Branch)"
+        ],
+        "required_restaurant": [
+          "Aomori Cuisine (Zhongshan North Road Branch)"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "poi_timing",
+      "passed": false,
+      "snippet": "result=False",
+      "full_snippet": "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Huanglong Sports Center':\n    if activity_start_time(activity)<='08:00' and activity_end_time(activity)>='09:30':\n      result=True",
+      "computed": {
+        "required_poi": "Huanglong Sports Center",
+        "actual_start": "19:09",
+        "actual_end": "19:11",
+        "required_start_by": "08:00",
+        "required_end_after": "09:30"
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==4)",
+      "full_snippet": "result=(day_count(plan)==4)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==4)",
+      "full_snippet": "result=(people_count(plan)==4)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 100.0,
+    "ATT": 90.57,
+    "DDR": 83.33
+  }
+}

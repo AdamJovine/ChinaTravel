@@ -1,0 +1,459 @@
+{
+  "people_number": 1,
+  "start_city": "Guangzhou",
+  "target_city": "Wuhan",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "01:45",
+          "end_time": "02:48",
+          "start": "Guangzhou Baiyun International Airport",
+          "end": "Wuhan Tianhe International Airport",
+          "price": 388.13,
+          "cost": 388.13,
+          "tickets": 1,
+          "transports": [],
+          "FlightID": "FL309"
+        },
+        {
+          "type": "breakfast",
+          "position": "Yiyuan Road Unique-Flavored Baked Cake (Fengshang Times Plaza Branch)",
+          "start_time": "06:30",
+          "end_time": "06:35",
+          "price": 5.0,
+          "cost": 5.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Wuhan Tianhe International Airport",
+              "end": "Yiyuan Road Unique-Flavored Baked Cake (Fengshang Times Plaza Branch)",
+              "mode": "taxi",
+              "start_time": "02:48",
+              "end_time": "03:20",
+              "cost": 91.56,
+              "distance": 21.53,
+              "price": 91.56,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Qingchuan Pavilion",
+          "start_time": "09:00",
+          "end_time": "09:10",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Yiyuan Road Unique-Flavored Baked Cake (Fengshang Times Plaza Branch)",
+              "end": "Qingchuan Pavilion",
+              "mode": "taxi",
+              "start_time": "06:35",
+              "end_time": "06:40",
+              "cost": 17.5,
+              "distance": 3.66,
+              "price": 17.5,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Hubei Provincial Museum",
+          "start_time": "09:21",
+          "end_time": "09:31",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Qingchuan Pavilion",
+              "end": "Hubei Provincial Museum",
+              "mode": "taxi",
+              "start_time": "09:10",
+              "end_time": "09:21",
+              "cost": 31.87,
+              "distance": 7.76,
+              "price": 31.87,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Hankou Riverside Park",
+          "start_time": "09:41",
+          "end_time": "09:43",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Hubei Provincial Museum",
+              "end": "Hankou Riverside Park",
+              "mode": "taxi",
+              "start_time": "09:31",
+              "end_time": "09:41",
+              "cost": 28.61,
+              "distance": 6.83,
+              "price": 28.61,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "East Lake",
+          "start_time": "09:59",
+          "end_time": "10:04",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Hankou Riverside Park",
+              "end": "East Lake",
+              "mode": "taxi",
+              "start_time": "09:43",
+              "end_time": "09:59",
+              "cost": 44.72,
+              "distance": 11.12,
+              "price": 44.72,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Feng's Fresh Fish Paste Noodle Soup",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 6.0,
+          "cost": 6.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "East Lake",
+              "end": "Feng's Fresh Fish Paste Noodle Soup",
+              "mode": "taxi",
+              "start_time": "10:04",
+              "end_time": "10:22",
+              "cost": 48.77,
+              "distance": 12.02,
+              "price": 48.77,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Wuhan University",
+          "start_time": "11:15",
+          "end_time": "11:22",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Feng's Fresh Fish Paste Noodle Soup",
+              "end": "Wuhan University",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:15",
+              "cost": 30.3,
+              "distance": 7.32,
+              "price": 30.3,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Hubu Alley",
+          "start_time": "11:31",
+          "end_time": "11:41",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Wuhan University",
+              "end": "Hubu Alley",
+              "mode": "taxi",
+              "start_time": "11:22",
+              "end_time": "11:31",
+              "cost": 27.6,
+              "distance": 6.54,
+              "price": 27.6,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Wuhan Yangtze River Bridge",
+          "start_time": "11:42",
+          "end_time": "11:54",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Hubu Alley",
+              "end": "Wuhan Yangtze River Bridge",
+              "mode": "taxi",
+              "start_time": "11:41",
+              "end_time": "11:42",
+              "cost": 11.0,
+              "distance": 0.97,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Good Temple",
+          "start_time": "12:05",
+          "end_time": "12:12",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Wuhan Yangtze River Bridge",
+              "end": "Good Temple",
+              "mode": "taxi",
+              "start_time": "11:54",
+              "end_time": "12:05",
+              "cost": 32.18,
+              "distance": 7.85,
+              "price": 32.18,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Vienna International Hotel (Wuhan Chuhe HanStreet Jiyuqiao Store)",
+          "start_time": "12:21",
+          "end_time": "24:00",
+          "price": 305.0,
+          "cost": 305.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Good Temple",
+              "end": "Vienna International Hotel (Wuhan Chuhe HanStreet Jiyuqiao Store)",
+              "mode": "taxi",
+              "start_time": "12:12",
+              "end_time": "12:21",
+              "cost": 27.96,
+              "distance": 6.65,
+              "price": 27.96,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Vienna International Hotel (Wuhan Chuhe HanStreet Jiyuqiao Store)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Tu's Crispy Pancake (Jianghan Third Road Branch)",
+          "start_time": "11:04",
+          "end_time": "11:09",
+          "price": 6.0,
+          "cost": 6.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Vienna International Hotel (Wuhan Chuhe HanStreet Jiyuqiao Store)",
+              "end": "Tu's Crispy Pancake (Jianghan Third Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:04",
+              "cost": 16.06,
+              "distance": 3.25,
+              "price": 16.06,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:09",
+          "end_time": "22:12",
+          "start": "Wuhan Tianhe International Airport",
+          "end": "Guangzhou Baiyun International Airport",
+          "price": 453.61,
+          "cost": 453.61,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Tu's Crispy Pancake (Jianghan Third Road Branch)",
+              "end": "Wuhan Tianhe International Airport",
+              "mode": "taxi",
+              "start_time": "11:09",
+              "end_time": "11:42",
+              "cost": 94.39,
+              "distance": 22.15,
+              "price": 94.39,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL597"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322160722953219",
+  "nl2sl_nature_language": "I am traveling alone from Guangzhou to Wuhan for 2 days. Requirements: I want to try Barbecue restaurants and stay at hotels with Free parking.",
+  "nl2sl_ground_truth": [
+    "restaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Barbecue\"}<=restaurant_type_set)",
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}<=accommodation_type_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "restaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Barbecue\"}<=restaurant_type_set)",
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}&accommodation_type_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_cuisine_type",
+      "passed": false,
+      "snippet": "restaurant_type_set=set()",
+      "full_snippet": "restaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Barbecue\"}<=restaurant_type_set)",
+      "computed": {
+        "restaurant_type_set": [
+          "empty",
+          "fast food and casual dining",
+          "snacks"
+        ],
+        "required_cuisine": [
+          "Barbecue"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "required_hotel_feature",
+      "passed": true,
+      "snippet": "accommodation_type_set=set()",
+      "full_snippet": "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}<=accommodation_type_set)",
+      "computed": {
+        "accommodation_type_set": [
+          "free parking"
+        ],
+        "required_hotel_type": [
+          "Free parking"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 66.67
+  }
+}

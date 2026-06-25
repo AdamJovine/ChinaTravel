@@ -1,0 +1,623 @@
+{
+  "people_number": 2,
+  "start_city": "Shanghai",
+  "target_city": "Chongqing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "01:28",
+          "end_time": "03:16",
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Chongqing Jiangbei International Airport",
+          "price": 746.09,
+          "cost": 1492.18,
+          "tickets": 2,
+          "transports": [],
+          "FlightID": "FL035"
+        },
+        {
+          "type": "attraction",
+          "position": "Hongya Cave",
+          "start_time": "09:00",
+          "end_time": "09:15",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Chongqing Jiangbei International Airport",
+              "end": "Hongya Cave",
+              "mode": "taxi",
+              "start_time": "03:16",
+              "end_time": "03:43",
+              "cost": 76.03,
+              "distance": 18.07,
+              "price": 76.03,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Ci Qi Kou Ancient Town",
+          "start_time": "09:33",
+          "end_time": "09:48",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Hongya Cave",
+              "end": "Ci Qi Kou Ancient Town",
+              "mode": "taxi",
+              "start_time": "09:15",
+              "end_time": "09:33",
+              "cost": 51.52,
+              "distance": 12.63,
+              "price": 51.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chongqing Happy Valley",
+          "start_time": "10:04",
+          "end_time": "10:16",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Ci Qi Kou Ancient Town",
+              "end": "Chongqing Happy Valley",
+              "mode": "taxi",
+              "start_time": "09:48",
+              "end_time": "10:04",
+              "cost": 45.66,
+              "distance": 11.32,
+              "price": 45.66,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Baixiang Street · Stretched Rice Cake (Bayi Road Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 9.0,
+          "cost": 18.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Chongqing Happy Valley",
+              "end": "Baixiang Street · Stretched Rice Cake (Bayi Road Branch)",
+              "mode": "taxi",
+              "start_time": "10:16",
+              "end_time": "10:37",
+              "cost": 58.63,
+              "distance": 14.21,
+              "price": 58.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Two Rivers Ferry",
+          "start_time": "11:07",
+          "end_time": "11:14",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Baixiang Street · Stretched Rice Cake (Bayi Road Branch)",
+              "end": "Two Rivers Ferry",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:07",
+              "cost": 11.0,
+              "distance": 1.7,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chongqing Night Cruise",
+          "start_time": "11:14",
+          "end_time": "11:16",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Two Rivers Ferry",
+              "end": "Chongqing Night Cruise",
+              "mode": "taxi",
+              "start_time": "11:14",
+              "end_time": "11:14",
+              "cost": 11.0,
+              "distance": 0.0,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dajia Alley Cliffside Trail",
+          "start_time": "11:16",
+          "end_time": "11:18",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Chongqing Night Cruise",
+              "end": "Dajia Alley Cliffside Trail",
+              "mode": "taxi",
+              "start_time": "11:16",
+              "end_time": "11:16",
+              "cost": 11.0,
+              "distance": 0.06,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Daijia Alley Old Street",
+          "start_time": "11:18",
+          "end_time": "11:20",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Dajia Alley Cliffside Trail",
+              "end": "Daijia Alley Old Street",
+              "mode": "taxi",
+              "start_time": "11:18",
+              "end_time": "11:18",
+              "cost": 11.0,
+              "distance": 0.24,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Liberation Monument Pedestrian Street",
+          "start_time": "11:20",
+          "end_time": "11:22",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Daijia Alley Old Street",
+              "end": "Liberation Monument Pedestrian Street",
+              "mode": "taxi",
+              "start_time": "11:20",
+              "end_time": "11:20",
+              "cost": 11.0,
+              "distance": 0.38,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chongqing Guotai Art Center",
+          "start_time": "11:22",
+          "end_time": "11:29",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Liberation Monument Pedestrian Street",
+              "end": "Chongqing Guotai Art Center",
+              "mode": "taxi",
+              "start_time": "11:22",
+              "end_time": "11:22",
+              "cost": 11.0,
+              "distance": 0.3,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Local Specialty Products and Bayu Famous Snacks Street",
+          "start_time": "11:29",
+          "end_time": "11:31",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Chongqing Guotai Art Center",
+              "end": "Local Specialty Products and Bayu Famous Snacks Street",
+              "mode": "taxi",
+              "start_time": "11:29",
+              "end_time": "11:29",
+              "cost": 11.0,
+              "distance": 0.24,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Qiansimen Bridge",
+          "start_time": "11:31",
+          "end_time": "11:33",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Local Specialty Products and Bayu Famous Snacks Street",
+              "end": "Qiansimen Bridge",
+              "mode": "taxi",
+              "start_time": "11:31",
+              "end_time": "11:31",
+              "cost": 11.0,
+              "distance": 0.23,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Huailiang Pan-Fried Buns (Bayi Road Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 9.0,
+          "cost": 18.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Qiansimen Bridge",
+              "end": "Huailiang Pan-Fried Buns (Bayi Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:33",
+              "end_time": "11:35",
+              "cost": 11.0,
+              "distance": 1.8,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Park Hotel (Yuzuiyu Fu Industrial Park)",
+          "start_time": "17:33",
+          "end_time": "24:00",
+          "price": 187.0,
+          "cost": 187.0,
+          "tickets": 2,
+          "rooms": 1,
+          "room_type": 2,
+          "transports": [
+            {
+              "start": "Huailiang Pan-Fried Buns (Bayi Road Branch)",
+              "end": "Park Hotel (Yuzuiyu Fu Industrial Park)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:33",
+              "cost": 80.34,
+              "distance": 19.03,
+              "price": 80.34,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Park Hotel (Yuzuiyu Fu Industrial Park)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Bench Noodle House (Songshi Branch Road Store)",
+          "start_time": "11:37",
+          "end_time": "11:42",
+          "price": 9.0,
+          "cost": 18.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Park Hotel (Yuzuiyu Fu Industrial Park)",
+              "end": "Bench Noodle House (Songshi Branch Road Store)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:37",
+              "cost": 106.0,
+              "distance": 24.73,
+              "price": 106.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Big Face Cat's Preserved Mustard Green and Braised Pork Pancake (Guanyinqiao Delicious Street Branch)",
+          "start_time": "17:04",
+          "end_time": "17:09",
+          "price": 7.0,
+          "cost": 14.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Bench Noodle House (Songshi Branch Road Store)",
+              "end": "Big Face Cat's Preserved Mustard Green and Braised Pork Pancake (Guanyinqiao Delicious Street Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:04",
+              "cost": 15.61,
+              "distance": 3.12,
+              "price": 15.61,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Park Hotel (Yuzuiyu Fu Industrial Park)",
+          "start_time": "17:42",
+          "end_time": "24:00",
+          "price": 187.0,
+          "cost": 187.0,
+          "tickets": 2,
+          "rooms": 1,
+          "room_type": 2,
+          "transports": [
+            {
+              "start": "Big Face Cat's Preserved Mustard Green and Braised Pork Pancake (Guanyinqiao Delicious Street Branch)",
+              "end": "Park Hotel (Yuzuiyu Fu Industrial Park)",
+              "mode": "taxi",
+              "start_time": "17:09",
+              "end_time": "17:42",
+              "cost": 94.41,
+              "distance": 22.16,
+              "price": 94.41,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Park Hotel (Yuzuiyu Fu Industrial Park)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Three Gorges Summit",
+          "start_time": "16:01",
+          "end_time": "16:06",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Park Hotel (Yuzuiyu Fu Industrial Park)",
+              "end": "Three Gorges Summit",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "16:01",
+              "cost": 1422.85,
+              "distance": 317.37,
+              "price": 1422.85,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:25",
+          "end_time": "23:13",
+          "start": "Chongqing Jiangbei International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "price": 748.29,
+          "cost": 1496.58,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Three Gorges Summit",
+              "end": "Chongqing Jiangbei International Airport",
+              "mode": "taxi",
+              "start_time": "13:14",
+              "end_time": "21:15",
+              "cost": 1439.35,
+              "distance": 321.03,
+              "price": 1439.35,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL329"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250321114239878527",
+  "nl2sl_nature_language": "We are 2 people, departing from Shanghai, traveling to Chongqing for 3 days, with the following requirements: do not want to visit Holy Name Happy Water World, want",
+  "nl2sl_ground_truth": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Holy Name Happy Water World\"}&attraction_name_set)",
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"park\"}&attraction_type_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Holy Name Happy Water World\"}&attraction_name_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_attraction",
+      "passed": true,
+      "snippet": "attraction_name_set=set()",
+      "full_snippet": "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=not({\"Holy Name Happy Water World\"}&attraction_name_set)",
+      "computed": {
+        "attraction_name_set": [
+          "Chongqing Guotai Art Center",
+          "Chongqing Happy Valley",
+          "Chongqing Night Cruise",
+          "Ci Qi Kou Ancient Town",
+          "Daijia Alley Old Street",
+          "Dajia Alley Cliffside Trail",
+          "Hongya Cave",
+          "Liberation Monument Pedestrian Street",
+          "Local Specialty Products and Bayu Famous Snacks Street",
+          "Qiansimen Bridge",
+          "Three Gorges Summit",
+          "Two Rivers Ferry"
+        ],
+        "required_attraction": [
+          "Holy Name Happy Water World"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "required_attraction_type",
+      "passed": false,
+      "snippet": "attraction_type_set=set()",
+      "full_snippet": "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"park\"}&attraction_type_set)",
+      "computed": {
+        "attraction_type_set": [
+          "amusement park/sports entertainment",
+          "art museum",
+          "commercial district",
+          "cultural landscape",
+          "cultural tourism area",
+          "historical site",
+          "natural scenery",
+          "red tourism sites"
+        ],
+        "required_attr_type": [
+          "park"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==2)",
+      "full_snippet": "result=(people_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 100.0,
+    "ATT": 56.89,
+    "DDR": 66.67
+  }
+}

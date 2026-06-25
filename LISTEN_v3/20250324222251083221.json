@@ -1,0 +1,647 @@
+{
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "23:54",
+          "end_time": "04:40",
+          "start": "Beijing Fengtai Station",
+          "end": "Shenzhen East Station",
+          "price": 777.26,
+          "cost": 777.26,
+          "tickets": 1,
+          "transports": [],
+          "TrainID": "K105"
+        },
+        {
+          "type": "attraction",
+          "position": "Happy Harbor",
+          "start_time": "10:30",
+          "end_time": "10:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen East Station",
+              "end": "Happy Harbor",
+              "mode": "taxi",
+              "start_time": "04:40",
+              "end_time": "05:16",
+              "cost": 104.62,
+              "distance": 24.43,
+              "price": 104.62,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dameisha Seaside Park",
+          "start_time": "11:41",
+          "end_time": "11:51",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Happy Harbor",
+              "end": "Dameisha Seaside Park",
+              "mode": "taxi",
+              "start_time": "10:35",
+              "end_time": "11:41",
+              "cost": 192.98,
+              "distance": 44.06,
+              "price": 192.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Old Zhou's Shunde Double-Skin Milk",
+          "start_time": "12:31",
+          "end_time": "12:36",
+          "price": 20.0,
+          "cost": 20.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Old Zhou's Shunde Double-Skin Milk",
+              "mode": "taxi",
+              "start_time": "11:51",
+              "end_time": "12:31",
+              "cost": 116.33,
+              "distance": 27.03,
+              "price": 116.33,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nick Playtime Park",
+          "start_time": "12:46",
+          "end_time": "12:48",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Old Zhou's Shunde Double-Skin Milk",
+              "end": "Nick Playtime Park",
+              "mode": "taxi",
+              "start_time": "12:36",
+              "end_time": "12:46",
+              "cost": 28.87,
+              "distance": 6.91,
+              "price": 28.87,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen OCT Harbour",
+          "start_time": "12:48",
+          "end_time": "12:50",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nick Playtime Park",
+              "end": "Shenzhen OCT Harbour",
+              "mode": "taxi",
+              "start_time": "12:48",
+              "end_time": "12:48",
+              "cost": 11.0,
+              "distance": 0.43,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Hakka Tulou (Fujian)",
+          "start_time": "12:51",
+          "end_time": "12:53",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen OCT Harbour",
+              "end": "Hakka Tulou (Fujian)",
+              "mode": "taxi",
+              "start_time": "12:50",
+              "end_time": "12:51",
+              "cost": 11.0,
+              "distance": 0.81,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Splendid China - Ethnic Minority Folk Houses",
+          "start_time": "12:53",
+          "end_time": "12:55",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Hakka Tulou (Fujian)",
+              "end": "Splendid China - Ethnic Minority Folk Houses",
+              "mode": "taxi",
+              "start_time": "12:53",
+              "end_time": "12:53",
+              "cost": 11.0,
+              "distance": 0.2,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Zhaojun Tomb",
+          "start_time": "12:55",
+          "end_time": "13:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Splendid China - Ethnic Minority Folk Houses",
+              "end": "Zhaojun Tomb",
+              "mode": "taxi",
+              "start_time": "12:55",
+              "end_time": "12:55",
+              "cost": 11.0,
+              "distance": 0.11,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Splendid China - Mogao Caves",
+          "start_time": "13:02",
+          "end_time": "13:09",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Zhaojun Tomb",
+              "end": "Splendid China - Mogao Caves",
+              "mode": "taxi",
+              "start_time": "13:02",
+              "end_time": "13:02",
+              "cost": 11.0,
+              "distance": 0.19,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Splendid China",
+          "start_time": "16:00",
+          "end_time": "16:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Splendid China - Mogao Caves",
+              "end": "Splendid China",
+              "mode": "taxi",
+              "start_time": "13:09",
+              "end_time": "13:09",
+              "cost": 11.0,
+              "distance": 0.2,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "OCAT (Shenzhen Pavilion)",
+          "start_time": "16:02",
+          "end_time": "16:04",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Splendid China",
+              "end": "OCAT (Shenzhen Pavilion)",
+              "mode": "taxi",
+              "start_time": "16:02",
+              "end_time": "16:02",
+              "cost": 11.0,
+              "distance": 0.56,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "KUDDO COFFEE (G&G Creative Community Store)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 31.0,
+          "cost": 31.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "OCAT (Shenzhen Pavilion)",
+              "end": "KUDDO COFFEE (G&G Creative Community Store)",
+              "mode": "taxi",
+              "start_time": "16:04",
+              "end_time": "16:19",
+              "cost": 40.42,
+              "distance": 10.16,
+              "price": 40.42,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+          "start_time": "17:29",
+          "end_time": "24:00",
+          "price": 354.0,
+          "cost": 354.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "KUDDO COFFEE (G&G Creative Community Store)",
+              "end": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:29",
+              "cost": 67.59,
+              "distance": 16.2,
+              "price": 67.59,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+          "start_time": "13:00",
+          "end_time": "13:05",
+          "price": 16.0,
+          "cost": 16.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+              "end": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:10",
+              "cost": 29.63,
+              "distance": 7.12,
+              "price": 29.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+          "start_time": "17:12",
+          "end_time": "17:17",
+          "price": 22.0,
+          "cost": 22.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "end": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:12",
+              "cost": 33.75,
+              "distance": 8.3,
+              "price": 33.75,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+          "start_time": "17:22",
+          "end_time": "24:00",
+          "price": 354.0,
+          "cost": 354.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "end": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+              "mode": "taxi",
+              "start_time": "17:17",
+              "end_time": "17:22",
+              "cost": 17.82,
+              "distance": 3.75,
+              "price": 17.82,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "China Merchants Shekou Cruise Home Port Tour",
+          "start_time": "08:30",
+          "end_time": "08:40",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+              "end": "China Merchants Shekou Cruise Home Port Tour",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:30",
+              "cost": 69.97,
+              "distance": 16.73,
+              "price": 69.97,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+          "start_time": "08:40",
+          "end_time": "08:50",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "China Merchants Shekou Cruise Home Port Tour",
+              "end": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "mode": "taxi",
+              "start_time": "08:40",
+              "end_time": "08:40",
+              "cost": 11.0,
+              "distance": 0.0,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "YO!Tea (Futian CITIC Plaza Branch)",
+          "start_time": "11:29",
+          "end_time": "11:34",
+          "price": 22.0,
+          "cost": 22.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "end": "YO!Tea (Futian CITIC Plaza Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:29",
+              "cost": 84.09,
+              "distance": 19.86,
+              "price": 84.09,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+          "start_time": "17:08",
+          "end_time": "17:13",
+          "price": 24.0,
+          "cost": 24.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "YO!Tea (Futian CITIC Plaza Branch)",
+              "end": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:08",
+              "cost": 23.43,
+              "distance": 5.35,
+              "price": 23.43,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "23:24",
+          "end_time": "01:49",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Beijing Daxing International Airport",
+          "price": 1006.35,
+          "cost": 1006.35,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "end": "Shenzhen Bao'an International Airport",
+              "mode": "taxi",
+              "start_time": "17:13",
+              "end_time": "17:51",
+              "cost": 110.35,
+              "distance": 25.7,
+              "price": 110.35,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL174"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250324222251083221",
+  "nl2sl_nature_language": "1 person traveling from Beijing to Shenzhen for 3 days. Requirements: Do not want to stay at Modern Classic Hotel or Holiday Inn Express Shenzhen Dongmen. Total travel budget is 3000.0.",
+  "nl2sl_ground_truth": [
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=not({\"Modern Classic Hotel\", \"Holiday Inn Express Shenzhen Dongmen\"}&accommodation_name_set)",
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3000)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "total_cost=0\nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost+=innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3000.0)",
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=not({\"Modern Classic Hotel\", \"Holiday Inn Express Shenzhen Dongmen\"}&accommodation_name_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_hotel_name",
+      "passed": true,
+      "snippet": "accommodation_name_set=set()",
+      "full_snippet": "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=not({\"Modern Classic Hotel\", \"Holiday Inn Express Shenzhen Dongmen\"}&accommodation_name_set)",
+      "computed": {
+        "accommodation_name_set": [
+          "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)"
+        ],
+        "required_hotel": [
+          "Modern Classic Hotel",
+          "Holiday Inn Express Shenzhen Dongmen"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "total_budget",
+      "passed": false,
+      "snippet": "total_cost=0 ",
+      "full_snippet": "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3000)",
+      "computed": {
+        "total_cost": 3634.4599999999996,
+        "budget_limit": 3000.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 100.0,
+    "ATT": 99.82,
+    "DDR": 88.89
+  }
+}

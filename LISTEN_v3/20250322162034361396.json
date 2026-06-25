@@ -1,0 +1,481 @@
+{
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "03:17",
+          "end_time": "04:48",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "price": 571.18,
+          "cost": 571.18,
+          "tickets": 1,
+          "transports": [],
+          "FlightID": "FL164"
+        },
+        {
+          "type": "attraction",
+          "position": "The Bund",
+          "start_time": "08:00",
+          "end_time": "08:07",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "The Bund",
+              "mode": "taxi",
+              "start_time": "04:48",
+              "end_time": "05:11",
+              "cost": 65.7,
+              "distance": 15.78,
+              "price": 65.7,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Huangpu River",
+          "start_time": "08:07",
+          "end_time": "08:09",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "The Bund",
+              "end": "Huangpu River",
+              "mode": "taxi",
+              "start_time": "08:07",
+              "end_time": "08:07",
+              "cost": 11.0,
+              "distance": 0.24,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Museum",
+          "start_time": "09:00",
+          "end_time": "09:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Huangpu River",
+              "end": "Shanghai Museum",
+              "mode": "taxi",
+              "start_time": "08:09",
+              "end_time": "08:11",
+              "cost": 11.63,
+              "distance": 1.98,
+              "price": 11.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Disney Town",
+          "start_time": "10:00",
+          "end_time": "10:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Museum",
+              "end": "Disney Town",
+              "mode": "taxi",
+              "start_time": "09:02",
+              "end_time": "09:32",
+              "cost": 85.81,
+              "distance": 20.25,
+              "price": 85.81,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Peacock Sichuan Cuisine (Changning Raffles City Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 150.0,
+          "cost": 150.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Disney Town",
+              "end": "Peacock Sichuan Cuisine (Changning Raffles City Branch)",
+              "mode": "taxi",
+              "start_time": "10:02",
+              "end_time": "10:40",
+              "cost": 108.93,
+              "distance": 25.38,
+              "price": 108.93,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Road Pedestrian Street",
+          "start_time": "11:16",
+          "end_time": "11:21",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Peacock Sichuan Cuisine (Changning Raffles City Branch)",
+              "end": "Nanjing Road Pedestrian Street",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:16",
+              "cost": 32.22,
+              "distance": 7.86,
+              "price": 32.22,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Lujiazui",
+          "start_time": "11:24",
+          "end_time": "11:31",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nanjing Road Pedestrian Street",
+              "end": "Lujiazui",
+              "mode": "taxi",
+              "start_time": "11:21",
+              "end_time": "11:24",
+              "cost": 11.95,
+              "distance": 2.07,
+              "price": 11.95,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Natural History Museum",
+          "start_time": "11:37",
+          "end_time": "11:39",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Lujiazui",
+              "end": "Shanghai Natural History Museum",
+              "mode": "taxi",
+              "start_time": "11:31",
+              "end_time": "11:37",
+              "cost": 19.08,
+              "distance": 4.11,
+              "price": 19.08,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Jing'an Sculpture Park",
+          "start_time": "11:39",
+          "end_time": "11:41",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Natural History Museum",
+              "end": "Jing'an Sculpture Park",
+              "mode": "taxi",
+              "start_time": "11:39",
+              "end_time": "11:39",
+              "cost": 11.0,
+              "distance": 0.13,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Sheraton Shanghai Hongkou Hotel · Miyabi · Elegant Japanese Restaurant & Bar",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 208.0,
+          "cost": 208.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Jing'an Sculpture Park",
+              "end": "Sheraton Shanghai Hongkou Hotel · Miyabi · Elegant Japanese Restaurant & Bar",
+              "mode": "taxi",
+              "start_time": "11:41",
+              "end_time": "11:44",
+              "cost": 13.51,
+              "distance": 2.52,
+              "price": 13.51,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Wanhe Zhizhen Hotel (Shanghai Sun Moonlight Dapuqiao Subway Station)",
+          "start_time": "17:14",
+          "end_time": "24:00",
+          "price": 378.0,
+          "cost": 378.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Sheraton Shanghai Hongkou Hotel · Miyabi · Elegant Japanese Restaurant & Bar",
+              "end": "Wanhe Zhizhen Hotel (Shanghai Sun Moonlight Dapuqiao Subway Station)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:14",
+              "cost": 26.18,
+              "distance": 6.14,
+              "price": 26.18,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Wanhe Zhizhen Hotel (Shanghai Sun Moonlight Dapuqiao Subway Station)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "The Ritz-Carlton Shanghai, Pudong - Scena di Angelo",
+          "start_time": "11:06",
+          "end_time": "11:11",
+          "price": 532.0,
+          "cost": 532.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Wanhe Zhizhen Hotel (Shanghai Sun Moonlight Dapuqiao Subway Station)",
+              "end": "The Ritz-Carlton Shanghai, Pudong - Scena di Angelo",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:06",
+              "cost": 20.97,
+              "distance": 4.65,
+              "price": 20.97,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+          "start_time": "17:10",
+          "end_time": "17:15",
+          "price": 16.0,
+          "cost": 16.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "The Ritz-Carlton Shanghai, Pudong - Scena di Angelo",
+              "end": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:10",
+              "cost": 28.77,
+              "distance": 6.88,
+              "price": 28.77,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:44",
+          "end_time": "23:15",
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "price": 598.43,
+          "cost": 598.43,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "17:15",
+              "end_time": "17:47",
+              "cost": 92.63,
+              "distance": 21.76,
+              "price": 92.63,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL017"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322162034361396",
+  "nl2sl_nature_language": "One person traveling from Shenzhen to Shanghai for 2 days, with the following requirements: want to try these restaurants: The Ritz-Carlton Shanghai, Pudong - Scena di Angelo, Peacock Sichuan Cuisine (Changning Raffles City Branch), and Sheraton Shanghai Hongkou Hotel · Miyabi · Elegant Japanese Restaurant & Bar. Total travel budget is 3400.0.",
+  "nl2sl_ground_truth": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"The Ritz-Carlton Shanghai, Pudong - Scena di Angelo\", \"Peacock Sichuan Cuisine (Changning Raffles City Branch)\", \"Sheraton Shanghai Hongkou Hotel · Miyabi · Elegant Japanese Restaurant & Bar\"}<=restaurant_name_set)",
+    "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3400)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "total_cost=0\nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost+=innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3400.0)",
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"The Ritz-Carlton Shanghai, Pudong - Scena di Angelo\", \"Peacock Sichuan Cuisine (Changning Raffles City Branch)\", \"Sheraton Shanghai Hongkou Hotel · Miyabi · Elegant Japanese Restaurant & Bar\"}<=restaurant_name_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_restaurant",
+      "passed": true,
+      "snippet": "restaurant_name_set=set()",
+      "full_snippet": "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"The Ritz-Carlton Shanghai, Pudong - Scena di Angelo\", \"Peacock Sichuan Cuisine (Changning Raffles City Branch)\", \"Sheraton Shanghai Hongkou Hotel · Miyabi · Elegant Japanese Restaurant & Bar\"}<=restaurant_name_set)",
+      "computed": {
+        "restaurant_name_set": [
+          "Long Journey Shaved Ice (Kongjiang Road Branch)",
+          "Peacock Sichuan Cuisine (Changning Raffles City Branch)",
+          "Sheraton Shanghai Hongkou Hotel · Miyabi · Elegant Japanese Restaurant & Bar",
+          "The Ritz-Carlton Shanghai, Pudong - Scena di Angelo",
+          "Wanhe Zhizhen Hotel (Shanghai Sun Moonlight Dapuqiao Subway Station)"
+        ],
+        "required_restaurant": [
+          "The Ritz-Carlton Shanghai, Pudong - Scena di Angelo",
+          "Peacock Sichuan Cuisine (Changning Raffles City Branch)",
+          "Sheraton Shanghai Hongkou Hotel · Miyabi · Elegant Japanese Restaurant & Bar"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "total_budget",
+      "passed": true,
+      "snippet": "total_cost=0 ",
+      "full_snippet": "total_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=3400)",
+      "computed": {
+        "total_cost": 2992.99,
+        "budget_limit": 3400.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 83.33
+  }
+}

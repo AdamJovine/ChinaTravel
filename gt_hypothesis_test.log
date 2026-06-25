@@ -1,0 +1,231 @@
+/Users/adamjovine/Documents/ChinaTravel/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[rerun] previous run: 223 pass / 344 total  (64.8%)
+[rerun] retrying 121 failed queries from /Users/adamjovine/Documents/ChinaTravel/results/run_20260622_032042_cpsat_groq
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+WARNING: git working tree is DIRTY
+  repo  : /Users/adamjovine/Documents/ChinaTravel/listen
+  sha   : 3b6f021 (china)
+  modified/untracked files:
+    M chinatravel_tpc/agent.py
+     M chinatravel_tpc/assembler.py
+     M chinatravel_tpc/big_milp_agent.py
+     M chinatravel_tpc/bnb_agent.py
+     M chinatravel_tpc/cpsat_agent.py
+     M chinatravel_tpc/mip_agent.py
+     M chinatravel_tpc/nl2sl.py
+     M chinatravel_tpc/run_tpc.py
+     M claude_client.py
+  Output metadata will record these files.
+  Commit your changes for reproducible results.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[nl2sl] using Groq model: openai/gpt-oss-120b
+[rerun] filtered to 16 queries
+[cpsat] 20250322020241140095  Suzhou→Hangzhou  4d 4p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[budget-filter] hotels: 378 → 297 (ceiling ¥6300.0)
+[return] 59 options
+[pools] 63T + 297H + 59RT + 377A + 458R
+
+[cpsat] pools: 63T + 297H + 59RT + 377A + 458R  |  n_full=2  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=K335  h=Baiye Homestay (West Lake Branch)  8 attrs  6 meal-slots
+[timing] CP-SAT total: 61.0s
+  → hard constraints: PASS  (61.1s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  6.06it/s]100%|██████████| 1/1 [00:00<00:00,  6.06it/s]
+[cpsat] 20250322020756516644  Suzhou→Hangzhou  4d 4p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[budget-filter] hotels: 378 → 231 (ceiling ¥5100.0)
+[return] 59 options
+[pools] 63T + 231H + 59RT + 377A + 458R
+
+[cpsat] pools: 63T + 231H + 59RT + 377A + 458R  |  n_full=2  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=K335  h=Baiye Homestay (West Lake Branch)  8 attrs  6 meal-slots
+[timing] CP-SAT total: 61.1s
+  → hard constraints: PASS  (61.1s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 79.92it/s]
+[cpsat] 20250322035350348919  Shenzhen→Shanghai  3d 4p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[return] 31 options
+[pools] 31T + 403H + 21RT + 360A + 484R
+
+[cpsat] pools: 31T + 403H + 21RT + 360A + 484R  |  n_full=1  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=FL166  h=Jinjiang Metropolo Shanghai Xintiandi Hotel  4 attrs  3 meal-slots
+[timing] CP-SAT total: 4.4s
+  → hard constraints: PASS  (4.4s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 107.05it/s]
+[cpsat] 20250322041029588242  Beijing→Shenzhen  3d 1p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[return] 19 options
+[pools] 21T + 498H + 13RT + 306A + 478R
+
+[cpsat] pools: 21T + 498H + 13RT + 306A + 478R  |  n_full=1  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=K105  h=Shenzhen Convention and Exhibition Center Union Plaza Qiuguo S Hotel  4 attrs  3 meal-slots
+[timing] CP-SAT total: 35.3s
+  → hard constraints: PASS  (35.3s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 97.37it/s]
+[cpsat] 20250322042822097592  Shenzhen→Shanghai  3d 4p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[return] 31 options
+[pools] 31T + 403H + 21RT + 360A + 484R
+
+[cpsat] pools: 31T + 403H + 21RT + 360A + 484R  |  n_full=1  k_per_day=8
+  [cpsat] hard solve infeasible — retrying with budget slack
+  [cpsat] slack solve infeasible — greedy fallback
+[timing] CP-SAT total: 1.2s
+  → hard constraints: PASS  (1.2s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 95.20it/s]
+[cpsat] 20250322045046257075  Hangzhou→Chengdu  2d 3p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[inner-city] budget ¥40.0
+[inner-city] proximity filter: 83 hotels within estimated budget (was 379)
+[return] 18 options
+[pools] 20T + 83H + 11RT + 333A + 467R
+
+[cpsat] pools: 20T + 83H + 11RT + 333A + 467R  |  n_full=0  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=FL538  h=Atour Yeation Hotel (Chengdu Jiuyanqiao)  0 attrs  0 meal-slots
+[inner-city] INFEASIBLE: mandatory legs ¥42.0 already exceed budget ¥40.0 — no feasible plan exists for this skeleton
+[timing] CP-SAT total: 0.3s
+  → hard constraints: FAIL  (0.3s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  7.00it/s]100%|██████████| 1/1 [00:00<00:00,  6.99it/s]
+[cpsat] 20250322060933112443  Beijing→Shenzhen  3d 1p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[inner-city] budget ¥30.0
+[inner-city] proximity filter: 76 hotels within estimated budget (was 498)
+[return] 19 options
+[pools] 21T + 76H + 13RT + 306A + 478R
+
+[cpsat] pools: 21T + 76H + 13RT + 306A + 478R  |  n_full=1  k_per_day=8
+  [cpsat] hard solve infeasible — retrying with budget slack
+  [cpsat] solution (slack):  e=8  t=K105  h=Musi Healthy Sleep Hotel (Shenzhen East Railway Station Buji Subway Station)  4 attrs  3 meal-slots
+[timing] CP-SAT total: 69.6s
+  → hard constraints: FAIL  (69.7s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  3.65it/s]100%|██████████| 1/1 [00:00<00:00,  3.65it/s]
+[cpsat] 20250322065454280715  Shenzhen→Shanghai  3d 4p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[roundtrip] go=train: 21 options
+[return] 10 options
+[pools] 21T + 403H + 6RT + 360A + 484R
+
+[cpsat] pools: 21T + 403H + 6RT + 360A + 484R  |  n_full=1  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=D908  h=Jinjiang Metropolo Shanghai Xintiandi Hotel  4 attrs  3 meal-slots
+[timing] CP-SAT total: 1.2s
+  → hard constraints: PASS  (1.2s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 95.23it/s]
+[cpsat] 20250322070224631864  Shenzhen→Shanghai  2d 1p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[roundtrip] go=airplane: 10 options
+[return] 10 options
+[pools] 10T + 403H + 6RT + 360A + 484R
+
+[cpsat] pools: 10T + 403H + 6RT + 360A + 484R  |  n_full=0  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=FL166  h=Jinjiang Metropolo Shanghai Xintiandi Hotel  0 attrs  0 meal-slots
+[timing] CP-SAT total: 0.0s
+  → hard constraints: PASS  (0.0s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 97.86it/s]
+[cpsat] 20250322072436176919  Shenzhen→Shanghai  3d 4p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[roundtrip] go=train: 21 options
+[return] 10 options
+[pools] 21T + 403H + 6RT + 360A + 484R
+
+[cpsat] pools: 21T + 403H + 6RT + 360A + 484R  |  n_full=1  k_per_day=8
+  [cpsat] hard solve infeasible — retrying with budget slack
+  [cpsat] slack solve infeasible — greedy fallback
+[timing] CP-SAT total: 1.2s
+  → hard constraints: PASS  (1.2s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 103.00it/s]
+[cpsat] 20250322073530635640  Hangzhou→Chengdu  2d 3p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[roundtrip] go=airplane: 10 options
+[return] 8 options
+[pools] 10T + 379H + 6RT + 333A + 467R
+
+[cpsat] pools: 10T + 379H + 6RT + 333A + 467R  |  n_full=0  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=FL538  h=JIAN SHAN TANG  0 attrs  0 meal-slots
+[timing] CP-SAT total: 0.0s
+  → hard constraints: PASS  (0.1s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 104.83it/s]
+[cpsat] 20250322101529129061  Suzhou→Chongqing  3d 1p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[inter-city] budget ¥1700.0
+[return] 13 options
+[pools] 16T + 373H + 5RT + 347A + 437R
+
+[cpsat] pools: 16T + 373H + 5RT + 347A + 437R  |  n_full=1  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=T236  h=Melia Chongqing  4 attrs  3 meal-slots
+[timing] CP-SAT total: 60.5s
+  → hard constraints: PASS  (60.6s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 118.15it/s]
+[cpsat] 20250322101754156061  Shenzhen→Shanghai  3d 4p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[inter-city] budget ¥5300.0
+[return] 31 options
+[pools] 25T + 403H + 18RT + 360A + 484R
+
+[cpsat] pools: 25T + 403H + 18RT + 360A + 484R  |  n_full=1  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=FL164  h=Jinjiang Metropolo Shanghai Xintiandi Hotel  4 attrs  3 meal-slots
+[timing] CP-SAT total: 4.9s
+  → hard constraints: PASS  (5.0s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 93.21it/s]
+[cpsat] 20250322110313382570  Hangzhou→Chengdu  2d 3p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[inter-city] budget ¥5400.0
+[return] 18 options
+[pools] 20T + 379H + 11RT + 333A + 467R
+
+[cpsat] pools: 20T + 379H + 11RT + 333A + 467R  |  n_full=0  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=FL531  h=Chengdu Kuanzhai People's Park Subway Station Atour S Hotel  0 attrs  0 meal-slots
+[timing] CP-SAT total: 0.0s
+  → hard constraints: PASS  (0.0s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 104.55it/s]
+[cpsat] 20250322111827737653  Shenzhen→Shanghai  2d 1p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[inter-city] budget ¥1200.0
+[return] 31 options
+[pools] 8T + 403H + 7RT + 360A + 484R
+
+[cpsat] pools: 8T + 403H + 7RT + 360A + 484R  |  n_full=0  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=FL164  h=Jinjiang Metropolo Shanghai Xintiandi Hotel  0 attrs  0 meal-slots
+[timing] CP-SAT total: 0.0s
+  → hard constraints: PASS  (0.0s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 100.03it/s]
+[cpsat] 20250322112029006239  Shenzhen→Shanghai  2d 1p
+[nl2sl] USING GROUND TRUTH CONSTRAINTS (internal eval only — not a valid submission)
+[inter-city] budget ¥1200.0
+[return] 31 options
+[pools] 8T + 403H + 7RT + 360A + 484R
+
+[cpsat] pools: 8T + 403H + 7RT + 360A + 484R  |  n_full=0  k_per_day=8
+  [cpsat] solution (hard):  e=0  t=FL164  h=Jinjiang Metropolo Shanghai Xintiandi Hotel  0 attrs  0 meal-slots
+[timing] CP-SAT total: 0.0s
+  → hard constraints: PASS  (0.0s)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 105.24it/s]
+
+Done: 14 pass, 2 fail, 0 skipped  (87.5% pass rate)
+Results: /Users/adamjovine/Documents/ChinaTravel/results/run_20260622_105846_cpsat_groq
+
+[scores] schema eval (16 queries) …
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 394.40it/s]
+[scores] schema pass: 16/16
+[scores] commonsense eval (16 queries) …
+  0%|          | 0/16 [00:00<?, ?it/s] 38%|███▊      | 6/16 [00:00<00:00, 33.80it/s] 62%|██████▎   | 10/16 [00:00<00:00, 19.18it/s]100%|██████████| 16/16 [00:00<00:00, 30.48it/s]
+[scores] MacEPR=100.0%  MicEPR=100.0%  pass=16/16
+
+==============================================================
+EVAL SCORES  (16 queries, 14 fully passing)
+==============================================================
+  MicEPR : 100.0%
+  MacEPR : 100.0%
+  C-LPR  : 87.5%
+  Hard   : 87.5%  (14/16)
+  FPR    : 87.5%  (14/16)
+  DAV    : 77.98%
+  ATT    : 93.87%
+  DDR    : 82.94%
+  OVERALL: 89.6145
+==============================================================
+  Scores → /Users/adamjovine/Documents/ChinaTravel/results/run_20260622_105846_cpsat_groq/scores.csv
+
+Projected overall: 237/344 pass  (68.9%)  [was 223/344 = 64.8%]  (+14 fixed, 2 still failing)

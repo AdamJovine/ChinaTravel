@@ -1,0 +1,473 @@
+{
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "23:37",
+          "end_time": "01:08",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "price": 572.8,
+          "cost": 572.8,
+          "tickets": 1,
+          "transports": [],
+          "FlightID": "FL166"
+        },
+        {
+          "type": "attraction",
+          "position": "The Bund",
+          "start_time": "08:00",
+          "end_time": "08:07",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Pudong International Airport",
+              "end": "The Bund",
+              "mode": "taxi",
+              "start_time": "01:08",
+              "end_time": "01:56",
+              "cost": 139.43,
+              "distance": 32.16,
+              "price": 139.43,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Huangpu River",
+          "start_time": "08:07",
+          "end_time": "08:09",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "The Bund",
+              "end": "Huangpu River",
+              "mode": "taxi",
+              "start_time": "08:07",
+              "end_time": "08:07",
+              "cost": 11.0,
+              "distance": 0.24,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Planetarium",
+          "start_time": "09:31",
+          "end_time": "09:38",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Huangpu River",
+              "end": "Shanghai Planetarium",
+              "mode": "taxi",
+              "start_time": "08:09",
+              "end_time": "09:31",
+              "cost": 241.52,
+              "distance": 54.85,
+              "price": 241.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Museum",
+          "start_time": "11:01",
+          "end_time": "11:03",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Planetarium",
+              "end": "Shanghai Museum",
+              "mode": "taxi",
+              "start_time": "09:38",
+              "end_time": "11:01",
+              "cost": 243.98,
+              "distance": 55.4,
+              "price": 243.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+          "start_time": "11:30",
+          "end_time": "11:35",
+          "price": 16.0,
+          "cost": 16.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Museum",
+              "end": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:03",
+              "end_time": "11:15",
+              "cost": 33.56,
+              "distance": 8.25,
+              "price": 33.56,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Disney Town",
+          "start_time": "12:04",
+          "end_time": "12:06",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "end": "Disney Town",
+              "mode": "taxi",
+              "start_time": "11:35",
+              "end_time": "12:04",
+              "cost": 82.94,
+              "distance": 19.61,
+              "price": 82.94,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Road Pedestrian Street",
+          "start_time": "12:36",
+          "end_time": "12:41",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Disney Town",
+              "end": "Nanjing Road Pedestrian Street",
+              "mode": "taxi",
+              "start_time": "12:06",
+              "end_time": "12:36",
+              "cost": 85.05,
+              "distance": 20.08,
+              "price": 85.05,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Lujiazui",
+          "start_time": "12:44",
+          "end_time": "12:51",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nanjing Road Pedestrian Street",
+              "end": "Lujiazui",
+              "mode": "taxi",
+              "start_time": "12:41",
+              "end_time": "12:44",
+              "cost": 11.95,
+              "distance": 2.07,
+              "price": 11.95,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Natural History Museum",
+          "start_time": "12:57",
+          "end_time": "12:59",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Lujiazui",
+              "end": "Shanghai Natural History Museum",
+              "mode": "taxi",
+              "start_time": "12:51",
+              "end_time": "12:57",
+              "cost": 19.08,
+              "distance": 4.11,
+              "price": 19.08,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 18.0,
+          "cost": 18.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Natural History Museum",
+              "end": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "mode": "taxi",
+              "start_time": "12:59",
+              "end_time": "13:21",
+              "cost": 60.96,
+              "distance": 14.72,
+              "price": 60.96,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+          "start_time": "17:24",
+          "end_time": "24:00",
+          "price": 468.0,
+          "cost": 468.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "end": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:24",
+              "cost": 53.81,
+              "distance": 13.14,
+              "price": 53.81,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+          "start_time": "11:04",
+          "end_time": "11:09",
+          "price": 28.0,
+          "cost": 28.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+              "end": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:04",
+              "cost": 14.64,
+              "distance": 2.84,
+              "price": 14.64,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Dahuchun (Sichuan Middle Road Branch)",
+          "start_time": "17:04",
+          "end_time": "17:09",
+          "price": 29.0,
+          "cost": 29.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "end": "Dahuchun (Sichuan Middle Road Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:04",
+              "cost": 16.28,
+              "distance": 3.31,
+              "price": 16.28,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "20:15",
+          "end_time": "06:45",
+          "start": "Shanghai Hongqiao Station",
+          "end": "Shenzhen North Railway Station",
+          "price": 727.96,
+          "cost": 727.96,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dahuchun (Sichuan Middle Road Branch)",
+              "end": "Shanghai Hongqiao Station",
+              "mode": "taxi",
+              "start_time": "17:09",
+              "end_time": "17:34",
+              "cost": 70.01,
+              "distance": 16.74,
+              "price": 70.01,
+              "cars": 1
+            }
+          ],
+          "TrainID": "D907"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322214018148712",
+  "nl2sl_nature_language": "One person, departing from Shenzhen, traveling to Shanghai for 2 days, with the following requirements:",
+  "nl2sl_ground_truth": [
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}&accommodation_type_set)",
+    "result=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] != \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] != \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_hotel_feature",
+      "passed": true,
+      "snippet": "accommodation_type_set=set()",
+      "full_snippet": "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}&accommodation_type_set)",
+      "computed": {
+        "accommodation_type_set": [
+          "free parking"
+        ],
+        "required_hotel_type": [
+          "Free parking"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "transport_type",
+      "passed": false,
+      "snippet": "result=False",
+      "full_snippet": "result=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] != \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] != \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True",
+      "computed": {
+        "actual_go_type": "airplane",
+        "actual_back_type": "train"
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 100.0,
+    "ATT": 89.32,
+    "DDR": 83.33
+  }
+}

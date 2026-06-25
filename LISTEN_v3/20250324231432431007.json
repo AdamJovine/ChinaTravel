@@ -1,0 +1,617 @@
+{
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Beijing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:08",
+          "end_time": "08:33",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Beijing Daxing International Airport",
+          "price": 923.53,
+          "cost": 3694.12,
+          "tickets": 4,
+          "transports": [],
+          "FlightID": "FL180"
+        },
+        {
+          "type": "attraction",
+          "position": "The Palace Museum",
+          "start_time": "09:43",
+          "end_time": "09:45",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Beijing Daxing International Airport",
+              "end": "The Palace Museum",
+              "mode": "taxi",
+              "start_time": "08:33",
+              "end_time": "09:43",
+              "cost": 205.0,
+              "distance": 46.73,
+              "price": 205.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "National Museum of China",
+          "start_time": "09:47",
+          "end_time": "10:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "The Palace Museum",
+              "end": "National Museum of China",
+              "mode": "taxi",
+              "start_time": "09:45",
+              "end_time": "09:47",
+              "cost": 11.0,
+              "distance": 1.46,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Old Summer Palace",
+          "start_time": "10:23",
+          "end_time": "10:25",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "National Museum of China",
+              "end": "Old Summer Palace",
+              "mode": "taxi",
+              "start_time": "10:02",
+              "end_time": "10:23",
+              "cost": 59.25,
+              "distance": 14.34,
+              "price": 59.25,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "China Science and Technology Museum",
+          "start_time": "10:37",
+          "end_time": "10:47",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Old Summer Palace",
+              "end": "China Science and Technology Museum",
+              "mode": "taxi",
+              "start_time": "10:25",
+              "end_time": "10:37",
+              "cost": 33.19,
+              "distance": 8.14,
+              "price": 33.19,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Dahua Pancake (Jiaodaokou North Scissors Lane Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 12.0,
+          "cost": 48.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "China Science and Technology Museum",
+              "end": "Dahua Pancake (Jiaodaokou North Scissors Lane Branch)",
+              "mode": "taxi",
+              "start_time": "10:47",
+              "end_time": "10:59",
+              "cost": 34.13,
+              "distance": 8.41,
+              "price": 34.13,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shijia Hutong Museum",
+          "start_time": "11:08",
+          "end_time": "11:10",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Dahua Pancake (Jiaodaokou North Scissors Lane Branch)",
+              "end": "Shijia Hutong Museum",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:08",
+              "cost": 11.71,
+              "distance": 2.0,
+              "price": 11.71,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Fuguo Underwater World",
+          "start_time": "11:13",
+          "end_time": "11:18",
+          "price": 91.0,
+          "cost": 364.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Shijia Hutong Museum",
+              "end": "Fuguo Underwater World",
+              "mode": "taxi",
+              "start_time": "11:10",
+              "end_time": "11:13",
+              "cost": 13.01,
+              "distance": 2.38,
+              "price": 13.01,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Ouga Art Museum",
+          "start_time": "11:20",
+          "end_time": "11:27",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Fuguo Underwater World",
+              "end": "Ouga Art Museum",
+              "mode": "taxi",
+              "start_time": "11:18",
+              "end_time": "11:20",
+              "cost": 11.0,
+              "distance": 1.37,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Sanlitun",
+          "start_time": "11:28",
+          "end_time": "11:33",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Ouga Art Museum",
+              "end": "Sanlitun",
+              "mode": "taxi",
+              "start_time": "11:27",
+              "end_time": "11:28",
+              "cost": 11.0,
+              "distance": 0.71,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Sanlitun Bar Street",
+          "start_time": "11:33",
+          "end_time": "11:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Sanlitun",
+              "end": "Sanlitun Bar Street",
+              "mode": "taxi",
+              "start_time": "11:33",
+              "end_time": "11:33",
+              "cost": 11.0,
+              "distance": 0.34,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chaoyang Theater Acrobatics",
+          "start_time": "16:00",
+          "end_time": "16:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Sanlitun Bar Street",
+              "end": "Chaoyang Theater Acrobatics",
+              "mode": "taxi",
+              "start_time": "11:35",
+              "end_time": "11:37",
+              "cost": 11.0,
+              "distance": 1.42,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "CCTV Headquarters",
+          "start_time": "16:02",
+          "end_time": "16:04",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Chaoyang Theater Acrobatics",
+              "end": "CCTV Headquarters",
+              "mode": "taxi",
+              "start_time": "16:02",
+              "end_time": "16:02",
+              "cost": 11.0,
+              "distance": 0.56,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Beijing Workers' Stadium",
+          "start_time": "16:07",
+          "end_time": "16:09",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "CCTV Headquarters",
+              "end": "Beijing Workers' Stadium",
+              "mode": "taxi",
+              "start_time": "16:04",
+              "end_time": "16:07",
+              "cost": 12.16,
+              "distance": 2.13,
+              "price": 12.16,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Helude Candied Hawthorn Sticks",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 7.0,
+          "cost": 28.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Beijing Workers' Stadium",
+              "end": "Helude Candied Hawthorn Sticks",
+              "mode": "taxi",
+              "start_time": "16:09",
+              "end_time": "16:14",
+              "cost": 16.42,
+              "distance": 3.35,
+              "price": 16.42,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Beijing Houhai Gulou courtyard MANXIN Hotel",
+          "start_time": "17:10",
+          "end_time": "24:00",
+          "price": 815.0,
+          "cost": 3260.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Helude Candied Hawthorn Sticks",
+              "end": "Beijing Houhai Gulou courtyard MANXIN Hotel",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:10",
+              "cost": 16.41,
+              "distance": 3.35,
+              "price": 16.41,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Beijing Houhai Gulou courtyard MANXIN Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+          "start_time": "11:10",
+          "end_time": "11:15",
+          "price": 14.0,
+          "cost": 56.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Beijing Houhai Gulou courtyard MANXIN Hotel",
+              "end": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:10",
+              "cost": 29.98,
+              "distance": 7.22,
+              "price": 29.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Tianze Xiang Drum Tower Steamed Bun (Drum Tower Branch)",
+          "start_time": "17:10",
+          "end_time": "17:15",
+          "price": 16.0,
+          "cost": 64.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+              "end": "Tianze Xiang Drum Tower Steamed Bun (Drum Tower Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:10",
+              "cost": 28.75,
+              "distance": 6.87,
+              "price": 28.75,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Beijing Houhai Gulou courtyard MANXIN Hotel",
+          "start_time": "17:16",
+          "end_time": "24:00",
+          "price": 815.0,
+          "cost": 3260.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Tianze Xiang Drum Tower Steamed Bun (Drum Tower Branch)",
+              "end": "Beijing Houhai Gulou courtyard MANXIN Hotel",
+              "mode": "taxi",
+              "start_time": "17:15",
+              "end_time": "17:16",
+              "cost": 11.0,
+              "distance": 1.13,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Beijing Houhai Gulou courtyard MANXIN Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Zengshengkui Snack Shop",
+          "start_time": "11:04",
+          "end_time": "11:09",
+          "price": 16.0,
+          "cost": 64.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Beijing Houhai Gulou courtyard MANXIN Hotel",
+              "end": "Zengshengkui Snack Shop",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:04",
+              "cost": 14.23,
+              "distance": 2.72,
+              "price": 14.23,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "23:54",
+          "end_time": "04:40",
+          "start": "Beijing Fengtai Station",
+          "end": "Shenzhen East Station",
+          "price": 777.26,
+          "cost": 3109.04,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Zengshengkui Snack Shop",
+              "end": "Beijing Fengtai Station",
+              "mode": "taxi",
+              "start_time": "11:09",
+              "end_time": "11:29",
+              "cost": 55.97,
+              "distance": 13.62,
+              "price": 55.97,
+              "cars": 1
+            }
+          ],
+          "TrainID": "K105"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250324231432431007",
+  "nl2sl_nature_language": "We are 4 people, traveling from Shenzhen to Beijing for 3 days, with the following requirements: the budget for intercity transportation is 8200.0, and we hope to stay in single-bed rooms.",
+  "nl2sl_ground_truth": [
+    "inter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=8200",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "inter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=8200.0",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "intercity_budget",
+      "passed": true,
+      "snippet": "inter_city_transportation_cost=0",
+      "full_snippet": "inter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=8200",
+      "computed": {
+        "inter_city_transportation_cost": 6803.16,
+        "budget_limit": 8200.0
+      },
+      "error": null
+    },
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==4)",
+      "full_snippet": "result=(people_count(plan)==4)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 77.78
+  }
+}

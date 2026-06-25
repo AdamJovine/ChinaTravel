@@ -1,0 +1,398 @@
+{
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "23:37",
+          "end_time": "01:08",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "price": 572.8,
+          "cost": 572.8,
+          "tickets": 1,
+          "transports": [],
+          "FlightID": "FL166"
+        },
+        {
+          "type": "attraction",
+          "position": "The Bund",
+          "start_time": "08:00",
+          "end_time": "08:07",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Pudong International Airport",
+              "end": "Pudong International Airport-Metro Station",
+              "mode": "walk",
+              "start_time": "01:08",
+              "end_time": "01:23",
+              "cost": 0,
+              "distance": 1.27,
+              "price": 0.0
+            },
+            {
+              "start": "Pudong International Airport-Metro Station",
+              "end": "Lujiazui-Metro Station",
+              "mode": "metro",
+              "start_time": "01:23",
+              "end_time": "02:23",
+              "cost": 7,
+              "distance": 30.5,
+              "price": 7,
+              "tickets": 1
+            },
+            {
+              "start": "Lujiazui-Metro Station",
+              "end": "The Bund",
+              "mode": "walk",
+              "start_time": "02:23",
+              "end_time": "02:31",
+              "cost": 0,
+              "distance": 0.74,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Huangpu River",
+          "start_time": "08:09",
+          "end_time": "08:11",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "The Bund",
+              "end": "Huangpu River",
+              "mode": "walk",
+              "start_time": "08:07",
+              "end_time": "08:09",
+              "cost": 0.0,
+              "distance": 0.24037883824900896,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Planetarium",
+          "start_time": "10:26",
+          "end_time": "10:33",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Huangpu River",
+              "end": "International Passenger Transport Center-Metro Station",
+              "mode": "walk",
+              "start_time": "08:11",
+              "end_time": "08:19",
+              "cost": 0,
+              "distance": 0.68,
+              "price": 0.0
+            },
+            {
+              "start": "International Passenger Transport Center-Metro Station",
+              "end": "Dripping Water Lake-Metro Station",
+              "mode": "metro",
+              "start_time": "08:19",
+              "end_time": "10:11",
+              "cost": 9,
+              "distance": 56.04,
+              "price": 9,
+              "tickets": 1
+            },
+            {
+              "start": "Dripping Water Lake-Metro Station",
+              "end": "Shanghai Planetarium",
+              "mode": "walk",
+              "start_time": "10:11",
+              "end_time": "10:26",
+              "cost": 0,
+              "distance": 1.28,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Shanghai Lujiazui Babaiban Lan'ou Hotel",
+          "start_time": "12:39",
+          "end_time": "24:00",
+          "price": 656.0,
+          "cost": 656.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 2,
+          "transports": [
+            {
+              "start": "Shanghai Planetarium",
+              "end": "Dripping Water Lake-Metro Station",
+              "mode": "walk",
+              "start_time": "10:33",
+              "end_time": "10:48",
+              "cost": 0,
+              "distance": 1.28,
+              "price": 0.0
+            },
+            {
+              "start": "Dripping Water Lake-Metro Station",
+              "end": "Shangcheng Road-Metro Station",
+              "mode": "metro",
+              "start_time": "10:48",
+              "end_time": "12:34",
+              "cost": 9,
+              "distance": 53.28,
+              "price": 9,
+              "tickets": 1
+            },
+            {
+              "start": "Shangcheng Road-Metro Station",
+              "end": "Shanghai Lujiazui Babaiban Lan'ou Hotel",
+              "mode": "walk",
+              "start_time": "12:34",
+              "end_time": "12:39",
+              "cost": 0,
+              "distance": 0.46,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Shanghai Lujiazui Babaiban Lan'ou Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Museum",
+          "start_time": "09:00",
+          "end_time": "09:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Lujiazui Babaiban Lan'ou Hotel",
+              "end": "Shangcheng Road-Metro Station",
+              "mode": "walk",
+              "start_time": "08:05",
+              "end_time": "08:10",
+              "cost": 0,
+              "distance": 0.46,
+              "price": 0.0
+            },
+            {
+              "start": "Shangcheng Road-Metro Station",
+              "end": "East Nanjing Road-Metro Station",
+              "mode": "metro",
+              "start_time": "08:10",
+              "end_time": "08:16",
+              "cost": 2,
+              "distance": 3.14,
+              "price": 2,
+              "tickets": 1
+            },
+            {
+              "start": "East Nanjing Road-Metro Station",
+              "end": "Shanghai Museum",
+              "mode": "walk",
+              "start_time": "08:16",
+              "end_time": "08:21",
+              "cost": 0,
+              "distance": 0.49,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "20:15",
+          "end_time": "06:45",
+          "start": "Shanghai Hongqiao Station",
+          "end": "Shenzhen North Railway Station",
+          "price": 727.96,
+          "cost": 727.96,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shanghai Museum",
+              "end": "East Nanjing Road-Metro Station",
+              "mode": "walk",
+              "start_time": "09:02",
+              "end_time": "09:07",
+              "cost": 0,
+              "distance": 0.49,
+              "price": 0.0
+            },
+            {
+              "start": "East Nanjing Road-Metro Station",
+              "end": "Hongqiao Railway Station-Metro Station",
+              "mode": "metro",
+              "start_time": "09:07",
+              "end_time": "09:40",
+              "cost": 5,
+              "distance": 16.53,
+              "price": 5,
+              "tickets": 1
+            },
+            {
+              "start": "Hongqiao Railway Station-Metro Station",
+              "end": "Shanghai Hongqiao Station",
+              "mode": "walk",
+              "start_time": "09:40",
+              "end_time": "09:41",
+              "cost": 0,
+              "distance": 0.12,
+              "price": 0.0
+            }
+          ],
+          "TrainID": "D907"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 93,
+  "uid": "20250322194001155137",
+  "nl2sl_nature_language": "One person traveling from Shenzhen to Shanghai for 2 days, with the following requirements: must stay at one of the hotels—Shanghai Lujiazui Babaiban Lan'ou Hotel; budget for local transportation is 30.",
+  "nl2sl_ground_truth": [
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Shanghai Lujiazui Babaiban Lan'ou Hotel\"}&accommodation_name_set)",
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30.0)",
+    "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Shanghai Lujiazui Babaiban Lan'ou Hotel\"}&accommodation_name_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_hotel_name",
+      "passed": true,
+      "snippet": "accommodation_name_set=set()",
+      "full_snippet": "accommodation_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_name_set.add(activity_position(activity))\nresult=({\"Shanghai Lujiazui Babaiban Lan'ou Hotel\"}&accommodation_name_set)",
+      "computed": {
+        "accommodation_name_set": [
+          "Shanghai Lujiazui Babaiban Lan'ou Hotel"
+        ],
+        "required_hotel": [
+          "Shanghai Lujiazui Babaiban Lan'ou Hotel"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "inner_city_budget",
+      "passed": false,
+      "snippet": "inner_city_transportation_cost=0 ",
+      "full_snippet": "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30)",
+      "computed": {
+        "inner_city_transportation_cost": 32.0,
+        "budget_limit": 30.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 50.0,
+    "ATT": 50.63,
+    "DDR": 16.67
+  }
+}

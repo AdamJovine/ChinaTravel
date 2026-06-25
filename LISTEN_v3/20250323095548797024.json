@@ -1,0 +1,595 @@
+{
+  "people_number": 2,
+  "start_city": "Shanghai",
+  "target_city": "Nanjing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "22:39",
+          "end_time": "02:15",
+          "start": "Shanghai South Railway Station",
+          "end": "Nanjing Station",
+          "price": 134.83,
+          "cost": 269.66,
+          "tickets": 2,
+          "transports": [],
+          "TrainID": "T136"
+        },
+        {
+          "type": "breakfast",
+          "position": "Zhu's Plum Blossom Cake",
+          "start_time": "07:00",
+          "end_time": "07:05",
+          "price": 6.0,
+          "cost": 12.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Nanjing Station",
+              "end": "Zhu's Plum Blossom Cake",
+              "mode": "taxi",
+              "start_time": "02:15",
+              "end_time": "02:21",
+              "cost": 19.51,
+              "distance": 4.23,
+              "price": 19.51,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Confucius Temple",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Zhu's Plum Blossom Cake",
+              "end": "Confucius Temple",
+              "mode": "taxi",
+              "start_time": "07:05",
+              "end_time": "07:10",
+              "cost": 17.52,
+              "distance": 3.66,
+              "price": 17.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Confucius Temple and Qinhuai River Scenic Area",
+          "start_time": "08:05",
+          "end_time": "08:10",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Confucius Temple",
+              "end": "Confucius Temple and Qinhuai River Scenic Area",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:05",
+              "cost": 11.0,
+              "distance": 0.1,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Zhongshan Scenic Area",
+          "start_time": "08:21",
+          "end_time": "08:23",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Confucius Temple and Qinhuai River Scenic Area",
+              "end": "Zhongshan Scenic Area",
+              "mode": "taxi",
+              "start_time": "08:10",
+              "end_time": "08:21",
+              "cost": 31.52,
+              "distance": 7.66,
+              "price": 31.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Museum",
+          "start_time": "09:00",
+          "end_time": "09:07",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Zhongshan Scenic Area",
+              "end": "Nanjing Museum",
+              "mode": "taxi",
+              "start_time": "08:23",
+              "end_time": "08:28",
+              "cost": 17.37,
+              "distance": 3.62,
+              "price": 17.37,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Master Zuo's Plum Blossom Cake (Tongjia Lane Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 6.0,
+          "cost": 12.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Nanjing Museum",
+              "end": "Master Zuo's Plum Blossom Cake (Tongjia Lane Branch)",
+              "mode": "taxi",
+              "start_time": "09:07",
+              "end_time": "09:15",
+              "cost": 25.3,
+              "distance": 5.89,
+              "price": 25.3,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Former National Government Site",
+          "start_time": "11:13",
+          "end_time": "11:15",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Master Zuo's Plum Blossom Cake (Tongjia Lane Branch)",
+              "end": "Former National Government Site",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:13",
+              "cost": 24.37,
+              "distance": 5.62,
+              "price": 24.37,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Zhongshan Gate Entrance to Nanjing City Wall",
+          "start_time": "11:15",
+          "end_time": "11:17",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Former National Government Site",
+              "end": "Zhongshan Gate Entrance to Nanjing City Wall",
+              "mode": "taxi",
+              "start_time": "11:15",
+              "end_time": "11:15",
+              "cost": 11.0,
+              "distance": 0.57,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Zhongshan Scenic Area - Yanque Lake",
+          "start_time": "11:18",
+          "end_time": "11:20",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Zhongshan Gate Entrance to Nanjing City Wall",
+              "end": "Zhongshan Scenic Area - Yanque Lake",
+              "mode": "taxi",
+              "start_time": "11:17",
+              "end_time": "11:18",
+              "cost": 11.0,
+              "distance": 0.91,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Sun Yat-sen Mausoleum Historical Relics Exhibition",
+          "start_time": "11:20",
+          "end_time": "11:30",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Zhongshan Scenic Area - Yanque Lake",
+              "end": "Sun Yat-sen Mausoleum Historical Relics Exhibition",
+              "mode": "taxi",
+              "start_time": "11:20",
+              "end_time": "11:20",
+              "cost": 11.0,
+              "distance": 0.26,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Plum Blossom Valley Park",
+          "start_time": "11:30",
+          "end_time": "11:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Sun Yat-sen Mausoleum Historical Relics Exhibition",
+              "end": "Plum Blossom Valley Park",
+              "mode": "taxi",
+              "start_time": "11:30",
+              "end_time": "11:30",
+              "cost": 11.0,
+              "distance": 0.18,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Four Directions City",
+          "start_time": "11:36",
+          "end_time": "11:38",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Plum Blossom Valley Park",
+              "end": "Four Directions City",
+              "mode": "taxi",
+              "start_time": "11:35",
+              "end_time": "11:36",
+              "cost": 11.0,
+              "distance": 0.73,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Meiling Palace",
+          "start_time": "11:38",
+          "end_time": "11:40",
+          "price": 29.5,
+          "cost": 59.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Four Directions City",
+              "end": "Meiling Palace",
+              "mode": "taxi",
+              "start_time": "11:38",
+              "end_time": "11:38",
+              "cost": 11.0,
+              "distance": 0.35,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Museum of Astronomy and History",
+          "start_time": "11:44",
+          "end_time": "11:46",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Meiling Palace",
+              "end": "Nanjing Museum of Astronomy and History",
+              "mode": "taxi",
+              "start_time": "11:40",
+              "end_time": "11:44",
+              "cost": 14.31,
+              "distance": 2.75,
+              "price": 14.31,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Lu's Plum Blossom Cake (Laomendong Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 9.0,
+          "cost": 18.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Nanjing Museum of Astronomy and History",
+              "end": "Lu's Plum Blossom Cake (Laomendong Branch)",
+              "mode": "taxi",
+              "start_time": "11:46",
+              "end_time": "11:58",
+              "cost": 33.05,
+              "distance": 8.1,
+              "price": 33.05,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "THE TAI HOTEL",
+          "start_time": "17:10",
+          "end_time": "24:00",
+          "price": 628.0,
+          "cost": 1256.0,
+          "tickets": 2,
+          "rooms": 2,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Lu's Plum Blossom Cake (Laomendong Branch)",
+              "end": "THE TAI HOTEL",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:10",
+              "cost": 18.22,
+              "distance": 3.86,
+              "price": 18.22,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "THE TAI HOTEL",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Zhu Ji Xiao Zheng Crispy Pancake (Laomendong Branch)",
+          "start_time": "11:05",
+          "end_time": "11:10",
+          "price": 10.0,
+          "cost": 20.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "THE TAI HOTEL",
+              "end": "Zhu Ji Xiao Zheng Crispy Pancake (Laomendong Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:05",
+              "cost": 18.13,
+              "distance": 3.84,
+              "price": 18.13,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "THE TAI HOTEL",
+          "start_time": "17:05",
+          "end_time": "24:00",
+          "price": 628.0,
+          "cost": 1256.0,
+          "tickets": 2,
+          "rooms": 2,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Zhu Ji Xiao Zheng Crispy Pancake (Laomendong Branch)",
+              "end": "THE TAI HOTEL",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:05",
+              "cost": 18.13,
+              "distance": 3.84,
+              "price": 18.13,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "THE TAI HOTEL",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": []
+        },
+        {
+          "type": "airplane",
+          "start_time": "22:30",
+          "end_time": "22:50",
+          "start": "Nanjing Lukou International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "price": 306.84,
+          "cost": 613.68,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "THE TAI HOTEL",
+              "end": "Nanjing Lukou International Airport",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:58",
+              "cost": 154.78,
+              "distance": 35.57,
+              "price": 154.78,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL647"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250323095548797024",
+  "nl2sl_nature_language": "We are 2 people, departing from Shanghai, traveling to Nanjing for 3 days, with the following requirements: The budget for accommodation is 1300.0. We hope the accommodation is within 7.97 kilometers of the Memorial Hall of the Victims in Nanjing Massacre by Japanese Invaders.",
+  "nl2sl_ground_truth": [
+    "accommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=1300",
+    "result=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Memorial Hall of the Victims in Nanjing Massacre by Japanese Invaders', accommodation_position)<=7.961856934780227)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "accommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=1300.0",
+    "result=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), \"Memorial Hall of the Victims in Nanjing Massacre by Japanese Invaders\", accommodation_position)<=7.97)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "accommodation_budget",
+      "passed": false,
+      "snippet": "accommodation_cost=0",
+      "full_snippet": "accommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=1300",
+      "computed": {
+        "accommodation_cost": 2512.0,
+        "budget_limit": 1300.0
+      },
+      "error": null
+    },
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=False",
+      "full_snippet": "result=False\naccommodation_position=''\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_position=activity_position(activity)\nresult=(poi_distance(target_city(plan), 'Memorial Hall of the Victims in Nanjing Massacre by Japanese Invaders', accommodation_position)<=7.961856934780227)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==2)",
+      "full_snippet": "result=(people_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 66.67
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Suzhou",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "08:07",
+          "end_time": "09:50",
+          "start": "Hangzhou East Railway Station",
+          "end": "Suzhou Park Station",
+          "price": 78.65,
+          "cost": 235.95000000000002,
+          "tickets": 3,
+          "transports": [],
+          "TrainID": "G7372"
+        },
+        {
+          "type": "attraction",
+          "position": "Maple Bridge Scenic Area",
+          "start_time": "10:09",
+          "end_time": "10:16",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Suzhou Park Station",
+              "end": "Maple Bridge Scenic Area",
+              "mode": "taxi",
+              "start_time": "09:50",
+              "end_time": "10:09",
+              "cost": 54.4,
+              "distance": 13.27,
+              "price": 54.4,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Suzhou Museum",
+          "start_time": "10:24",
+          "end_time": "10:31",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Maple Bridge Scenic Area",
+              "end": "Suzhou Museum",
+              "mode": "taxi",
+              "start_time": "10:16",
+              "end_time": "10:24",
+              "cost": 25.61,
+              "distance": 5.97,
+              "price": 25.61,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shantang Street",
+          "start_time": "10:34",
+          "end_time": "10:36",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Suzhou Museum",
+              "end": "Shantang Street",
+              "mode": "taxi",
+              "start_time": "10:31",
+              "end_time": "10:34",
+              "cost": 13.26,
+              "distance": 2.44,
+              "price": 13.26,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Pingjiang Road Historic District",
+          "start_time": "10:40",
+          "end_time": "10:47",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shantang Street",
+              "end": "Pingjiang Road Historic District",
+              "mode": "taxi",
+              "start_time": "10:36",
+              "end_time": "10:40",
+              "cost": 15.34,
+              "distance": 3.04,
+              "price": 15.34,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Wang's Linji Baked Pancake (Shuangta Main Store)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 9.0,
+          "cost": 27.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Pingjiang Road Historic District",
+              "end": "Wang's Linji Baked Pancake (Shuangta Main Store)",
+              "mode": "taxi",
+              "start_time": "10:47",
+              "end_time": "10:49",
+              "cost": 11.0,
+              "distance": 1.62,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Golden Rooster Lake",
+          "start_time": "11:15",
+          "end_time": "11:20",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Wang's Linji Baked Pancake (Shuangta Main Store)",
+              "end": "Golden Rooster Lake",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:15",
+              "cost": 29.3,
+              "distance": 7.03,
+              "price": 29.3,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Suzhou Water Tour",
+          "start_time": "11:33",
+          "end_time": "11:43",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Golden Rooster Lake",
+              "end": "Suzhou Water Tour",
+              "mode": "taxi",
+              "start_time": "11:20",
+              "end_time": "11:33",
+              "cost": 35.63,
+              "distance": 8.84,
+              "price": 35.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Yangcheng Lake",
+          "start_time": "12:16",
+          "end_time": "12:28",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Suzhou Water Tour",
+              "end": "Yangcheng Lake",
+              "mode": "taxi",
+              "start_time": "11:43",
+              "end_time": "12:16",
+              "cost": 95.22,
+              "distance": 22.34,
+              "price": 95.22,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "West Garden Temple",
+          "start_time": "13:01",
+          "end_time": "13:06",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Yangcheng Lake",
+              "end": "West Garden Temple",
+              "mode": "taxi",
+              "start_time": "12:28",
+              "end_time": "13:01",
+              "cost": 96.48,
+              "distance": 22.62,
+              "price": 96.48,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Dayu Hot Pot (Suzhou Harmony Constellation Store)",
+          "start_time": "17:00",
+          "end_time": "19:10",
+          "price": 118.0,
+          "cost": 354.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "West Garden Temple",
+              "end": "Dayu Hot Pot (Suzhou Harmony Constellation Store)",
+              "mode": "taxi",
+              "start_time": "13:06",
+              "end_time": "13:23",
+              "cost": 46.75,
+              "distance": 11.57,
+              "price": 46.75,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Garbo Hotel (Suzhou Guanqian Street Shiquan Street Branch)",
+          "start_time": "19:22",
+          "end_time": "24:00",
+          "price": 277.0,
+          "cost": 831.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Dayu Hot Pot (Suzhou Harmony Constellation Store)",
+              "end": "Garbo Hotel (Suzhou Guanqian Street Shiquan Street Branch)",
+              "mode": "taxi",
+              "start_time": "19:10",
+              "end_time": "19:22",
+              "cost": 33.1,
+              "distance": 8.11,
+              "price": 33.1,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Garbo Hotel (Suzhou Guanqian Street Shiquan Street Branch)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Old Wang's Egg Pancake (Shuyuan Alley Branch)",
+          "start_time": "11:02",
+          "end_time": "11:07",
+          "price": 10.0,
+          "cost": 30.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Garbo Hotel (Suzhou Guanqian Street Shiquan Street Branch)",
+              "end": "Old Wang's Egg Pancake (Shuyuan Alley Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:02",
+              "cost": 11.0,
+              "distance": 1.55,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Old Patron's Egg Pancake",
+          "start_time": "17:02",
+          "end_time": "17:07",
+          "price": 11.0,
+          "cost": 33.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Old Wang's Egg Pancake (Shuyuan Alley Branch)",
+              "end": "Old Patron's Egg Pancake",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:02",
+              "cost": 11.0,
+              "distance": 1.75,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "18:52",
+          "end_time": "20:17",
+          "start": "Suzhou Station",
+          "end": "Hangzhou East Railway Station",
+          "price": 78.65,
+          "cost": 235.95000000000002,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Old Patron's Egg Pancake",
+              "end": "Suzhou Station",
+              "mode": "taxi",
+              "start_time": "17:07",
+              "end_time": "17:12",
+              "cost": 16.9,
+              "distance": 3.49,
+              "price": 16.9,
+              "cars": 1
+            }
+          ],
+          "TrainID": "G7491"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250324195707870699",
+  "nl2sl_nature_language": "We are 3 people, departing from Hangzhou to Suzhou for a 2-day trip. Requirements: Visit Dayu Hot Pot (Suzhou Harmony Constellation Store) between 17:40 and 19:10. Prefer a single bed room.",
+  "nl2sl_ground_truth": [
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Dayu Hot Pot (Suzhou Harmony Constellation Store)':\n    if activity_start_time(activity)<='17:40' and activity_end_time(activity)>='19:10':\n      result=True",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Dayu Hot Pot (Suzhou Harmony Constellation Store)':\n    if activity_start_time(activity)<='17:40' and activity_end_time(activity)>='19:10':\n      result=True",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "poi_timing",
+      "passed": true,
+      "snippet": "result=False",
+      "full_snippet": "result=False\nfor activity in allactivities(plan):\n  if activity_position(activity)=='Dayu Hot Pot (Suzhou Harmony Constellation Store)':\n    if activity_start_time(activity)<='17:40' and activity_end_time(activity)>='19:10':\n      result=True",
+      "computed": {
+        "required_poi": "Dayu Hot Pot (Suzhou Harmony Constellation Store)",
+        "actual_start": "17:00",
+        "actual_end": "19:10",
+        "required_start_by": "17:40",
+        "required_end_after": "19:10"
+      },
+      "error": null
+    },
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==3)",
+      "full_snippet": "result=(people_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 83.33
+  }
+}

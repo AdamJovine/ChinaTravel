@@ -1,0 +1,247 @@
+{
+  "people_number": 2,
+  "start_city": "Chengdu",
+  "target_city": "Hangzhou",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "18:57",
+          "end_time": "05:24",
+          "start": "Chengdu West Railway Station",
+          "end": "Hangzhou South Railway Station",
+          "price": 616.66,
+          "cost": 1233.32,
+          "tickets": 2,
+          "transports": [],
+          "TrainID": "K352"
+        },
+        {
+          "type": "accommodation",
+          "position": "Holiday Inn Express Hangzhou West Lake East",
+          "start_time": "05:55",
+          "end_time": "24:00",
+          "price": 450.0,
+          "cost": 900.0,
+          "tickets": 2,
+          "rooms": 2,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Hangzhou South Railway Station",
+              "end": "South Railway Station-Metro Station",
+              "mode": "walk",
+              "start_time": "05:24",
+              "end_time": "05:27",
+              "cost": 0,
+              "distance": 0.3,
+              "price": 0.0
+            },
+            {
+              "start": "South Railway Station-Metro Station",
+              "end": "City Station-Metro Station",
+              "mode": "metro",
+              "start_time": "05:27",
+              "end_time": "05:54",
+              "cost": 8,
+              "distance": 13.77,
+              "price": 4,
+              "tickets": 2
+            },
+            {
+              "start": "City Station-Metro Station",
+              "end": "Holiday Inn Express Hangzhou West Lake East",
+              "mode": "walk",
+              "start_time": "05:54",
+              "end_time": "05:55",
+              "cost": 0,
+              "distance": 0.15,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Holiday Inn Express Hangzhou West Lake East",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": []
+        },
+        {
+          "type": "airplane",
+          "start_time": "22:23",
+          "end_time": "00:18",
+          "start": "Hangzhou Xiaoshan International Airport",
+          "end": "Chengdu Tianfu International Airport",
+          "price": 728.38,
+          "cost": 1456.76,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Holiday Inn Express Hangzhou West Lake East",
+              "end": "City Station-Metro Station",
+              "mode": "walk",
+              "start_time": "08:05",
+              "end_time": "08:06",
+              "cost": 0,
+              "distance": 0.15,
+              "price": 0.0
+            },
+            {
+              "start": "City Station-Metro Station",
+              "end": "Xiaoshan International Airport-Metro Station",
+              "mode": "metro",
+              "start_time": "08:06",
+              "end_time": "08:54",
+              "cost": 12,
+              "distance": 24.31,
+              "price": 6,
+              "tickets": 2
+            },
+            {
+              "start": "Xiaoshan International Airport-Metro Station",
+              "end": "Hangzhou Xiaoshan International Airport",
+              "mode": "walk",
+              "start_time": "08:54",
+              "end_time": "08:55",
+              "cost": 0,
+              "distance": 0.12,
+              "price": 0.0
+            }
+          ],
+          "FlightID": "FL531"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 1,
+  "uid": "20250323001024103049",
+  "nl2sl_nature_language": "We are 2 people, departing from Chengdu, traveling to Hangzhou for 2 days, with the following requirements: the budget for local transportation is 20, and the budget for inter-city transportation is 3800.0.",
+  "nl2sl_ground_truth": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=20)",
+    "inter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=3800",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=20.0)",
+    "inter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=3800.0",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "inner_city_budget",
+      "passed": true,
+      "snippet": "inner_city_transportation_cost=0 ",
+      "full_snippet": "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=20)",
+      "computed": {
+        "inner_city_transportation_cost": 20,
+        "budget_limit": 20.0
+      },
+      "error": null
+    },
+    {
+      "label": "intercity_budget",
+      "passed": true,
+      "snippet": "inter_city_transportation_cost=0",
+      "full_snippet": "inter_city_transportation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['airplane','train']: inter_city_transportation_cost+=activity_cost(activity)\nresult=inter_city_transportation_cost<=3800",
+      "computed": {
+        "inter_city_transportation_cost": 2690.08,
+        "budget_limit": 3800.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==2)",
+      "full_snippet": "result=(people_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 0.0,
+    "ATT": 75.71,
+    "DDR": 16.67
+  }
+}

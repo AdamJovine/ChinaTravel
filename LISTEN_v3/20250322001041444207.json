@@ -1,0 +1,896 @@
+{
+  "people_number": 3,
+  "start_city": "Wuhan",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:47",
+          "end_time": "07:38",
+          "start": "Wuhan Tianhe International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "price": 299.16,
+          "cost": 897.48,
+          "tickets": 3,
+          "transports": [],
+          "FlightID": "FL562"
+        },
+        {
+          "type": "attraction",
+          "position": "The Bund",
+          "start_time": "08:26",
+          "end_time": "08:33",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shanghai Pudong International Airport",
+              "end": "The Bund",
+              "mode": "taxi",
+              "start_time": "07:38",
+              "end_time": "08:26",
+              "cost": 139.43,
+              "distance": 32.16,
+              "price": 139.43,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Huangpu River",
+          "start_time": "08:33",
+          "end_time": "08:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "The Bund",
+              "end": "Huangpu River",
+              "mode": "taxi",
+              "start_time": "08:33",
+              "end_time": "08:33",
+              "cost": 11.0,
+              "distance": 0.24,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Planetarium",
+          "start_time": "09:57",
+          "end_time": "10:04",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Huangpu River",
+              "end": "Shanghai Planetarium",
+              "mode": "taxi",
+              "start_time": "08:35",
+              "end_time": "09:57",
+              "cost": 241.52,
+              "distance": 54.85,
+              "price": 241.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Disney Town",
+          "start_time": "10:57",
+          "end_time": "10:59",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shanghai Planetarium",
+              "end": "Disney Town",
+              "mode": "taxi",
+              "start_time": "10:04",
+              "end_time": "10:57",
+              "cost": 155.13,
+              "distance": 35.65,
+              "price": 155.13,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Large Intestine Noodles",
+          "start_time": "11:28",
+          "end_time": "11:33",
+          "price": 40.0,
+          "cost": 120.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Disney Town",
+              "end": "Large Intestine Noodles",
+              "mode": "taxi",
+              "start_time": "10:59",
+              "end_time": "11:28",
+              "cost": 81.73,
+              "distance": 19.34,
+              "price": 81.73,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Youth Science and Technology Exploration Center",
+          "start_time": "12:00",
+          "end_time": "12:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Large Intestine Noodles",
+              "end": "Shanghai Youth Science and Technology Exploration Center",
+              "mode": "taxi",
+              "start_time": "11:33",
+              "end_time": "11:35",
+              "cost": 11.0,
+              "distance": 1.38,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Urban Planning Exhibition Center",
+          "start_time": "12:09",
+          "end_time": "12:14",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shanghai Youth Science and Technology Exploration Center",
+              "end": "Shanghai Urban Planning Exhibition Center",
+              "mode": "taxi",
+              "start_time": "12:05",
+              "end_time": "12:09",
+              "cost": 15.14,
+              "distance": 2.98,
+              "price": 15.14,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Fosun Foundation Center",
+          "start_time": "12:17",
+          "end_time": "12:19",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shanghai Urban Planning Exhibition Center",
+              "end": "Fosun Foundation Center",
+              "mode": "taxi",
+              "start_time": "12:14",
+              "end_time": "12:17",
+              "cost": 12.3,
+              "distance": 2.17,
+              "price": 12.3,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Natural Wild Insectarium",
+          "start_time": "12:21",
+          "end_time": "12:23",
+          "price": 88.0,
+          "cost": 264.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Fosun Foundation Center",
+              "end": "Shanghai Natural Wild Insectarium",
+              "mode": "taxi",
+              "start_time": "12:19",
+              "end_time": "12:21",
+              "cost": 11.0,
+              "distance": 1.62,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Huangpu River Cruise (Oriental Pearl Pier)",
+          "start_time": "12:23",
+          "end_time": "12:25",
+          "price": 90.0,
+          "cost": 270.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shanghai Natural Wild Insectarium",
+              "end": "Huangpu River Cruise (Oriental Pearl Pier)",
+              "mode": "taxi",
+              "start_time": "12:23",
+              "end_time": "12:23",
+              "cost": 11.0,
+              "distance": 0.08,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Museum of Contemporary Art",
+          "start_time": "13:30",
+          "end_time": "13:32",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Huangpu River Cruise (Oriental Pearl Pier)",
+              "end": "Shanghai Museum of Contemporary Art",
+              "mode": "taxi",
+              "start_time": "12:25",
+              "end_time": "12:28",
+              "cost": 13.46,
+              "distance": 2.5,
+              "price": 13.46,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "People's Square",
+          "start_time": "13:32",
+          "end_time": "13:39",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shanghai Museum of Contemporary Art",
+              "end": "People's Square",
+              "mode": "taxi",
+              "start_time": "13:32",
+              "end_time": "13:32",
+              "cost": 11.0,
+              "distance": 0.28,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Xintiandi",
+          "start_time": "13:40",
+          "end_time": "13:42",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "People's Square",
+              "end": "Xintiandi",
+              "mode": "taxi",
+              "start_time": "13:39",
+              "end_time": "13:40",
+              "cost": 11.0,
+              "distance": 0.9,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Longhua Temple",
+          "start_time": "13:50",
+          "end_time": "13:52",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Xintiandi",
+              "end": "Longhua Temple",
+              "mode": "taxi",
+              "start_time": "13:42",
+              "end_time": "13:50",
+              "cost": 23.96,
+              "distance": 5.5,
+              "price": 23.96,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Xujiahui Library",
+          "start_time": "13:55",
+          "end_time": "13:57",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Longhua Temple",
+              "end": "Xujiahui Library",
+              "mode": "taxi",
+              "start_time": "13:52",
+              "end_time": "13:55",
+              "cost": 12.44,
+              "distance": 2.21,
+              "price": 12.44,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Columbia Circle",
+          "start_time": "14:00",
+          "end_time": "14:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Xujiahui Library",
+              "end": "Columbia Circle",
+              "mode": "taxi",
+              "start_time": "13:57",
+              "end_time": "14:00",
+              "cost": 12.35,
+              "distance": 2.18,
+              "price": 12.35,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Tribute to the Master: Picasso Art Center",
+          "start_time": "14:09",
+          "end_time": "14:14",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Columbia Circle",
+              "end": "Tribute to the Master: Picasso Art Center",
+              "mode": "taxi",
+              "start_time": "14:05",
+              "end_time": "14:09",
+              "cost": 15.12,
+              "distance": 2.98,
+              "price": 15.12,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Museum",
+          "start_time": "14:17",
+          "end_time": "14:19",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Tribute to the Master: Picasso Art Center",
+              "end": "Shanghai Museum",
+              "mode": "taxi",
+              "start_time": "14:14",
+              "end_time": "14:17",
+              "cost": 13.72,
+              "distance": 2.58,
+              "price": 13.72,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanpu Bridge",
+          "start_time": "14:24",
+          "end_time": "14:26",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shanghai Museum",
+              "end": "Nanpu Bridge",
+              "mode": "taxi",
+              "start_time": "14:19",
+              "end_time": "14:24",
+              "cost": 18.14,
+              "distance": 3.84,
+              "price": 18.14,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Expo Park",
+          "start_time": "14:30",
+          "end_time": "14:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Nanpu Bridge",
+              "end": "Shanghai Expo Park",
+              "mode": "taxi",
+              "start_time": "14:26",
+              "end_time": "14:30",
+              "cost": 14.22,
+              "distance": 2.72,
+              "price": 14.22,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dream Back to the Tang Dynasty Immersive Ancient-Style Theme Park",
+          "start_time": "15:00",
+          "end_time": "15:05",
+          "price": 468.0,
+          "cost": 1404.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shanghai Expo Park",
+              "end": "Dream Back to the Tang Dynasty Immersive Ancient-Style Theme Park",
+              "mode": "taxi",
+              "start_time": "14:35",
+              "end_time": "15:00",
+              "cost": 70.47,
+              "distance": 16.84,
+              "price": 70.47,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Cafe del Volcan (Yongkang Road Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 37.0,
+          "cost": 111.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Dream Back to the Tang Dynasty Immersive Ancient-Style Theme Park",
+              "end": "Cafe del Volcan (Yongkang Road Branch)",
+              "mode": "taxi",
+              "start_time": "15:05",
+              "end_time": "15:25",
+              "cost": 55.35,
+              "distance": 13.48,
+              "price": 55.35,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+          "start_time": "17:07",
+          "end_time": "24:00",
+          "price": 468.0,
+          "cost": 1404.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Cafe del Volcan (Yongkang Road Branch)",
+              "end": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:07",
+              "cost": 11.27,
+              "distance": 1.88,
+              "price": 11.27,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Valley Sand Noodle Shop",
+          "start_time": "11:07",
+          "end_time": "11:12",
+          "price": 30.0,
+          "cost": 90.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+              "end": "Valley Sand Noodle Shop",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:07",
+              "cost": 22.16,
+              "distance": 4.99,
+              "price": 22.16,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Village Entrance Tree",
+          "start_time": "17:05",
+          "end_time": "17:10",
+          "price": 51.0,
+          "cost": 153.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Valley Sand Noodle Shop",
+              "end": "Village Entrance Tree",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:05",
+              "cost": 17.24,
+              "distance": 3.58,
+              "price": 17.24,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+          "start_time": "17:13",
+          "end_time": "24:00",
+          "price": 468.0,
+          "cost": 1404.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Village Entrance Tree",
+              "end": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+              "mode": "taxi",
+              "start_time": "17:10",
+              "end_time": "17:13",
+              "cost": 12.1,
+              "distance": 2.12,
+              "price": 12.1,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Jardine 1915 (Binjiang International Plaza Branch)",
+          "start_time": "11:10",
+          "end_time": "11:15",
+          "price": 53.0,
+          "cost": 159.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+              "end": "Jardine 1915 (Binjiang International Plaza Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:10",
+              "cost": 29.09,
+              "distance": 6.97,
+              "price": 29.09,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+          "start_time": "17:06",
+          "end_time": "17:11",
+          "price": 16.0,
+          "cost": 48.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Jardine 1915 (Binjiang International Plaza Branch)",
+              "end": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:06",
+              "cost": 19.51,
+              "distance": 4.23,
+              "price": 19.51,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+          "start_time": "17:27",
+          "end_time": "24:00",
+          "price": 468.0,
+          "cost": 1404.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "end": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+              "mode": "taxi",
+              "start_time": "17:11",
+              "end_time": "17:27",
+              "cost": 43.62,
+              "distance": 10.87,
+              "price": 43.62,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+          "start_time": "11:19",
+          "end_time": "11:24",
+          "price": 18.0,
+          "cost": 54.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Jinjiang Metropolo Shanghai Xintiandi Hotel",
+              "end": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:19",
+              "cost": 53.81,
+              "distance": 13.14,
+              "price": 53.81,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "16:55",
+          "end_time": "20:25",
+          "start": "Shanghai Hongqiao Station",
+          "end": "Wuhan Station",
+          "price": 446.81,
+          "cost": 1340.43,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "end": "Shanghai Hongqiao Station",
+              "mode": "taxi",
+              "start_time": "11:24",
+              "end_time": "11:32",
+              "cost": 24.92,
+              "distance": 5.78,
+              "price": 24.92,
+              "cars": 1
+            }
+          ],
+          "TrainID": "G1728"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322001041444207",
+  "nl2sl_nature_language": "We are 3 people, departing from Wuhan, traveling to Shanghai for",
+  "nl2sl_ground_truth": [
+    "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Xujiahui Origin\"}<=attraction_name_set)\nresult_list.append(result)\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"SPA\"}<=accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nl2sl_predicted": [
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    false
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "OR_compound",
+      "passed": false,
+      "snippet": "result_list=[]",
+      "full_snippet": "result_list=[]\nattraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Xujiahui Origin\"}<=attraction_name_set)\nresult_list.append(result)\naccommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"SPA\"}<=accommodation_type_set)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r",
+      "computed": {
+        "attraction_name_set": [
+          "Columbia Circle",
+          "Disney Town",
+          "Dream Back to the Tang Dynasty Immersive Ancient-Style Theme Park",
+          "Fosun Foundation Center",
+          "Huangpu River",
+          "Huangpu River Cruise (Oriental Pearl Pier)",
+          "Longhua Temple",
+          "Nanpu Bridge",
+          "People's Square",
+          "Shanghai Expo Park",
+          "Shanghai Museum",
+          "Shanghai Museum of Contemporary Art",
+          "Shanghai Natural Wild Insectarium",
+          "Shanghai Planetarium",
+          "Shanghai Urban Planning Exhibition Center",
+          "Shanghai Youth Science and Technology Exploration Center",
+          "The Bund",
+          "Tribute to the Master: Picasso Art Center",
+          "Xintiandi",
+          "Xujiahui Library"
+        ],
+        "accommodation_type_set": [
+          "free parking"
+        ],
+        "branches": [
+          {
+            "branch": 1,
+            "passed": false,
+            "computed": {
+              "attraction_name_set": [
+                "Columbia Circle",
+                "Disney Town",
+                "Dream Back to the Tang Dynasty Immersive Ancient-Style Theme Park",
+                "Fosun Foundation Center",
+                "Huangpu River",
+                "Huangpu River Cruise (Oriental Pearl Pier)",
+                "Longhua Temple",
+                "Nanpu Bridge",
+                "People's Square",
+                "Shanghai Expo Park",
+                "Shanghai Museum",
+                "Shanghai Museum of Contemporary Art",
+                "Shanghai Natural Wild Insectarium",
+                "Shanghai Planetarium",
+                "Shanghai Urban Planning Exhibition Center",
+                "Shanghai Youth Science and Technology Exploration Center",
+                "The Bund",
+                "Tribute to the Master: Picasso Art Center",
+                "Xintiandi",
+                "Xujiahui Library"
+              ],
+              "required": [
+                "Xujiahui Origin"
+              ]
+            },
+            "error": null,
+            "code": "attraction_name_set=set()"
+          },
+          {
+            "branch": 2,
+            "passed": false,
+            "computed": {
+              "accommodation_type_set": [
+                "free parking"
+              ],
+              "required": [
+                "SPA"
+              ]
+            },
+            "error": null,
+            "code": "accommodation_type_set=set()"
+          }
+        ]
+      },
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 83.33
+  }
+}

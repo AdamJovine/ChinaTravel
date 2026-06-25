@@ -1,0 +1,634 @@
+{
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "23:54",
+          "end_time": "04:40",
+          "start": "Beijing Fengtai Station",
+          "end": "Shenzhen East Station",
+          "price": 777.26,
+          "cost": 777.26,
+          "tickets": 1,
+          "transports": [],
+          "TrainID": "K105"
+        },
+        {
+          "type": "attraction",
+          "position": "Happy Harbor",
+          "start_time": "10:30",
+          "end_time": "10:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen East Station",
+              "end": "Buji-Metro Station",
+              "mode": "walk",
+              "start_time": "04:40",
+              "end_time": "04:43",
+              "cost": 0,
+              "distance": 0.28,
+              "price": 0.0
+            },
+            {
+              "start": "Buji-Metro Station",
+              "end": "Baohua-Metro Station",
+              "mode": "metro",
+              "start_time": "04:43",
+              "end_time": "05:32",
+              "cost": 6,
+              "distance": 24.97,
+              "price": 6,
+              "tickets": 1
+            },
+            {
+              "start": "Baohua-Metro Station",
+              "end": "Happy Harbor",
+              "mode": "walk",
+              "start_time": "05:32",
+              "end_time": "05:36",
+              "cost": 0,
+              "distance": 0.37,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dameisha Seaside Park",
+          "start_time": "12:15",
+          "end_time": "12:25",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Happy Harbor",
+              "end": "Baohua-Metro Station",
+              "mode": "walk",
+              "start_time": "10:35",
+              "end_time": "10:39",
+              "cost": 0,
+              "distance": 0.37,
+              "price": 0.0
+            },
+            {
+              "start": "Baohua-Metro Station",
+              "end": "Dameisha-Metro Station",
+              "mode": "metro",
+              "start_time": "10:39",
+              "end_time": "12:06",
+              "cost": 8,
+              "distance": 43.75,
+              "price": 8,
+              "tickets": 1
+            },
+            {
+              "start": "Dameisha-Metro Station",
+              "end": "Dameisha Seaside Park",
+              "mode": "walk",
+              "start_time": "12:06",
+              "end_time": "12:15",
+              "cost": 0,
+              "distance": 0.77,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Old Zhou's Shunde Double-Skin Milk",
+          "start_time": "13:28",
+          "end_time": "13:33",
+          "price": 20.0,
+          "cost": 20.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Dameisha-Metro Station",
+              "mode": "walk",
+              "start_time": "12:25",
+              "end_time": "12:34",
+              "cost": 0,
+              "distance": 0.77,
+              "price": 0.0
+            },
+            {
+              "start": "Dameisha-Metro Station",
+              "end": "Meicun-Metro Station",
+              "mode": "metro",
+              "start_time": "12:34",
+              "end_time": "13:26",
+              "cost": 6,
+              "distance": 26.42,
+              "price": 6,
+              "tickets": 1
+            },
+            {
+              "start": "Meicun-Metro Station",
+              "end": "Old Zhou's Shunde Double-Skin Milk",
+              "mode": "walk",
+              "start_time": "13:26",
+              "end_time": "13:28",
+              "cost": 0,
+              "distance": 0.24,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "OCAT (Shenzhen Pavilion)",
+          "start_time": "13:51",
+          "end_time": "13:53",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Old Zhou's Shunde Double-Skin Milk",
+              "end": "Meicun-Metro Station",
+              "mode": "walk",
+              "start_time": "13:33",
+              "end_time": "13:35",
+              "cost": 0,
+              "distance": 0.24,
+              "price": 0.0
+            },
+            {
+              "start": "Meicun-Metro Station",
+              "end": "Shenkang-Metro Station",
+              "mode": "metro",
+              "start_time": "13:35",
+              "end_time": "13:47",
+              "cost": 3,
+              "distance": 6.02,
+              "price": 3,
+              "tickets": 1
+            },
+            {
+              "start": "Shenkang-Metro Station",
+              "end": "OCAT (Shenzhen Pavilion)",
+              "mode": "walk",
+              "start_time": "13:47",
+              "end_time": "13:51",
+              "cost": 0,
+              "distance": 0.38,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Hakka Tulou (Fujian)",
+          "start_time": "14:03",
+          "end_time": "14:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "OCAT (Shenzhen Pavilion)",
+              "end": "Hakka Tulou (Fujian)",
+              "mode": "walk",
+              "start_time": "13:53",
+              "end_time": "14:03",
+              "cost": 0.0,
+              "distance": 0.8563173991470948,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Splendid China - Ethnic Minority Folk Houses",
+          "start_time": "14:07",
+          "end_time": "14:09",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Hakka Tulou (Fujian)",
+              "end": "Splendid China - Ethnic Minority Folk Houses",
+              "mode": "walk",
+              "start_time": "14:05",
+              "end_time": "14:07",
+              "cost": 0.0,
+              "distance": 0.19632149925261644,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Splendid China - Mogao Caves",
+          "start_time": "14:11",
+          "end_time": "14:18",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Splendid China - Ethnic Minority Folk Houses",
+              "end": "Splendid China - Mogao Caves",
+              "mode": "walk",
+              "start_time": "14:09",
+              "end_time": "14:11",
+              "cost": 0.0,
+              "distance": 0.16915579223174051,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Splendid China Folk Village",
+          "start_time": "14:19",
+          "end_time": "14:21",
+          "price": 69.0,
+          "cost": 69.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Splendid China - Mogao Caves",
+              "end": "Splendid China Folk Village",
+              "mode": "walk",
+              "start_time": "14:18",
+              "end_time": "14:19",
+              "cost": 0.0,
+              "distance": 0.132082281462094,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Splendid China",
+          "start_time": "16:00",
+          "end_time": "16:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Splendid China Folk Village",
+              "end": "Splendid China",
+              "mode": "walk",
+              "start_time": "14:21",
+              "end_time": "14:24",
+              "cost": 0.0,
+              "distance": 0.31133136860793764,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen OCT Tourism Resort",
+          "start_time": "16:12",
+          "end_time": "16:14",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Splendid China",
+              "end": "Shenzhen OCT Tourism Resort",
+              "mode": "walk",
+              "start_time": "16:02",
+              "end_time": "16:12",
+              "cost": 0.0,
+              "distance": 0.8450745790258651,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Shenzhen Nanshan Genpla Hotel",
+          "start_time": "16:27",
+          "end_time": "24:00",
+          "price": 720.0,
+          "cost": 720.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 2,
+          "transports": [
+            {
+              "start": "Shenzhen OCT Tourism Resort",
+              "end": "Qiaocheng North-Metro Station",
+              "mode": "walk",
+              "start_time": "16:14",
+              "end_time": "16:16",
+              "cost": 0,
+              "distance": 0.21,
+              "price": 0.0
+            },
+            {
+              "start": "Qiaocheng North-Metro Station",
+              "end": "Tanglang-Metro Station",
+              "mode": "metro",
+              "start_time": "16:16",
+              "end_time": "16:26",
+              "cost": 3,
+              "distance": 5.22,
+              "price": 3,
+              "tickets": 1
+            },
+            {
+              "start": "Tanglang-Metro Station",
+              "end": "Shenzhen Nanshan Genpla Hotel",
+              "mode": "walk",
+              "start_time": "16:26",
+              "end_time": "16:27",
+              "cost": 0,
+              "distance": 0.14,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Shenzhen Nanshan Genpla Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "accommodation",
+          "position": "Shenzhen Nanshan Genpla Hotel",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "price": 720.0,
+          "cost": 720.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 2,
+          "transports": [
+            {
+              "start": "Shenzhen Nanshan Genpla Hotel",
+              "end": "Shenzhen Nanshan Genpla Hotel",
+              "mode": "walk",
+              "start_time": "17:00",
+              "end_time": "17:00",
+              "cost": 0.0,
+              "distance": 0.0,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Shenzhen Nanshan Genpla Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Nanshan Library",
+          "start_time": "09:00",
+          "end_time": "09:07",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen Nanshan Genpla Hotel",
+              "end": "Tanglang-Metro Station",
+              "mode": "walk",
+              "start_time": "08:05",
+              "end_time": "08:06",
+              "cost": 0,
+              "distance": 0.14,
+              "price": 0.0
+            },
+            {
+              "start": "Tanglang-Metro Station",
+              "end": "Nantou Ancient City-Metro Station",
+              "mode": "metro",
+              "start_time": "08:06",
+              "end_time": "08:25",
+              "cost": 4,
+              "distance": 9.64,
+              "price": 4,
+              "tickets": 1
+            },
+            {
+              "start": "Nantou Ancient City-Metro Station",
+              "end": "Nanshan Library",
+              "mode": "walk",
+              "start_time": "08:25",
+              "end_time": "08:31",
+              "cost": 0,
+              "distance": 0.55,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "19:55",
+          "end_time": "07:10",
+          "start": "Shenzhen North Railway Station",
+          "end": "Beijing West Railway Station",
+          "price": 1165.89,
+          "cost": 1165.89,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Nanshan Library",
+              "end": "Nantou Ancient City-Metro Station",
+              "mode": "walk",
+              "start_time": "09:07",
+              "end_time": "09:13",
+              "cost": 0,
+              "distance": 0.55,
+              "price": 0.0
+            },
+            {
+              "start": "Nantou Ancient City-Metro Station",
+              "end": "Shenzhen North Railway Station-Metro Station",
+              "mode": "metro",
+              "start_time": "09:13",
+              "end_time": "09:40",
+              "cost": 4,
+              "distance": 13.52,
+              "price": 4,
+              "tickets": 1
+            },
+            {
+              "start": "Shenzhen North Railway Station-Metro Station",
+              "end": "Shenzhen North Railway Station",
+              "mode": "walk",
+              "start_time": "09:40",
+              "end_time": "09:41",
+              "cost": 0,
+              "distance": 0.15,
+              "price": 0.0
+            }
+          ],
+          "TrainID": "D928"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 287,
+  "uid": "20250322060933112443",
+  "nl2sl_nature_language": "One person traveling from Beijing to Shenzhen for 3 days. Requirements: want to visit Nanshan Library, and the budget for local transportation is 30.",
+  "nl2sl_ground_truth": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Nanshan Library\"}<=attraction_name_set)",
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30.0)",
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Nanshan Library\"}<=attraction_name_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_attraction",
+      "passed": true,
+      "snippet": "attraction_name_set=set()",
+      "full_snippet": "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Nanshan Library\"}<=attraction_name_set)",
+      "computed": {
+        "attraction_name_set": [
+          "Dameisha Seaside Park",
+          "Hakka Tulou (Fujian)",
+          "Happy Harbor",
+          "Nanshan Library",
+          "OCAT (Shenzhen Pavilion)",
+          "Shenzhen OCT Tourism Resort",
+          "Splendid China",
+          "Splendid China - Ethnic Minority Folk Houses",
+          "Splendid China - Mogao Caves",
+          "Splendid China Folk Village"
+        ],
+        "required_attraction": [
+          "Nanshan Library"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "inner_city_budget",
+      "passed": false,
+      "snippet": "inner_city_transportation_cost=0 ",
+      "full_snippet": "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30)",
+      "computed": {
+        "inner_city_transportation_cost": 34.0,
+        "budget_limit": 30.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 83.33,
+    "ATT": 91.29,
+    "DDR": 33.33
+  }
+}

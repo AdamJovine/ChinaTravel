@@ -1,0 +1,437 @@
+{
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "23:54",
+          "end_time": "04:40",
+          "start": "Beijing Fengtai Station",
+          "end": "Shenzhen East Station",
+          "price": 777.26,
+          "cost": 777.26,
+          "tickets": 1,
+          "transports": [],
+          "TrainID": "K105"
+        },
+        {
+          "type": "attraction",
+          "position": "Happy Harbor",
+          "start_time": "10:30",
+          "end_time": "10:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen East Station",
+              "end": "Buji-Metro Station",
+              "mode": "walk",
+              "start_time": "04:40",
+              "end_time": "04:43",
+              "cost": 0,
+              "distance": 0.28,
+              "price": 0.0
+            },
+            {
+              "start": "Buji-Metro Station",
+              "end": "Baohua-Metro Station",
+              "mode": "metro",
+              "start_time": "04:43",
+              "end_time": "05:32",
+              "cost": 6,
+              "distance": 24.97,
+              "price": 6,
+              "tickets": 1
+            },
+            {
+              "start": "Baohua-Metro Station",
+              "end": "Happy Harbor",
+              "mode": "walk",
+              "start_time": "05:32",
+              "end_time": "05:36",
+              "cost": 0,
+              "distance": 0.37,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dameisha Seaside Park",
+          "start_time": "12:15",
+          "end_time": "12:25",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Happy Harbor",
+              "end": "Baohua-Metro Station",
+              "mode": "walk",
+              "start_time": "10:35",
+              "end_time": "10:39",
+              "cost": 0,
+              "distance": 0.37,
+              "price": 0.0
+            },
+            {
+              "start": "Baohua-Metro Station",
+              "end": "Dameisha-Metro Station",
+              "mode": "metro",
+              "start_time": "10:39",
+              "end_time": "12:06",
+              "cost": 8,
+              "distance": 43.75,
+              "price": 8,
+              "tickets": 1
+            },
+            {
+              "start": "Dameisha-Metro Station",
+              "end": "Dameisha Seaside Park",
+              "mode": "walk",
+              "start_time": "12:06",
+              "end_time": "12:15",
+              "cost": 0,
+              "distance": 0.77,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Old Zhou's Shunde Double-Skin Milk",
+          "start_time": "13:28",
+          "end_time": "13:33",
+          "price": 20.0,
+          "cost": 20.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Dameisha-Metro Station",
+              "mode": "walk",
+              "start_time": "12:25",
+              "end_time": "12:34",
+              "cost": 0,
+              "distance": 0.77,
+              "price": 0.0
+            },
+            {
+              "start": "Dameisha-Metro Station",
+              "end": "Meicun-Metro Station",
+              "mode": "metro",
+              "start_time": "12:34",
+              "end_time": "13:26",
+              "cost": 6,
+              "distance": 26.42,
+              "price": 6,
+              "tickets": 1
+            },
+            {
+              "start": "Meicun-Metro Station",
+              "end": "Old Zhou's Shunde Double-Skin Milk",
+              "mode": "walk",
+              "start_time": "13:26",
+              "end_time": "13:28",
+              "cost": 0,
+              "distance": 0.24,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Hui Hotel",
+          "start_time": "13:48",
+          "end_time": "24:00",
+          "price": 878.0,
+          "cost": 878.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Old Zhou's Shunde Double-Skin Milk",
+              "end": "Meicun-Metro Station",
+              "mode": "walk",
+              "start_time": "13:33",
+              "end_time": "13:35",
+              "cost": 0,
+              "distance": 0.24,
+              "price": 0.0
+            },
+            {
+              "start": "Meicun-Metro Station",
+              "end": "Huaxin-Metro Station",
+              "mode": "metro",
+              "start_time": "13:35",
+              "end_time": "13:43",
+              "cost": 3,
+              "distance": 4.13,
+              "price": 3,
+              "tickets": 1
+            },
+            {
+              "start": "Huaxin-Metro Station",
+              "end": "Hui Hotel",
+              "mode": "walk",
+              "start_time": "13:43",
+              "end_time": "13:48",
+              "cost": 0,
+              "distance": 0.48,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Hui Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "accommodation",
+          "position": "Hui Hotel",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "price": 878.0,
+          "cost": 878.0,
+          "tickets": 1,
+          "rooms": 1,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Hui Hotel",
+              "end": "Hui Hotel",
+              "mode": "walk",
+              "start_time": "17:00",
+              "end_time": "17:00",
+              "cost": 0.0,
+              "distance": 0.0,
+              "price": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Hui Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen Central Park",
+          "start_time": "08:18",
+          "end_time": "08:33",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Hui Hotel",
+              "end": "Shenzhen Central Park",
+              "mode": "walk",
+              "start_time": "08:05",
+              "end_time": "08:18",
+              "cost": 0.0,
+              "distance": 1.1527865572775937,
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "23:24",
+          "end_time": "01:49",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Beijing Daxing International Airport",
+          "price": 1006.35,
+          "cost": 1006.35,
+          "tickets": 1,
+          "transports": [
+            {
+              "start": "Shenzhen Central Park",
+              "end": "Huaqiang Road-Metro Station",
+              "mode": "walk",
+              "start_time": "08:33",
+              "end_time": "08:37",
+              "cost": 0,
+              "distance": 0.41,
+              "price": 0.0
+            },
+            {
+              "start": "Huaqiang Road-Metro Station",
+              "end": "Airport East-Metro Station",
+              "mode": "metro",
+              "start_time": "08:37",
+              "end_time": "09:35",
+              "cost": 7,
+              "distance": 29.46,
+              "price": 7,
+              "tickets": 1
+            },
+            {
+              "start": "Airport East-Metro Station",
+              "end": "Shenzhen Bao'an International Airport",
+              "mode": "walk",
+              "start_time": "09:35",
+              "end_time": "09:40",
+              "cost": 0,
+              "distance": 0.45,
+              "price": 0.0
+            }
+          ],
+          "FlightID": "FL174"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 142,
+  "uid": "20250322110543184649",
+  "nl2sl_nature_language": "1 person, departing from Beijing, traveling to Shenzhen for 3 days. Requirements: wish to visit a park. Budget for intra-city transportation is 30.0.",
+  "nl2sl_ground_truth": [
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"park\"}<=attraction_type_set)",
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30.0)",
+    "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)).lower())\nresult=({\"park\"}<=attraction_type_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==1)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_attraction_type",
+      "passed": true,
+      "snippet": "attraction_type_set=set()",
+      "full_snippet": "attraction_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_type_set.add(attraction_type(activity, target_city(plan)))\nresult=({\"park\"}<=attraction_type_set)",
+      "computed": {
+        "attraction_type_set": [
+          "amusement park/sports entertainment",
+          "park"
+        ],
+        "required_attr_type": [
+          "park"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "inner_city_budget",
+      "passed": true,
+      "snippet": "inner_city_transportation_cost=0 ",
+      "full_snippet": "inner_city_transportation_cost=0 \nfor activity in allactivities(plan):\n    inner_city_transportation_cost += innercity_transport_cost(activity_transports(activity))\nresult=(inner_city_transportation_cost<=30)",
+      "computed": {
+        "inner_city_transportation_cost": 30.0,
+        "budget_limit": 30.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==1)",
+      "full_snippet": "result=(people_count(plan)==1)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=1: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 25.0,
+    "ATT": 71.56,
+    "DDR": 33.33
+  }
+}

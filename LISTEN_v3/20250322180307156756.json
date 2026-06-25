@@ -1,0 +1,446 @@
+{
+  "people_number": 3,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "23:54",
+          "end_time": "04:40",
+          "start": "Beijing Fengtai Station",
+          "end": "Shenzhen East Station",
+          "price": 777.26,
+          "cost": 2331.7799999999997,
+          "tickets": 3,
+          "transports": [],
+          "TrainID": "K105"
+        },
+        {
+          "type": "attraction",
+          "position": "Happy Harbor",
+          "start_time": "10:30",
+          "end_time": "10:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shenzhen East Station",
+              "end": "Happy Harbor",
+              "mode": "taxi",
+              "start_time": "04:40",
+              "end_time": "05:16",
+              "cost": 104.62,
+              "distance": 24.43,
+              "price": 104.62,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dameisha Seaside Park",
+          "start_time": "11:41",
+          "end_time": "11:51",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Happy Harbor",
+              "end": "Dameisha Seaside Park",
+              "mode": "taxi",
+              "start_time": "10:35",
+              "end_time": "11:41",
+              "cost": 192.98,
+              "distance": 44.06,
+              "price": 192.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Old Zhou's Shunde Double-Skin Milk",
+          "start_time": "12:31",
+          "end_time": "12:36",
+          "price": 20.0,
+          "cost": 60.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Old Zhou's Shunde Double-Skin Milk",
+              "mode": "taxi",
+              "start_time": "11:51",
+              "end_time": "12:31",
+              "cost": 116.33,
+              "distance": 27.03,
+              "price": 116.33,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "China Merchants Shekou Cruise Home Port Tour",
+          "start_time": "13:01",
+          "end_time": "13:11",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Old Zhou's Shunde Double-Skin Milk",
+              "end": "China Merchants Shekou Cruise Home Port Tour",
+              "mode": "taxi",
+              "start_time": "12:36",
+              "end_time": "13:01",
+              "cost": 71.53,
+              "distance": 17.07,
+              "price": 71.53,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+          "start_time": "13:11",
+          "end_time": "13:21",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "China Merchants Shekou Cruise Home Port Tour",
+              "end": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "mode": "taxi",
+              "start_time": "13:11",
+              "end_time": "13:11",
+              "cost": 11.0,
+              "distance": 0.0,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shenzhen Bay Park",
+          "start_time": "13:32",
+          "end_time": "13:47",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "end": "Shenzhen Bay Park",
+              "mode": "taxi",
+              "start_time": "13:21",
+              "end_time": "13:32",
+              "cost": 31.06,
+              "distance": 7.53,
+              "price": 31.06,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Jujiao Beach",
+          "start_time": "15:18",
+          "end_time": "15:28",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shenzhen Bay Park",
+              "end": "Jujiao Beach",
+              "mode": "taxi",
+              "start_time": "13:47",
+              "end_time": "15:18",
+              "cost": 269.79,
+              "distance": 61.13,
+              "price": 269.79,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Dapeng Peninsula",
+          "start_time": "15:33",
+          "end_time": "15:43",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Jujiao Beach",
+              "end": "Dapeng Peninsula",
+              "mode": "taxi",
+              "start_time": "15:28",
+              "end_time": "15:33",
+              "cost": 18.37,
+              "distance": 3.91,
+              "price": 18.37,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "East Gate Old Street",
+          "start_time": "16:47",
+          "end_time": "16:57",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Dapeng Peninsula",
+              "end": "East Gate Old Street",
+              "mode": "taxi",
+              "start_time": "15:43",
+              "end_time": "16:47",
+              "cost": 186.86,
+              "distance": 42.7,
+              "price": 186.86,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+          "start_time": "17:07",
+          "end_time": "17:12",
+          "price": 22.0,
+          "cost": 66.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "East Gate Old Street",
+              "end": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "mode": "taxi",
+              "start_time": "16:57",
+              "end_time": "17:07",
+              "cost": 28.62,
+              "distance": 6.83,
+              "price": 28.62,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+          "start_time": "17:17",
+          "end_time": "24:00",
+          "price": 354.0,
+          "cost": 1062.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "end": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+              "mode": "taxi",
+              "start_time": "17:12",
+              "end_time": "17:17",
+              "cost": 17.82,
+              "distance": 3.75,
+              "price": 17.82,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+          "start_time": "13:00",
+          "end_time": "13:05",
+          "price": 16.0,
+          "cost": 48.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Xana Hotelle (Shenzhen Convention and Exhibition Center Gangxia Metro Station)",
+              "end": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:10",
+              "cost": 29.63,
+              "distance": 7.12,
+              "price": 29.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "YO!Tea (Futian CITIC Plaza Branch)",
+          "start_time": "17:05",
+          "end_time": "17:10",
+          "price": 22.0,
+          "cost": 66.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Turtle Old Lucky Herbal Tea Shop (Fenghuang Road Branch)",
+              "end": "YO!Tea (Futian CITIC Plaza Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:05",
+              "cost": 18.32,
+              "distance": 3.89,
+              "price": 18.32,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "23:24",
+          "end_time": "01:49",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Beijing Daxing International Airport",
+          "price": 1006.35,
+          "cost": 3019.05,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "YO!Tea (Futian CITIC Plaza Branch)",
+              "end": "Shenzhen Bao'an International Airport",
+              "mode": "taxi",
+              "start_time": "17:10",
+              "end_time": "17:56",
+              "cost": 134.0,
+              "distance": 30.96,
+              "price": 134.0,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL174"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322180307156756",
+  "nl2sl_nature_language": "We are 3 people traveling from Beijing to Shenzhen for 2 days, and we need to satisfy at least one of the following: 1. Try a restaurant of the type Farmhouse cuisine; 2. Keep the total trip budget at 6400.0.",
+  "nl2sl_ground_truth": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Farmhouse cuisine\"}&restaurant_type_set)\nresult_list.append(result)\ntotal_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=6400)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r"
+  ],
+  "nl2sl_predicted": [
+    "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Other\"}&restaurant_type_set)\nresult_list.append(result)\ntotal_cost=0\nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost+=innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=6400.0)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    false
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "OR_compound",
+      "passed": false,
+      "snippet": "result_list=[]",
+      "full_snippet": "result_list=[]\nrestaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Farmhouse cuisine\"}&restaurant_type_set)\nresult_list.append(result)\ntotal_cost=0 \nfor activity in allactivities(plan):\n    total_cost+=activity_cost(activity)\n    total_cost += innercity_transport_cost(activity_transports(activity))\nresult=(total_cost<=6400)\nresult_list.append(result)\nresult=False\nfor r in result_list:\n  result=result or r",
+      "computed": {
+        "restaurant_type_set": [
+          "bakery and desserts",
+          "empty"
+        ],
+        "total_cost": 7883.759999999999,
+        "branches": [
+          {
+            "branch": 1,
+            "passed": false,
+            "computed": {
+              "restaurant_type_set": [
+                "bakery and desserts",
+                "empty"
+              ],
+              "required": [
+                "Farmhouse cuisine"
+              ]
+            },
+            "error": null,
+            "code": "restaurant_type_set=set()"
+          },
+          {
+            "branch": 2,
+            "passed": false,
+            "computed": {
+              "total_cost": 7883.759999999999
+            },
+            "error": null,
+            "code": "total_cost=0 "
+          }
+        ]
+      },
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 100.0,
+    "ATT": 86.12,
+    "DDR": 83.33
+  }
+}

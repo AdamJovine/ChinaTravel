@@ -1,0 +1,520 @@
+{
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "16:16",
+          "end_time": "17:47",
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "price": 559.04,
+          "cost": 2236.16,
+          "tickets": 4,
+          "transports": [],
+          "FlightID": "FL162"
+        },
+        {
+          "type": "dinner",
+          "position": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+          "start_time": "18:19",
+          "end_time": "18:24",
+          "price": 16.0,
+          "cost": 64.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "mode": "taxi",
+              "start_time": "17:47",
+              "end_time": "18:19",
+              "cost": 92.63,
+              "distance": 21.76,
+              "price": 92.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "The Kunlun Jing An",
+          "start_time": "18:41",
+          "end_time": "24:00",
+          "price": 939.0,
+          "cost": 3756.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Long Journey Shaved Ice (Kongjiang Road Branch)",
+              "end": "The Kunlun Jing An",
+              "mode": "taxi",
+              "start_time": "18:24",
+              "end_time": "18:41",
+              "cost": 48.61,
+              "distance": 11.98,
+              "price": 48.61,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "The Kunlun Jing An",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Sightseeing Night Market (Venice Water City Night)",
+          "start_time": "08:14",
+          "end_time": "08:26",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "The Kunlun Jing An",
+              "end": "Sightseeing Night Market (Venice Water City Night)",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:14",
+              "cost": 26.18,
+              "distance": 6.14,
+              "price": 26.18,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Old Wharf",
+          "start_time": "08:44",
+          "end_time": "08:54",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Sightseeing Night Market (Venice Water City Night)",
+              "end": "Old Wharf",
+              "mode": "taxi",
+              "start_time": "08:26",
+              "end_time": "08:44",
+              "cost": 49.89,
+              "distance": 12.27,
+              "price": 49.89,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Unicorn Starry Sky Art Museum",
+          "start_time": "10:00",
+          "end_time": "10:15",
+          "price": 59.9,
+          "cost": 239.6,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Old Wharf",
+              "end": "Unicorn Starry Sky Art Museum, Tianzifang Flagship Store",
+              "mode": "taxi",
+              "start_time": "08:54",
+              "end_time": "08:59",
+              "cost": 18.05,
+              "distance": 3.81,
+              "price": 18.05,
+              "cars": 1
+            }
+          ],
+          "_transport_loc": "Unicorn Starry Sky Art Museum, Tianzifang Flagship Store"
+        },
+        {
+          "type": "attraction",
+          "position": "The Bund",
+          "start_time": "10:20",
+          "end_time": "10:27",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Unicorn Starry Sky Art Museum, Tianzifang Flagship Store",
+              "end": "The Bund",
+              "mode": "taxi",
+              "start_time": "10:15",
+              "end_time": "10:20",
+              "cost": 18.64,
+              "distance": 3.98,
+              "price": 18.64,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Huangpu River",
+          "start_time": "10:27",
+          "end_time": "10:29",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "The Bund",
+              "end": "Huangpu River",
+              "mode": "taxi",
+              "start_time": "10:27",
+              "end_time": "10:27",
+              "cost": 11.0,
+              "distance": 0.24,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Planetarium",
+          "start_time": "11:51",
+          "end_time": "11:58",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Huangpu River",
+              "end": "Shanghai Planetarium",
+              "mode": "taxi",
+              "start_time": "10:29",
+              "end_time": "11:51",
+              "cost": 241.52,
+              "distance": 54.85,
+              "price": 241.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+          "start_time": "13:29",
+          "end_time": "13:34",
+          "price": 18.0,
+          "cost": 72.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Shanghai Planetarium",
+              "end": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "mode": "taxi",
+              "start_time": "11:58",
+              "end_time": "13:29",
+              "cost": 268.51,
+              "distance": 60.85,
+              "price": 268.51,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shanghai Museum",
+          "start_time": "13:56",
+          "end_time": "13:58",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "end": "Shanghai Museum",
+              "mode": "taxi",
+              "start_time": "13:34",
+              "end_time": "13:56",
+              "cost": 63.06,
+              "distance": 15.19,
+              "price": 63.06,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Disney Town",
+          "start_time": "14:28",
+          "end_time": "14:30",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Shanghai Museum",
+              "end": "Disney Town",
+              "mode": "taxi",
+              "start_time": "13:58",
+              "end_time": "14:28",
+              "cost": 85.81,
+              "distance": 20.25,
+              "price": 85.81,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+          "start_time": "17:33",
+          "end_time": "17:38",
+          "price": 28.0,
+          "cost": 112.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Disney Town",
+              "end": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:33",
+              "cost": 93.96,
+              "distance": 22.06,
+              "price": 93.96,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "The Kunlun Jing An",
+          "start_time": "17:39",
+          "end_time": "24:00",
+          "price": 939.0,
+          "cost": 3756.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "end": "The Kunlun Jing An",
+              "mode": "taxi",
+              "start_time": "17:38",
+              "end_time": "17:39",
+              "cost": 11.0,
+              "distance": 1.25,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "The Kunlun Jing An",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Dahuchun (Sichuan Middle Road Branch)",
+          "start_time": "11:06",
+          "end_time": "11:11",
+          "price": 29.0,
+          "cost": 116.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "The Kunlun Jing An",
+              "end": "Dahuchun (Sichuan Middle Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:06",
+              "cost": 20.55,
+              "distance": 4.53,
+              "price": 20.55,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "16:36",
+          "end_time": "18:07",
+          "start": "Shanghai Pudong International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "price": 576.24,
+          "cost": 2304.96,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Unicorn Starry Sky Art Museum",
+              "end": "Shanghai Pudong International Airport",
+              "mode": "taxi",
+              "start_time": "11:30",
+              "end_time": "11:50",
+              "cost": 20.0,
+              "distance": 3.0,
+              "price": 20.0,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL016"
+        }
+      ]
+    }
+  ],
+  "uid": "20250322042822097592",
+  "nl2sl_nature_language": "We are 4 people, departing from Shenzhen, traveling to Shanghai for 3 days, with the following requirements:\nWe want to visit Sightseeing Night Market (Venice Water City Night), Old Wharf, Unicorn Starry Sky Art Museum, and Tianzifang Flagship Store.\nWe do not want to travel within the city by walking.",
+  "nl2sl_ground_truth": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Sightseeing Night Market (Venice Water City Night)\", \"Old Wharf\", \"Unicorn Starry Sky Art Museum, Tianzifang Flagship Store\"}<=attraction_name_set)",
+    "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\"}&inner_city_transportation_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Sightseeing Night Market (Venice Water City Night)\", \"Old Wharf\", \"Unicorn Starry Sky Art Museum\", \"Tianzifang Flagship Store\"}<=attraction_name_set)",
+    "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\"}&inner_city_transportation_set)",
+    "result=(day_count(plan)==3)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_attraction",
+      "passed": false,
+      "snippet": "attraction_name_set=set()",
+      "full_snippet": "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Sightseeing Night Market (Venice Water City Night)\", \"Old Wharf\", \"Unicorn Starry Sky Art Museum, Tianzifang Flagship Store\"}<=attraction_name_set)",
+      "computed": {
+        "attraction_name_set": [
+          "Disney Town",
+          "Huangpu River",
+          "Old Wharf",
+          "Shanghai Museum",
+          "Shanghai Planetarium",
+          "Sightseeing Night Market (Venice Water City Night)",
+          "The Bund",
+          "Unicorn Starry Sky Art Museum"
+        ],
+        "required_attraction": [
+          "Sightseeing Night Market (Venice Water City Night)",
+          "Old Wharf",
+          "Unicorn Starry Sky Art Museum, Tianzifang Flagship Store"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "forbidden_walk_mode",
+      "passed": true,
+      "snippet": "inner_city_transportation_set=set()",
+      "full_snippet": "inner_city_transportation_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='transportation': inner_city_transportation_set.add(activity_position(activity))\nresult=not({\"walk\"}&inner_city_transportation_set)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==3)",
+      "full_snippet": "result=(day_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==4)",
+      "full_snippet": "result=(people_count(plan)==4)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": false,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 1,
+      "Visiting attraction in their closed time": 1,
+      "Repeated attraction Choices": 1,
+      "Incorrect price Information of attraction": 1,
+      "Incorrect cost Information of attraction": 1,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 1,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 1,
+      "Inccorrect cost information of Inner-City Transport": 1,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 1
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 66.67,
+    "ATT": 90.73,
+    "DDR": 66.67
+  }
+}

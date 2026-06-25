@@ -1,0 +1,922 @@
+{
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "03:29",
+          "end_time": "07:27",
+          "start": "Suzhou Station",
+          "end": "Hangzhou South Railway Station",
+          "price": 48.4,
+          "cost": 193.6,
+          "tickets": 4,
+          "transports": [],
+          "TrainID": "K335"
+        },
+        {
+          "type": "attraction",
+          "position": "Lingyin Temple",
+          "start_time": "08:00",
+          "end_time": "08:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou South Railway Station",
+              "end": "Lingyin Temple",
+              "mode": "taxi",
+              "start_time": "07:27",
+              "end_time": "07:56",
+              "cost": 83.51,
+              "distance": 19.74,
+              "price": 83.51,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "West Lake Scenic Area",
+          "start_time": "08:06",
+          "end_time": "08:11",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Lingyin Temple",
+              "end": "West Lake Scenic Area",
+              "mode": "taxi",
+              "start_time": "08:02",
+              "end_time": "08:06",
+              "cost": 14.42,
+              "distance": 2.78,
+              "price": 14.42,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Qiantang River",
+          "start_time": "08:27",
+          "end_time": "08:37",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "West Lake Scenic Area",
+              "end": "Qiantang River",
+              "mode": "taxi",
+              "start_time": "08:11",
+              "end_time": "08:27",
+              "cost": 42.7,
+              "distance": 10.67,
+              "price": 42.7,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Zhejiang Provincial Museum (Zhijiang Branch)",
+          "start_time": "09:00",
+          "end_time": "09:12",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Qiantang River",
+              "end": "Zhejiang Provincial Museum (Zhijiang Branch)",
+              "mode": "taxi",
+              "start_time": "08:37",
+              "end_time": "08:45",
+              "cost": 24.13,
+              "distance": 5.55,
+              "price": 24.13,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Xia Yin Ju Mansion (Jiebai Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 265.0,
+          "cost": 1060.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Zhejiang Provincial Museum (Zhijiang Branch)",
+              "end": "Xia Yin Ju Mansion (Jiebai Branch)",
+              "mode": "taxi",
+              "start_time": "09:12",
+              "end_time": "09:27",
+              "cost": 42.52,
+              "distance": 10.63,
+              "price": 42.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Leifeng Pagoda",
+          "start_time": "11:07",
+          "end_time": "11:09",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Xia Yin Ju Mansion (Jiebai Branch)",
+              "end": "Leifeng Pagoda",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:07",
+              "cost": 11.0,
+              "distance": 1.68,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chenghuang Pavilion Scenic Area",
+          "start_time": "11:11",
+          "end_time": "11:16",
+          "price": 30.0,
+          "cost": 120.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Leifeng Pagoda",
+              "end": "Chenghuang Pavilion Scenic Area",
+              "mode": "taxi",
+              "start_time": "11:09",
+              "end_time": "11:11",
+              "cost": 11.0,
+              "distance": 1.62,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Qinghefang Street",
+          "start_time": "11:16",
+          "end_time": "11:21",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Chenghuang Pavilion Scenic Area",
+              "end": "Qinghefang Street",
+              "mode": "taxi",
+              "start_time": "11:16",
+              "end_time": "11:16",
+              "cost": 11.0,
+              "distance": 0.6,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Hangzhou Museum",
+          "start_time": "11:21",
+          "end_time": "11:23",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Qinghefang Street",
+              "end": "Hangzhou Museum",
+              "mode": "taxi",
+              "start_time": "11:21",
+              "end_time": "11:21",
+              "cost": 11.0,
+              "distance": 0.29,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Fifteen Kui Lane",
+          "start_time": "11:23",
+          "end_time": "11:28",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou Museum",
+              "end": "Fifteen Kui Lane",
+              "mode": "taxi",
+              "start_time": "11:23",
+              "end_time": "11:23",
+              "cost": 11.0,
+              "distance": 0.35,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Deshou Palace Museum of the Southern Song Dynasty Ruins",
+          "start_time": "11:28",
+          "end_time": "11:30",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Fifteen Kui Lane",
+              "end": "Deshou Palace Museum of the Southern Song Dynasty Ruins",
+              "mode": "taxi",
+              "start_time": "11:28",
+              "end_time": "11:28",
+              "cost": 11.0,
+              "distance": 0.53,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Southern Song Imperial Street",
+          "start_time": "11:30",
+          "end_time": "11:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Deshou Palace Museum of the Southern Song Dynasty Ruins",
+              "end": "Southern Song Imperial Street",
+              "mode": "taxi",
+              "start_time": "11:30",
+              "end_time": "11:30",
+              "cost": 11.0,
+              "distance": 0.46,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "West Lake Foreign Affairs Cruise",
+          "start_time": "11:37",
+          "end_time": "11:39",
+          "price": 48.8,
+          "cost": 195.2,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Southern Song Imperial Street",
+              "end": "West Lake Foreign Affairs Cruise",
+              "mode": "taxi",
+              "start_time": "11:35",
+              "end_time": "11:37",
+              "cost": 11.0,
+              "distance": 1.37,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Taoguang Temple",
+          "start_time": "11:48",
+          "end_time": "11:53",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "West Lake Foreign Affairs Cruise",
+              "end": "Taoguang Temple",
+              "mode": "taxi",
+              "start_time": "11:39",
+              "end_time": "11:48",
+              "cost": 27.27,
+              "distance": 6.45,
+              "price": 27.27,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Lingyin Feilai Peak Scenic Area",
+          "start_time": "11:54",
+          "end_time": "11:56",
+          "price": 45.0,
+          "cost": 180.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Taoguang Temple",
+              "end": "Lingyin Feilai Peak Scenic Area",
+              "mode": "taxi",
+              "start_time": "11:53",
+              "end_time": "11:54",
+              "cost": 11.0,
+              "distance": 0.67,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Hangzhou West Lake Scenic Area - Three Tianzhu Fajing Temple",
+          "start_time": "11:56",
+          "end_time": "11:58",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Lingyin Feilai Peak Scenic Area",
+              "end": "Hangzhou West Lake Scenic Area - Three Tianzhu Fajing Temple",
+              "mode": "taxi",
+              "start_time": "11:56",
+              "end_time": "11:56",
+              "cost": 11.0,
+              "distance": 0.38,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "West Lake Longjing Tea Cultural Scenic Area",
+          "start_time": "12:00",
+          "end_time": "12:02",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou West Lake Scenic Area - Three Tianzhu Fajing Temple",
+              "end": "West Lake Longjing Tea Cultural Scenic Area",
+              "mode": "taxi",
+              "start_time": "11:58",
+              "end_time": "12:00",
+              "cost": 11.04,
+              "distance": 1.81,
+              "price": 11.04,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Longjing Village",
+          "start_time": "12:04",
+          "end_time": "12:06",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "West Lake Longjing Tea Cultural Scenic Area",
+              "end": "Longjing Village",
+              "mode": "taxi",
+              "start_time": "12:02",
+              "end_time": "12:04",
+              "cost": 11.0,
+              "distance": 1.45,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Meijiawu Village",
+          "start_time": "12:09",
+          "end_time": "12:11",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Longjing Village",
+              "end": "Meijiawu Village",
+              "mode": "taxi",
+              "start_time": "12:06",
+              "end_time": "12:09",
+              "cost": 13.59,
+              "distance": 2.54,
+              "price": 13.59,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Feilai Peak",
+          "start_time": "12:17",
+          "end_time": "12:27",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Meijiawu Village",
+              "end": "Feilai Peak",
+              "mode": "taxi",
+              "start_time": "12:11",
+              "end_time": "12:17",
+              "cost": 18.8,
+              "distance": 4.03,
+              "price": 18.8,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Thousand Islands Secret Realm",
+          "start_time": "15:13",
+          "end_time": "15:15",
+          "price": 35.0,
+          "cost": 140.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Feilai Peak",
+              "end": "Thousand Islands Secret Realm",
+              "mode": "taxi",
+              "start_time": "12:27",
+              "end_time": "15:13",
+              "cost": 493.81,
+              "distance": 110.91,
+              "price": 493.81,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Jiande Steamed Buns (Fengqi Road Branch)",
+          "start_time": "18:10",
+          "end_time": "18:15",
+          "price": 10.0,
+          "cost": 40.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Thousand Islands Secret Realm",
+              "end": "Jiande Steamed Buns (Fengqi Road Branch)",
+              "mode": "taxi",
+              "start_time": "15:15",
+              "end_time": "18:10",
+              "cost": 520.35,
+              "distance": 116.81,
+              "price": 520.35,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "18:21",
+          "end_time": "24:00",
+          "price": 618.0,
+          "cost": 2472.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Jiande Steamed Buns (Fengqi Road Branch)",
+              "end": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "mode": "taxi",
+              "start_time": "18:15",
+              "end_time": "18:21",
+              "cost": 20.94,
+              "distance": 4.64,
+              "price": 20.94,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "CoCo Fresh Tea & Juice (Hangzhou Wulin D11 Store)",
+          "start_time": "11:06",
+          "end_time": "11:11",
+          "price": 14.0,
+          "cost": 56.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "end": "CoCo Fresh Tea & Juice (Hangzhou Wulin D11 Store)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:06",
+              "cost": 19.96,
+              "distance": 4.36,
+              "price": 19.96,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Grandma Sun's Scallion Pancake Rolls",
+          "start_time": "17:05",
+          "end_time": "17:10",
+          "price": 10.0,
+          "cost": 40.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "CoCo Fresh Tea & Juice (Hangzhou Wulin D11 Store)",
+              "end": "Grandma Sun's Scallion Pancake Rolls",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:05",
+              "cost": 18.0,
+              "distance": 3.8,
+              "price": 18.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "17:17",
+          "end_time": "24:00",
+          "price": 618.0,
+          "cost": 2472.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Grandma Sun's Scallion Pancake Rolls",
+              "end": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "mode": "taxi",
+              "start_time": "17:10",
+              "end_time": "17:17",
+              "cost": 21.26,
+              "distance": 4.73,
+              "price": 21.26,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Southern Eclectic Buns (Lakeside Branch)",
+          "start_time": "11:05",
+          "end_time": "11:10",
+          "price": 8.0,
+          "cost": 32.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "end": "Southern Eclectic Buns (Lakeside Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:05",
+              "cost": 18.6,
+              "distance": 3.97,
+              "price": 18.6,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Ruan Daxing Rice Cake Shop (Hubin Intime City Zone B Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 31.0,
+          "cost": 124.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Southern Eclectic Buns (Lakeside Branch)",
+              "end": "Ruan Daxing Rice Cake Shop (Hubin Intime City Zone B Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:00",
+              "cost": 11.0,
+              "distance": 0.31,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "17:11",
+          "end_time": "24:00",
+          "price": 618.0,
+          "cost": 2472.0,
+          "tickets": 4,
+          "rooms": 4,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Ruan Daxing Rice Cake Shop (Hubin Intime City Zone B Branch)",
+              "end": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:11",
+              "cost": 18.73,
+              "distance": 4.01,
+              "price": 18.73,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 4,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Runhexiang Small Pot Sweet Fermented Rice",
+          "start_time": "11:11",
+          "end_time": "11:16",
+          "price": 11.0,
+          "cost": 44.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Hangzhou Shusheng Longjing Floor Heating Hotel",
+              "end": "Runhexiang Small Pot Sweet Fermented Rice",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:11",
+              "cost": 32.21,
+              "distance": 7.86,
+              "price": 32.21,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Zhouping's Zongzi Shop",
+          "start_time": "17:14",
+          "end_time": "17:19",
+          "price": 13.0,
+          "cost": 52.0,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Runhexiang Small Pot Sweet Fermented Rice",
+              "end": "Zhouping's Zongzi Shop",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:14",
+              "cost": 37.64,
+              "distance": 9.41,
+              "price": 37.64,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "20:43",
+          "end_time": "22:07",
+          "start": "Hangzhou East Railway Station",
+          "end": "Suzhou Station",
+          "price": 78.65,
+          "cost": 314.6,
+          "tickets": 4,
+          "transports": [
+            {
+              "start": "Zhouping's Zongzi Shop",
+              "end": "Hangzhou East Railway Station",
+              "mode": "taxi",
+              "start_time": "17:19",
+              "end_time": "17:31",
+              "cost": 33.87,
+              "distance": 8.33,
+              "price": 33.87,
+              "cars": 1
+            }
+          ],
+          "TrainID": "G7350"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250322142536766430",
+  "nl2sl_nature_language": "We are 4 people traveling from Suzhou to Hangzhou for 4 days, with the following requirements: we want to try one of these restaurants: Xia Yin Ju Mansion (Jiebai Branch), and we also want to try one of these restaurant types: Bakery and Desserts or Fast food and casual dining.",
+  "nl2sl_ground_truth": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Xia Yin Ju Mansion (Jiebai Branch)\"}&restaurant_name_set)",
+    "restaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Bakery and Desserts\", \"Fast food and casual dining\"}&restaurant_type_set)",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Xia Yin Ju Mansion (Jiebai Branch)\"}<=restaurant_name_set)",
+    "restaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Bakery and Desserts\", \"Fast food and casual dining\"}&restaurant_type_set)",
+    "result=(day_count(plan)==4)",
+    "result=(people_count(plan)==4)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_restaurant",
+      "passed": true,
+      "snippet": "restaurant_name_set=set()",
+      "full_snippet": "restaurant_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_name_set.add(activity_position(activity))\nresult=({\"Xia Yin Ju Mansion (Jiebai Branch)\"}&restaurant_name_set)",
+      "computed": {
+        "restaurant_name_set": [
+          "CoCo Fresh Tea & Juice (Hangzhou Wulin D11 Store)",
+          "Grandma Sun's Scallion Pancake Rolls",
+          "Hangzhou Shusheng Longjing Floor Heating Hotel",
+          "Jiande Steamed Buns (Fengqi Road Branch)",
+          "Ruan Daxing Rice Cake Shop (Hubin Intime City Zone B Branch)",
+          "Runhexiang Small Pot Sweet Fermented Rice",
+          "Southern Eclectic Buns (Lakeside Branch)",
+          "Xia Yin Ju Mansion (Jiebai Branch)",
+          "Zhouping's Zongzi Shop"
+        ],
+        "required_restaurant": [
+          "Xia Yin Ju Mansion (Jiebai Branch)"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "required_cuisine_type",
+      "passed": true,
+      "snippet": "restaurant_type_set=set()",
+      "full_snippet": "restaurant_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['breakfast', 'lunch', 'dinner']: restaurant_type_set.add(restaurant_type(activity, target_city(plan)))\nresult=({\"Bakery and Desserts\", \"Fast food and casual dining\"}&restaurant_type_set)",
+      "computed": {
+        "restaurant_type_set": [
+          "bakery and desserts",
+          "creative cuisine",
+          "empty",
+          "fast food and casual dining",
+          "snacks"
+        ],
+        "required_cuisine": [
+          "Bakery and Desserts",
+          "Fast food and casual dining"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==4)",
+      "full_snippet": "result=(day_count(plan)==4)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==4)",
+      "full_snippet": "result=(people_count(plan)==4)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=4: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=4: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 98.99,
+    "DDR": 91.67
+  }
+}

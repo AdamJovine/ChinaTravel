@@ -1,0 +1,479 @@
+{
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "23:02",
+          "end_time": "00:15",
+          "start": "Wuhan Tianhe International Airport",
+          "end": "Chengdu Tianfu International Airport",
+          "price": 442.14,
+          "cost": 884.28,
+          "tickets": 2,
+          "transports": [],
+          "FlightID": "FL617"
+        },
+        {
+          "type": "attraction",
+          "position": "Iron Statue Temple Water Street",
+          "start_time": "08:00",
+          "end_time": "08:07",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Chengdu Tianfu International Airport",
+              "end": "Iron Statue Temple Water Street",
+              "mode": "taxi",
+              "start_time": "00:15",
+              "end_time": "01:27",
+              "cost": 210.99,
+              "distance": 48.06,
+              "price": 210.99,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chengdu Museum",
+          "start_time": "09:00",
+          "end_time": "09:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Iron Statue Temple Water Street",
+              "end": "Chengdu Museum",
+              "mode": "taxi",
+              "start_time": "08:07",
+              "end_time": "08:23",
+              "cost": 44.77,
+              "distance": 11.13,
+              "price": 44.77,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Manjushri Lane",
+          "start_time": "09:07",
+          "end_time": "09:08",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Chengdu Museum",
+              "end": "Manjushri Lane",
+              "mode": "taxi",
+              "start_time": "09:05",
+              "end_time": "09:07",
+              "cost": 11.51,
+              "distance": 1.95,
+              "price": 11.51,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Panda Valley",
+          "start_time": "10:32",
+          "end_time": "10:39",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Manjushri Lane",
+              "end": "Panda Valley",
+              "mode": "taxi",
+              "start_time": "09:08",
+              "end_time": "10:32",
+              "cost": 247.77,
+              "distance": 56.24,
+              "price": 247.77,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Deng's New Generation Sweet Oil Glutinous Rice Balls",
+          "start_time": "12:01",
+          "end_time": "12:06",
+          "price": 5.0,
+          "cost": 10.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Panda Valley",
+              "end": "Deng's New Generation Sweet Oil Glutinous Rice Balls",
+              "mode": "taxi",
+              "start_time": "10:39",
+              "end_time": "12:01",
+              "cost": 241.88,
+              "distance": 54.93,
+              "price": 241.88,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Manjushri Temple",
+          "start_time": "12:09",
+          "end_time": "12:16",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Deng's New Generation Sweet Oil Glutinous Rice Balls",
+              "end": "Manjushri Temple",
+              "mode": "taxi",
+              "start_time": "12:06",
+              "end_time": "12:09",
+              "cost": 13.06,
+              "distance": 2.39,
+              "price": 13.06,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Kuanzhai Alley",
+          "start_time": "12:19",
+          "end_time": "12:24",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Manjushri Temple",
+              "end": "Kuanzhai Alley",
+              "mode": "taxi",
+              "start_time": "12:16",
+              "end_time": "12:19",
+              "cost": 12.52,
+              "distance": 2.23,
+              "price": 12.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Jinli Ancient Street",
+          "start_time": "12:27",
+          "end_time": "12:32",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Kuanzhai Alley",
+              "end": "Jinli Ancient Street",
+              "mode": "taxi",
+              "start_time": "12:24",
+              "end_time": "12:27",
+              "cost": 11.79,
+              "distance": 2.03,
+              "price": 11.79,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Sichuan Museum",
+          "start_time": "12:35",
+          "end_time": "12:45",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Jinli Ancient Street",
+              "end": "Sichuan Museum",
+              "mode": "taxi",
+              "start_time": "12:32",
+              "end_time": "12:35",
+              "cost": 12.59,
+              "distance": 2.26,
+              "price": 12.59,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Second Brother Qiu's Guokui (Jinsi Street Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 6.0,
+          "cost": 12.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Sichuan Museum",
+              "end": "Second Brother Qiu's Guokui (Jinsi Street Branch)",
+              "mode": "taxi",
+              "start_time": "12:45",
+              "end_time": "12:49",
+              "cost": 15.46,
+              "distance": 3.07,
+              "price": 15.46,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Chengdu Kuanzhai People's Park Subway Station Atour S Hotel",
+          "start_time": "17:07",
+          "end_time": "24:00",
+          "price": 508.0,
+          "cost": 1016.0,
+          "tickets": 2,
+          "rooms": 2,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Second Brother Qiu's Guokui (Jinsi Street Branch)",
+              "end": "Chengdu Kuanzhai People's Park Subway Station Atour S Hotel",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:07",
+              "cost": 11.56,
+              "distance": 1.96,
+              "price": 11.56,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Chengdu Kuanzhai People's Park Subway Station Atour S Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 2,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Su Xiaomeng Beef Pancake Shop (Tianfu Square Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 9.0,
+          "cost": 18.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Chengdu Kuanzhai People's Park Subway Station Atour S Hotel",
+              "end": "Su Xiaomeng Beef Pancake Shop (Tianfu Square Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:00",
+              "cost": 11.0,
+              "distance": 0.61,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Grandpa and Grandma Chen's Egg Pancakes",
+          "start_time": "17:04",
+          "end_time": "17:09",
+          "price": 9.0,
+          "cost": 18.0,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Su Xiaomeng Beef Pancake Shop (Tianfu Square Branch)",
+              "end": "Grandpa and Grandma Chen's Egg Pancakes",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:04",
+              "cost": 15.24,
+              "distance": 3.01,
+              "price": 15.24,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:53",
+          "end_time": "23:06",
+          "start": "Chengdu Shuangliu International Airport",
+          "end": "Wuhan Tianhe International Airport",
+          "price": 519.05,
+          "cost": 1038.1,
+          "tickets": 2,
+          "transports": [
+            {
+              "start": "Grandpa and Grandma Chen's Egg Pancakes",
+              "end": "Chengdu Shuangliu International Airport",
+              "mode": "taxi",
+              "start_time": "17:09",
+              "end_time": "17:28",
+              "cost": 53.66,
+              "distance": 13.1,
+              "price": 53.66,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL464"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250324090656198067",
+  "nl2sl_nature_language": "We are 2 people traveling from Wuhan to Chengdu for 2 days. Requirements: Visit Iron Statue Temple Water Street and stay in a room with a single bed.",
+  "nl2sl_ground_truth": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Iron Statue Temple Water Street\"}<=attraction_name_set)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Iron Statue Temple Water Street\"}<=attraction_name_set)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==2)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_attraction",
+      "passed": true,
+      "snippet": "attraction_name_set=set()",
+      "full_snippet": "attraction_name_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='attraction': attraction_name_set.add(activity_position(activity))\nresult=({\"Iron Statue Temple Water Street\"}<=attraction_name_set)",
+      "computed": {
+        "attraction_name_set": [
+          "Chengdu Museum",
+          "Iron Statue Temple Water Street",
+          "Jinli Ancient Street",
+          "Kuanzhai Alley",
+          "Manjushri Lane",
+          "Manjushri Temple",
+          "Panda Valley",
+          "Sichuan Museum"
+        ],
+        "required_attraction": [
+          "Iron Statue Temple Water Street"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==2)",
+      "full_snippet": "result=(people_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=2: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=2: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 94.08,
+    "DDR": 83.33
+  }
+}

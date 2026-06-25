@@ -1,0 +1,1121 @@
+{
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Nanjing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "03:08",
+          "end_time": "04:38",
+          "start": "Chongqing Jiangbei International Airport",
+          "end": "Nanjing Lukou International Airport",
+          "price": 589.12,
+          "cost": 1767.3600000000001,
+          "tickets": 3,
+          "transports": [],
+          "FlightID": "FL398"
+        },
+        {
+          "type": "breakfast",
+          "position": "Master Zuo's Plum Blossom Cake (Tongjia Lane Branch)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 6.0,
+          "cost": 18.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Nanjing Lukou International Airport",
+              "end": "Master Zuo's Plum Blossom Cake (Tongjia Lane Branch)",
+              "mode": "taxi",
+              "start_time": "04:38",
+              "end_time": "05:35",
+              "cost": 168.64,
+              "distance": 38.65,
+              "price": 168.64,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Confucius Temple",
+          "start_time": "08:12",
+          "end_time": "08:17",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Master Zuo's Plum Blossom Cake (Tongjia Lane Branch)",
+              "end": "Confucius Temple",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:12",
+              "cost": 22.77,
+              "distance": 5.16,
+              "price": 22.77,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Confucius Temple and Qinhuai River Scenic Area",
+          "start_time": "08:17",
+          "end_time": "08:22",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Confucius Temple",
+              "end": "Confucius Temple and Qinhuai River Scenic Area",
+              "mode": "taxi",
+              "start_time": "08:17",
+              "end_time": "08:17",
+              "cost": 11.0,
+              "distance": 0.1,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Zhongshan Scenic Area",
+          "start_time": "08:33",
+          "end_time": "08:35",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Confucius Temple and Qinhuai River Scenic Area",
+              "end": "Zhongshan Scenic Area",
+              "mode": "taxi",
+              "start_time": "08:22",
+              "end_time": "08:33",
+              "cost": 31.52,
+              "distance": 7.66,
+              "price": 31.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Presidential Palace",
+          "start_time": "08:43",
+          "end_time": "08:58",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Zhongshan Scenic Area",
+              "end": "Nanjing Presidential Palace",
+              "mode": "taxi",
+              "start_time": "08:35",
+              "end_time": "08:43",
+              "cost": 24.45,
+              "distance": 5.64,
+              "price": 24.45,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Zhu Ji Xiao Zheng Crispy Pancake (Laomendong Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 10.0,
+          "cost": 30.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Nanjing Presidential Palace",
+              "end": "Zhu Ji Xiao Zheng Crispy Pancake (Laomendong Branch)",
+              "mode": "taxi",
+              "start_time": "08:58",
+              "end_time": "09:04",
+              "cost": 20.78,
+              "distance": 4.59,
+              "price": 20.78,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Mochou Lake Park",
+          "start_time": "11:10",
+          "end_time": "11:12",
+          "price": 35.0,
+          "cost": 105.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Zhu Ji Xiao Zheng Crispy Pancake (Laomendong Branch)",
+              "end": "Mochou Lake Park",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:10",
+              "cost": 18.19,
+              "distance": 3.85,
+              "price": 18.19,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Taicheng",
+          "start_time": "11:18",
+          "end_time": "11:20",
+          "price": 30.0,
+          "cost": 90.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Mochou Lake Park",
+              "end": "Nanjing Taicheng",
+              "mode": "taxi",
+              "start_time": "11:12",
+              "end_time": "11:18",
+              "cost": 20.24,
+              "distance": 4.44,
+              "price": 20.24,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Hanging Glass Art Museum",
+          "start_time": "11:24",
+          "end_time": "11:26",
+          "price": 39.9,
+          "cost": 119.69999999999999,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Nanjing Taicheng",
+              "end": "Nanjing Hanging Glass Art Museum",
+              "mode": "taxi",
+              "start_time": "11:20",
+              "end_time": "11:24",
+              "cost": 14.98,
+              "distance": 2.94,
+              "price": 14.98,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Intangible Cultural Heritage Hall · Nanjing Intangible Cultural Heritage Experience Center",
+          "start_time": "11:29",
+          "end_time": "11:31",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Nanjing Hanging Glass Art Museum",
+              "end": "Intangible Cultural Heritage Hall · Nanjing Intangible Cultural Heritage Experience Center",
+              "mode": "taxi",
+              "start_time": "11:26",
+              "end_time": "11:29",
+              "cost": 12.89,
+              "distance": 2.34,
+              "price": 12.89,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Window of the World",
+          "start_time": "11:36",
+          "end_time": "11:38",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Intangible Cultural Heritage Hall · Nanjing Intangible Cultural Heritage Experience Center",
+              "end": "Window of the World",
+              "mode": "taxi",
+              "start_time": "11:31",
+              "end_time": "11:36",
+              "cost": 16.41,
+              "distance": 3.35,
+              "price": 16.41,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Slow Time Hanfu Experience Hall",
+          "start_time": "11:42",
+          "end_time": "11:44",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Window of the World",
+              "end": "Slow Time Hanfu Experience Hall",
+              "mode": "taxi",
+              "start_time": "11:38",
+              "end_time": "11:42",
+              "cost": 15.83,
+              "distance": 3.18,
+              "price": 15.83,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Deyun Club",
+          "start_time": "19:30",
+          "end_time": "19:40",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Slow Time Hanfu Experience Hall",
+              "end": "Nanjing Deyun Club",
+              "mode": "taxi",
+              "start_time": "11:44",
+              "end_time": "11:44",
+              "cost": 11.0,
+              "distance": 0.42,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Suning Universal Hotel",
+          "start_time": "19:46",
+          "end_time": "24:00",
+          "price": 480.0,
+          "cost": 1440.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Nanjing Deyun Club",
+              "end": "Suning Universal Hotel",
+              "mode": "taxi",
+              "start_time": "19:40",
+              "end_time": "19:46",
+              "cost": 19.21,
+              "distance": 4.15,
+              "price": 19.21,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Suning Universal Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Eye Pedestrian Bridge",
+          "start_time": "08:17",
+          "end_time": "08:22",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Suning Universal Hotel",
+              "end": "Nanjing Eye Pedestrian Bridge",
+              "mode": "taxi",
+              "start_time": "08:05",
+              "end_time": "08:17",
+              "cost": 33.7,
+              "distance": 8.29,
+              "price": 33.7,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chaotian Palace",
+          "start_time": "09:00",
+          "end_time": "09:02",
+          "price": 23.0,
+          "cost": 69.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Nanjing Eye Pedestrian Bridge",
+              "end": "Chaotian Palace",
+              "mode": "taxi",
+              "start_time": "08:22",
+              "end_time": "08:34",
+              "cost": 33.08,
+              "distance": 8.11,
+              "price": 33.08,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Yuhuatai Scenic Area - Meigang",
+          "start_time": "09:07",
+          "end_time": "09:09",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Chaotian Palace",
+              "end": "Nanjing Yuhuatai Scenic Area - Meigang",
+              "mode": "taxi",
+              "start_time": "09:02",
+              "end_time": "09:07",
+              "cost": 17.08,
+              "distance": 3.54,
+              "price": 17.08,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Jiangning Weaving Museum",
+          "start_time": "09:15",
+          "end_time": "09:22",
+          "price": 26.0,
+          "cost": 78.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Nanjing Yuhuatai Scenic Area - Meigang",
+              "end": "Jiangning Weaving Museum",
+              "mode": "taxi",
+              "start_time": "09:09",
+              "end_time": "09:15",
+              "cost": 20.47,
+              "distance": 4.51,
+              "price": 20.47,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shence Gate Park",
+          "start_time": "09:29",
+          "end_time": "09:31",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Jiangning Weaving Museum",
+              "end": "Shence Gate Park",
+              "mode": "taxi",
+              "start_time": "09:22",
+              "end_time": "09:29",
+              "cost": 22.88,
+              "distance": 5.19,
+              "price": 22.88,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Treasure Shipyard Ruins",
+          "start_time": "09:39",
+          "end_time": "09:41",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Shence Gate Park",
+              "end": "Treasure Shipyard Ruins",
+              "mode": "taxi",
+              "start_time": "09:31",
+              "end_time": "09:39",
+              "cost": 25.42,
+              "distance": 5.92,
+              "price": 25.42,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Nanjing Museum",
+          "start_time": "09:54",
+          "end_time": "10:01",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Treasure Shipyard Ruins",
+              "end": "Nanjing Museum",
+              "mode": "taxi",
+              "start_time": "09:41",
+              "end_time": "09:54",
+              "cost": 35.79,
+              "distance": 8.88,
+              "price": 35.79,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Tangshan Quarry Park",
+          "start_time": "10:31",
+          "end_time": "10:33",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Nanjing Museum",
+              "end": "Tangshan Quarry Park",
+              "mode": "taxi",
+              "start_time": "10:01",
+              "end_time": "10:31",
+              "cost": 85.63,
+              "distance": 20.21,
+              "price": 85.63,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Jinling Matrix",
+          "start_time": "13:00",
+          "end_time": "13:02",
+          "price": 99.0,
+          "cost": 297.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Tangshan Quarry Park",
+              "end": "Jinling Matrix",
+              "mode": "taxi",
+              "start_time": "10:33",
+              "end_time": "10:59",
+              "cost": 73.19,
+              "distance": 17.44,
+              "price": 73.19,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Nanjing Jumeirah Hotel · Luchao Modern Chinese Restaurant",
+          "start_time": "13:33",
+          "end_time": "13:38",
+          "price": 526.0,
+          "cost": 1578.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Jinling Matrix",
+              "end": "Nanjing Jumeirah Hotel · Luchao Modern Chinese Restaurant",
+              "mode": "taxi",
+              "start_time": "13:02",
+              "end_time": "13:33",
+              "cost": 88.85,
+              "distance": 20.92,
+              "price": 88.85,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Cherry Blossom Avenue",
+          "start_time": "13:56",
+          "end_time": "14:06",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Nanjing Jumeirah Hotel · Luchao Modern Chinese Restaurant",
+              "end": "Cherry Blossom Avenue",
+              "mode": "taxi",
+              "start_time": "13:38",
+              "end_time": "13:56",
+              "cost": 49.42,
+              "distance": 12.16,
+              "price": 49.42,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Lake Biwa Scenic Area",
+          "start_time": "14:10",
+          "end_time": "14:15",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Cherry Blossom Avenue",
+              "end": "Lake Biwa Scenic Area",
+              "mode": "taxi",
+              "start_time": "14:06",
+              "end_time": "14:10",
+              "cost": 14.56,
+              "distance": 2.82,
+              "price": 14.56,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Purple Mountain",
+          "start_time": "14:19",
+          "end_time": "14:21",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Lake Biwa Scenic Area",
+              "end": "Purple Mountain",
+              "mode": "taxi",
+              "start_time": "14:15",
+              "end_time": "14:19",
+              "cost": 16.34,
+              "distance": 3.33,
+              "price": 16.34,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Zhongshan Scenic Area - Yanque Lake",
+          "start_time": "14:26",
+          "end_time": "14:28",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Purple Mountain",
+              "end": "Zhongshan Scenic Area - Yanque Lake",
+              "mode": "taxi",
+              "start_time": "14:21",
+              "end_time": "14:26",
+              "cost": 16.59,
+              "distance": 3.4,
+              "price": 16.59,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Former National Government Site",
+          "start_time": "14:29",
+          "end_time": "14:31",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Zhongshan Scenic Area - Yanque Lake",
+              "end": "Former National Government Site",
+              "mode": "taxi",
+              "start_time": "14:28",
+              "end_time": "14:29",
+              "cost": 11.0,
+              "distance": 1.24,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "World Insect Stamp Museum",
+          "start_time": "15:37",
+          "end_time": "15:39",
+          "price": 38.0,
+          "cost": 114.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Former National Government Site",
+              "end": "World Insect Stamp Museum",
+              "mode": "taxi",
+              "start_time": "14:31",
+              "end_time": "15:37",
+              "cost": 194.25,
+              "distance": 44.35,
+              "price": 194.25,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Tangshan Purple Clear Lake Tourist Area",
+          "start_time": "16:48",
+          "end_time": "16:50",
+          "price": 118.0,
+          "cost": 354.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "World Insect Stamp Museum",
+              "end": "Tangshan Purple Clear Lake Tourist Area",
+              "mode": "taxi",
+              "start_time": "15:39",
+              "end_time": "16:48",
+              "cost": 204.52,
+              "distance": 46.63,
+              "price": 204.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Zhu's Plum Blossom Cake",
+          "start_time": "17:38",
+          "end_time": "17:43",
+          "price": 6.0,
+          "cost": 18.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Tangshan Purple Clear Lake Tourist Area",
+              "end": "Zhu's Plum Blossom Cake",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:38",
+              "cost": 109.7,
+              "distance": 25.56,
+              "price": 109.7,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Suning Universal Hotel",
+          "start_time": "17:43",
+          "end_time": "24:00",
+          "price": 480.0,
+          "cost": 1440.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Zhu's Plum Blossom Cake",
+              "end": "Suning Universal Hotel",
+              "mode": "taxi",
+              "start_time": "17:43",
+              "end_time": "17:43",
+              "cost": 11.0,
+              "distance": 0.4,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Suning Universal Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Wang's Wonton (Jiqing Road Branch)",
+          "start_time": "11:05",
+          "end_time": "11:10",
+          "price": 12.0,
+          "cost": 36.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Suning Universal Hotel",
+              "end": "Wang's Wonton (Jiqing Road Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:05",
+              "cost": 17.24,
+              "distance": 3.58,
+              "price": 17.24,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)",
+          "start_time": "17:04",
+          "end_time": "17:09",
+          "price": 12.0,
+          "cost": 36.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Wang's Wonton (Jiqing Road Branch)",
+              "end": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:04",
+              "cost": 14.57,
+              "distance": 2.82,
+              "price": 14.57,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Suning Universal Hotel",
+          "start_time": "17:14",
+          "end_time": "24:00",
+          "price": 480.0,
+          "cost": 1440.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)",
+              "end": "Suning Universal Hotel",
+              "mode": "taxi",
+              "start_time": "17:09",
+              "end_time": "17:14",
+              "cost": 16.42,
+              "distance": 3.35,
+              "price": 16.42,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Suning Universal Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "DQ (Jinlun Store, Nanjing)",
+          "start_time": "11:01",
+          "end_time": "11:06",
+          "price": 30.0,
+          "cost": 90.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Suning Universal Hotel",
+              "end": "DQ (Jinlun Store, Nanjing)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:01",
+              "cost": 11.0,
+              "distance": 1.06,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Luo Zilong's Luo Family Osmanthus Glutinous Rice Balls (Caodu Lane Branch)",
+          "start_time": "17:01",
+          "end_time": "17:06",
+          "price": 12.0,
+          "cost": 36.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "DQ (Jinlun Store, Nanjing)",
+              "end": "Luo Zilong's Luo Family Osmanthus Glutinous Rice Balls (Caodu Lane Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:01",
+              "cost": 11.0,
+              "distance": 0.95,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Suning Universal Hotel",
+          "start_time": "17:08",
+          "end_time": "24:00",
+          "price": 480.0,
+          "cost": 1440.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Luo Zilong's Luo Family Osmanthus Glutinous Rice Balls (Caodu Lane Branch)",
+              "end": "Suning Universal Hotel",
+              "mode": "taxi",
+              "start_time": "17:06",
+              "end_time": "17:08",
+              "cost": 11.59,
+              "distance": 1.97,
+              "price": 11.59,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Suning Universal Hotel",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Our Little Courtyard: Ink Wash Feast (Xuzhuang Branch)",
+          "start_time": "11:17",
+          "end_time": "11:22",
+          "price": 148.0,
+          "cost": 444.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Suning Universal Hotel",
+              "end": "Our Little Courtyard: Ink Wash Feast (Xuzhuang Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:17",
+              "cost": 46.41,
+              "distance": 11.49,
+              "price": 46.41,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Lu's Plum Blossom Cake (Laomendong Branch)",
+          "start_time": "17:19",
+          "end_time": "17:24",
+          "price": 9.0,
+          "cost": 27.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Our Little Courtyard: Ink Wash Feast (Xuzhuang Branch)",
+              "end": "Lu's Plum Blossom Cake (Laomendong Branch)",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:19",
+              "cost": 53.82,
+              "distance": 13.14,
+              "price": 53.82,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:34",
+          "end_time": "22:04",
+          "start": "Nanjing Lukou International Airport",
+          "end": "Chongqing Jiangbei International Airport",
+          "price": 577.68,
+          "cost": 1733.04,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Lu's Plum Blossom Cake (Laomendong Branch)",
+              "end": "Nanjing Lukou International Airport",
+              "mode": "taxi",
+              "start_time": "17:24",
+              "end_time": "18:12",
+              "cost": 138.99,
+              "distance": 32.06,
+              "price": 138.99,
+              "cars": 1
+            }
+          ],
+          "FlightID": "FL686"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250321092540864955",
+  "nl2sl_nature_language": "We are 3 people traveling from Chongqing to Nanjing for 5 days. Requirements: We hope to stay in a single bed room.",
+  "nl2sl_ground_truth": [
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==5)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==5)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==5)",
+      "full_snippet": "result=(day_count(plan)==5)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==3)",
+      "full_snippet": "result=(people_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 93.33
+  }
+}

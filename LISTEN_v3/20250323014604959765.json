@@ -1,0 +1,323 @@
+{
+  "people_number": 3,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "11:40",
+          "end_time": "14:08",
+          "start": "Suzhou Station",
+          "end": "Chongqing West Railway Station",
+          "price": 679.06,
+          "cost": 2037.1799999999998,
+          "tickets": 3,
+          "transports": [],
+          "TrainID": "T237"
+        },
+        {
+          "type": "attraction",
+          "position": "Hongya Cave",
+          "start_time": "14:32",
+          "end_time": "14:47",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Chongqing West Railway Station",
+              "end": "Hongya Cave",
+              "mode": "taxi",
+              "start_time": "14:08",
+              "end_time": "14:32",
+              "cost": 67.14,
+              "distance": 16.1,
+              "price": 67.14,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Ci Qi Kou Ancient Town",
+          "start_time": "15:05",
+          "end_time": "15:20",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Hongya Cave",
+              "end": "Ci Qi Kou Ancient Town",
+              "mode": "taxi",
+              "start_time": "14:47",
+              "end_time": "15:05",
+              "cost": 51.52,
+              "distance": 12.63,
+              "price": 51.52,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Chongqing Happy Valley",
+          "start_time": "15:36",
+          "end_time": "15:48",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Ci Qi Kou Ancient Town",
+              "end": "Chongqing Happy Valley",
+              "mode": "taxi",
+              "start_time": "15:20",
+              "end_time": "15:36",
+              "cost": 45.66,
+              "distance": 11.32,
+              "price": 45.66,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Liberation Monument Pedestrian Street",
+          "start_time": "16:08",
+          "end_time": "16:10",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Chongqing Happy Valley",
+              "end": "Liberation Monument Pedestrian Street",
+              "mode": "taxi",
+              "start_time": "15:48",
+              "end_time": "16:08",
+              "cost": 55.7,
+              "distance": 13.56,
+              "price": 55.7,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Two Rivers Ferry",
+          "start_time": "16:10",
+          "end_time": "16:17",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Liberation Monument Pedestrian Street",
+              "end": "Two Rivers Ferry",
+              "mode": "taxi",
+              "start_time": "16:10",
+              "end_time": "16:10",
+              "cost": 11.0,
+              "distance": 0.57,
+              "price": 11.0,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Big Face Cat's Preserved Mustard Green and Braised Pork Pancake (Guanyinqiao Delicious Street Branch)",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 7.0,
+          "cost": 21.0,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "Two Rivers Ferry",
+              "end": "Big Face Cat's Preserved Mustard Green and Braised Pork Pancake (Guanyinqiao Delicious Street Branch)",
+              "mode": "taxi",
+              "start_time": "16:17",
+              "end_time": "16:24",
+              "cost": 21.6,
+              "distance": 4.83,
+              "price": 21.6,
+              "cars": 1
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "HC International Hotel",
+          "start_time": "17:29",
+          "end_time": "24:00",
+          "price": 336.0,
+          "cost": 1008.0,
+          "tickets": 3,
+          "rooms": 3,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Big Face Cat's Preserved Mustard Green and Braised Pork Pancake (Guanyinqiao Delicious Street Branch)",
+              "end": "HC International Hotel",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:29",
+              "cost": 67.71,
+              "distance": 16.22,
+              "price": 67.71,
+              "cars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "07:28",
+          "end_time": "09:41",
+          "start": "Chongqing West Railway Station",
+          "end": "Suzhou Station",
+          "price": 679.06,
+          "cost": 2037.1799999999998,
+          "tickets": 3,
+          "transports": [
+            {
+              "start": "HC International Hotel",
+              "end": "Chongqing West Railway Station",
+              "mode": "taxi",
+              "start_time": "05:58",
+              "end_time": "06:40",
+              "cost": 122.17,
+              "distance": 28.33,
+              "price": 122.17,
+              "cars": 1
+            }
+          ],
+          "TrainID": "T238"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250323014604959765",
+  "nl2sl_nature_language": "We are 3 people, departing from Suzhou, traveling to Chongqing for 2 days, with the following requirements: wish to travel to the destination by train and return by train, wish to stay in a single-bed room.",
+  "nl2sl_ground_truth": [
+    "result=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "nl2sl_predicted": [
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+    "result=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==3)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False"
+  ],
+  "hard_constraint_pass": true,
+  "hard_constraint_results": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=False",
+      "full_snippet": "result=False\nintercity_transport_go=''\nintercity_transport_back=''\nif allactivities(plan)[0]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[0])==start_city(plan) and allactivities(plan)[-1]['type'] == \"train\" and intercity_transport_origin(allactivities(plan)[-1])==target_city(plan):\n  result=True",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "other",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation' and room_type(activity)!=1: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==3)",
+      "full_snippet": "result=(people_count(plan)==3)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=3: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=3: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=1: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": true,
+    "full_pass": true,
+    "DAV": 62.5,
+    "ATT": 96.31,
+    "DDR": 16.67
+  }
+}

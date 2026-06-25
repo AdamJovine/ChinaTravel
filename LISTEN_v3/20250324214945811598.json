@@ -1,0 +1,497 @@
+{
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "20:07",
+          "end_time": "08:32",
+          "start": "Nanjing Station",
+          "end": "Beijing Railway Station",
+          "price": 449.1,
+          "cost": 2245.5,
+          "tickets": 5,
+          "transports": [],
+          "TrainID": "T110"
+        },
+        {
+          "type": "breakfast",
+          "position": "Helude Candied Hawthorn Sticks",
+          "start_time": "08:35",
+          "end_time": "08:40",
+          "price": 7.0,
+          "cost": 35.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Beijing Railway Station",
+              "end": "Helude Candied Hawthorn Sticks",
+              "mode": "taxi",
+              "start_time": "08:32",
+              "end_time": "08:35",
+              "cost": 27.32,
+              "distance": 2.56,
+              "price": 13.66,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "The Palace Museum",
+          "start_time": "08:41",
+          "end_time": "08:43",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Helude Candied Hawthorn Sticks",
+              "end": "The Palace Museum",
+              "mode": "taxi",
+              "start_time": "08:40",
+              "end_time": "08:41",
+              "cost": 22.0,
+              "distance": 1.24,
+              "price": 11.0,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "National Museum of China",
+          "start_time": "09:00",
+          "end_time": "09:15",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "The Palace Museum",
+              "end": "National Museum of China",
+              "mode": "taxi",
+              "start_time": "08:43",
+              "end_time": "08:45",
+              "cost": 22.0,
+              "distance": 1.46,
+              "price": 11.0,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Old Summer Palace",
+          "start_time": "09:36",
+          "end_time": "09:38",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "National Museum of China",
+              "end": "Old Summer Palace",
+              "mode": "taxi",
+              "start_time": "09:15",
+              "end_time": "09:36",
+              "cost": 118.5,
+              "distance": 14.34,
+              "price": 59.25,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "China Science and Technology Museum",
+          "start_time": "09:50",
+          "end_time": "10:00",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Old Summer Palace",
+              "end": "China Science and Technology Museum",
+              "mode": "taxi",
+              "start_time": "09:38",
+              "end_time": "09:50",
+              "cost": 66.38,
+              "distance": 8.14,
+              "price": 33.19,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "lunch",
+          "position": "Dahua Pancake (Jiaodaokou North Scissors Lane Branch)",
+          "start_time": "11:00",
+          "end_time": "11:05",
+          "price": 12.0,
+          "cost": 60.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "China Science and Technology Museum",
+              "end": "Dahua Pancake (Jiaodaokou North Scissors Lane Branch)",
+              "mode": "taxi",
+              "start_time": "10:00",
+              "end_time": "10:12",
+              "cost": 68.26,
+              "distance": 8.41,
+              "price": 34.13,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Olympic Park",
+          "start_time": "11:15",
+          "end_time": "11:27",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Dahua Pancake (Jiaodaokou North Scissors Lane Branch)",
+              "end": "Olympic Park",
+              "mode": "taxi",
+              "start_time": "11:05",
+              "end_time": "11:15",
+              "cost": 58.54,
+              "distance": 7.02,
+              "price": 29.27,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Tiananmen Square",
+          "start_time": "11:41",
+          "end_time": "11:43",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Olympic Park",
+              "end": "Tiananmen Square",
+              "mode": "taxi",
+              "start_time": "11:27",
+              "end_time": "11:41",
+              "cost": 78.76,
+              "distance": 9.91,
+              "price": 39.38,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Yonghe Temple",
+          "start_time": "11:50",
+          "end_time": "11:55",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Tiananmen Square",
+              "end": "Yonghe Temple",
+              "mode": "taxi",
+              "start_time": "11:43",
+              "end_time": "11:50",
+              "cost": 45.0,
+              "distance": 5.09,
+              "price": 22.5,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "attraction",
+          "position": "Shichahai",
+          "start_time": "11:59",
+          "end_time": "12:06",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Yonghe Temple",
+              "end": "Shichahai",
+              "mode": "taxi",
+              "start_time": "11:55",
+              "end_time": "11:59",
+              "cost": 29.24,
+              "distance": 2.83,
+              "price": 14.62,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+          "start_time": "17:00",
+          "end_time": "17:05",
+          "price": 14.0,
+          "cost": 70.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Shichahai",
+              "end": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+              "mode": "taxi",
+              "start_time": "12:06",
+              "end_time": "12:16",
+              "cost": 60.02,
+              "distance": 7.23,
+              "price": 30.01,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "accommodation",
+          "position": "Atour Hotel (Beijing South Luogu Lane)",
+          "start_time": "17:14",
+          "end_time": "24:00",
+          "price": 728.0,
+          "cost": 3640.0,
+          "tickets": 5,
+          "rooms": 5,
+          "room_type": 1,
+          "transports": [
+            {
+              "start": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+              "end": "Atour Hotel (Beijing South Luogu Lane)",
+              "mode": "taxi",
+              "start_time": "17:05",
+              "end_time": "17:14",
+              "cost": 54.22,
+              "distance": 6.4,
+              "price": 27.11,
+              "cars": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "breakfast",
+          "position": "Atour Hotel (Beijing South Luogu Lane)",
+          "start_time": "08:00",
+          "end_time": "08:05",
+          "price": 0.0,
+          "cost": 0.0,
+          "tickets": 5,
+          "transports": []
+        },
+        {
+          "type": "lunch",
+          "position": "Tianze Xiang Drum Tower Steamed Bun (Drum Tower Branch)",
+          "start_time": "11:01",
+          "end_time": "11:06",
+          "price": 16.0,
+          "cost": 80.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Atour Hotel (Beijing South Luogu Lane)",
+              "end": "Tianze Xiang Drum Tower Steamed Bun (Drum Tower Branch)",
+              "mode": "taxi",
+              "start_time": "11:00",
+              "end_time": "11:01",
+              "cost": 22.0,
+              "distance": 1.31,
+              "price": 11.0,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "dinner",
+          "position": "Zengshengkui Snack Shop",
+          "start_time": "17:02",
+          "end_time": "17:07",
+          "price": 16.0,
+          "cost": 80.0,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Tianze Xiang Drum Tower Steamed Bun (Drum Tower Branch)",
+              "end": "Zengshengkui Snack Shop",
+              "mode": "taxi",
+              "start_time": "17:00",
+              "end_time": "17:02",
+              "cost": 22.0,
+              "distance": 1.64,
+              "price": 11.0,
+              "cars": 2
+            }
+          ]
+        },
+        {
+          "type": "train",
+          "start_time": "21:21",
+          "end_time": "06:46",
+          "start": "Beijing Railway Station",
+          "end": "Nanjing Station",
+          "price": 538.92,
+          "cost": 2694.6,
+          "tickets": 5,
+          "transports": [
+            {
+              "start": "Zengshengkui Snack Shop",
+              "end": "Beijing Railway Station",
+              "mode": "taxi",
+              "start_time": "17:07",
+              "end_time": "17:11",
+              "cost": 31.14,
+              "distance": 3.11,
+              "price": 15.57,
+              "cars": 2
+            }
+          ],
+          "TrainID": "D5"
+        }
+      ]
+    }
+  ],
+  "cpsat_e_budget": 0,
+  "uid": "20250324214945811598",
+  "nl2sl_nature_language": "We are 5 people traveling from Nanjing to Beijing for 2 days. Requirements: We want to stay at one of the following hotel types: Free parking. The accommodation budget is 1800.0.",
+  "nl2sl_ground_truth": [
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}&accommodation_type_set)",
+    "accommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=1800",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "nl2sl_predicted": [
+    "accommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=1800.0",
+    "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}&accommodation_type_set)",
+    "result=(day_count(plan)==2)",
+    "result=(people_count(plan)==5)",
+    "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+    "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False"
+  ],
+  "hard_constraint_pass": false,
+  "hard_constraint_results": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    true
+  ],
+  "hard_constraint_diagnostics": [
+    {
+      "label": "required_hotel_feature",
+      "passed": true,
+      "snippet": "accommodation_type_set=set()",
+      "full_snippet": "accommodation_type_set=set()\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_type_set.add(accommodation_type(activity, target_city(plan)))\nresult=({\"Free parking\"}&accommodation_type_set)",
+      "computed": {
+        "accommodation_type_set": [
+          "free parking"
+        ],
+        "required_hotel_type": [
+          "Free parking"
+        ]
+      },
+      "error": null
+    },
+    {
+      "label": "accommodation_budget",
+      "passed": false,
+      "snippet": "accommodation_cost=0",
+      "full_snippet": "accommodation_cost=0\nfor activity in allactivities(plan):\n  if activity_type(activity)=='accommodation': accommodation_cost+=activity_cost(activity)\nresult=accommodation_cost<=1800",
+      "computed": {
+        "accommodation_cost": 3640.0,
+        "budget_limit": 1800.0
+      },
+      "error": null
+    },
+    {
+      "label": "day_count",
+      "passed": true,
+      "snippet": "result=(day_count(plan)==2)",
+      "full_snippet": "result=(day_count(plan)==2)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "people_count",
+      "passed": true,
+      "snippet": "result=(people_count(plan)==5)",
+      "full_snippet": "result=(people_count(plan)==5)",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "ticket_count",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if activity_type(activity) in ['attraction', 'airplane', 'train'] and activity_tickets(activity)!=5: result=False\n  if innercity_transport_type(activity_transports(activity))=='metro'and metro_tickets(activity_transports(activity))!=5: result=False",
+      "computed": {},
+      "error": null
+    },
+    {
+      "label": "taxi_cars",
+      "passed": true,
+      "snippet": "result=True",
+      "full_snippet": "result=True\nfor activity in allactivities(plan):\n  if innercity_transport_type(activity_transports(activity))=='taxi'and taxi_cars(activity_transports(activity))!=2: result=False",
+      "computed": {},
+      "error": null
+    }
+  ],
+  "eval_scores": {
+    "schema_pass": true,
+    "comm_pass": true,
+    "comm_checks": {
+      "Intercity transportation events must occur": 0,
+      "Invalid Trains or Airplanes, given TrainID/FlightID, origin and destination": 0,
+      "Incorrect Information of Intercity Transport on price or duration": 0,
+      "Incorrect Cost on Intercity Transportation": 0,
+      "Unavailable attractions": 0,
+      "Visiting attraction in their closed time": 0,
+      "Repeated attraction Choices": 0,
+      "Incorrect price Information of attraction": 0,
+      "Incorrect cost Information of attraction": 0,
+      "Unavailable Accommodation": 0,
+      "Incorrect Information of Accommodation on price or room type": 0,
+      "Incorrect cost Information of Accommodation": 0,
+      "Accomondation is necessary for trips longer than one day": 0,
+      "Unavailable Restruants": 0,
+      "Visiting Restruants in their closed time": 0,
+      "Repeated Restruants Choices": 0,
+      "Incorrect price Information of Restruants": 0,
+      "Incorrect cost Information of Restruants": 0,
+      "Inappropriate Meal Times": 0,
+      "Unavailable Inner-City Transport": 0,
+      "Incorrect Information of Inner-City Transporton on price, distance, and duration": 0,
+      "Inccorrect cost information of Inner-City Transport": 0,
+      "Invalid duration information of each activity": 0,
+      "Does not follow Chronological Order": 0,
+      "Invalid Transport information across positions": 0
+    },
+    "hard_pass": false,
+    "full_pass": false,
+    "DAV": 100.0,
+    "ATT": 100.0,
+    "DDR": 100.0
+  }
+}
