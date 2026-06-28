@@ -383,7 +383,7 @@ class NesyAgent(BaseAgent):
             end_time="24:00",
             innercity_transports=transports_sel,
         )
-        current_plan[current_day]["activities"][-1]["room_type"] = hotel_sel["numbed"]
+        current_plan[current_day]["activities"][-1]["room_type"] = int(hotel_sel["numbed"])
         current_plan[current_day]["activities"][-1]["rooms"] = required_rooms
 
         return current_plan
